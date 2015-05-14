@@ -4,13 +4,12 @@ function preLoader(){
 
 	}); 
 };
-var consultation_slider,reviews_slider;
+var consultation_slider,reviews_slider,waypoint;
 $(document).ready(function() {
 	consultation_slider = new Swiper ('.consultation_slider', {
 	    // Optional parameters
 	    direction: 'horizontal',
-	    loop: false,
-	    autoplay: 5000,
+	    loop: true,
 	    // Navigation arrows
 	    nextButton: '.consultation_slider .swiper-button-next',
 	    prevButton: '.consultation_slider .swiper-button-prev',
@@ -20,7 +19,6 @@ $(document).ready(function() {
 	    // Optional parameters
 	    direction: 'horizontal',
 	    loop: true,
-	    autoplay: 5000,
 	    // Navigation arrows
 	    nextButton: '.reviews_slider .swiper-button-next',
 	    prevButton: '.reviews_slider .swiper-button-prev',
