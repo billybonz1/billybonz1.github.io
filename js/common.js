@@ -11,6 +11,8 @@ $(document).ready(function() {
 	    direction: 'horizontal',
 	    loop: true,
 	    // Navigation arrows
+	    pagination: '.consultation_slider .swiper-pagination',
+	    paginationClickable: true,
 	    nextButton: '.consultation_slider .swiper-button-next',
 	    prevButton: '.consultation_slider .swiper-button-prev',
 	    
@@ -20,6 +22,7 @@ $(document).ready(function() {
 	    direction: 'horizontal',
 	    loop: true,
 	    // Navigation arrows
+
 	    nextButton: '.reviews_slider .swiper-button-next',
 	    prevButton: '.reviews_slider .swiper-button-prev',
 	    
@@ -30,8 +33,11 @@ $(document).ready(function() {
 	});
 
 
-	$(".mnu li a").mPageScroll2id();
-
+	$(".mnu li a").mPageScroll2id({
+		onStart:function(){
+			$(".sandwich,.top_mnu").removeClass("active");
+		}
+	});
 
 	$(".sandwich").click(function() {
 	  $(".sandwich,.top_mnu").toggleClass("active");

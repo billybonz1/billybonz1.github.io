@@ -33,7 +33,7 @@ section, .main_head {
 	position: relative;
 }
 section{
-    padding-top: 26px;
+    padding-top: 96px;
     padding-bottom: 52px;
 }
 section h2{
@@ -55,6 +55,7 @@ section p{
 	transition: 1s all;
 	position: relative;
 	z-index: 2;
+	padding-top: 70px;
 }
 .loader {
 	background-color: #FFFFFF;
@@ -91,11 +92,21 @@ section p{
 	left: 1px;
 	top: 12.5px;
 }
+
 .mnu {
 	height: 70px;
 	position: relative;
 	z-index: 3;
 	background: #1152b4;
+	width: 100%;
+}
+.top_mnu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
 }
 .mnu ul {
 	margin: 0;
@@ -115,7 +126,7 @@ section p{
 	background: none;
 }
 
-.mnu ul li:before{
+.mnu ul li a:before{
 	content:"";
 	width:0px;
 	height:4px;
@@ -126,7 +137,7 @@ section p{
 	left: 0px;
 	transition: .2s all;
 }
-.mnu ul li.active:before,.mnu ul li:hover:before{
+.mnu ul li a.mPS2id-highlight-first:before,.mnu ul li:hover a:before{
 	width:100%;
 }
 .mnu ul li a {
@@ -187,15 +198,18 @@ section p{
     outline: 0;
 }
 .header-text2 .text1{
-    background: rgba(17,82,180,1);
     float: right;
 }
 .header-text2 .text2{
-    background: rgba(17,82,180,1);
     float: right;
-    margin: -8px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding-top: 0px;
     padding-right: 17px;
+    line-height: 9px;
+    padding-bottom: 15px;
+}
+.header-text2 > div{
+	background: rgba(17, 82, 180, 0.85);
 }
 .header-text3 .text1{
     background: #fff;
@@ -207,7 +221,6 @@ section p{
 	position:relative;
   background: #fff;    
   color: #1152b4;
-	margin-top: -8px;
 }
 
 .header-text3 .text1:before,.header-text3 .text2:before{
@@ -386,12 +399,12 @@ section p{
     letter-spacing: -0.4px;
 }
 .slider-text .text1{
-    background: rgba(17, 82, 180, 0.85);
+    background: rgba(17, 82, 180, 0.71);
     float: left;
     padding: 4px 13px 5px 13px;
 }
 .slider-text .text2{
-    background: rgba(17, 82, 180, 0.85);
+    background: rgba(17, 82, 180, 0.71);
     float: left;
     padding: 0px 14px 18px 14px;
     margin: 0px 0px 0px 0px;
@@ -405,7 +418,7 @@ section p{
     letter-spacing: -0.6px;
 }
 .slider-text2 .text{
-    background: rgba(17, 82, 180, 0.85);
+    background: rgba(17, 82, 180, 0.71);
     float: left;
     font-size: 18px;
     color: #fff;
@@ -498,6 +511,7 @@ section p{
   background: #2E2E2E url(../img/section4.jpg) center no-repeat;
   height: 474px;
   box-shadow: 0px -2px 8px 1px #abaaaa;
+  background-size: cover;
 }
 .reviews_slider{
   width: 100%;
@@ -564,7 +578,9 @@ section p{
 .aboutme .slider-text .text1{
     padding-left: 14px;
 }
-
+.aboutme .slider-text div{
+    background: rgba(17, 82, 180, 1);
+}
 .aboutme .text{
     width: 595px;
 }
@@ -582,6 +598,7 @@ section p{
 .section6{
   background: #48494B url(../img/section6.jpg) no-repeat center top;
   height: 535px;
+  background-size: cover;
 }
 .myForm{
     width: 310px;
