@@ -2,22 +2,244 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	.top_mnu .phone{
+	    width: 179px;
+	}
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width : 997px) {
+	.in{
+		width: 90%;
+		padding: 0 5%;
+	}
+	.sandwich{
+		display: block;
+	}
+	.top_mnu .phone{
+	    display: none;
+	}
+	.top_mnu{
+	    overflow: hidden;
+	    transition: 1s all cubic-bezier(0.65, 0.05, 0.36, 1);
+	}
+	.top_mnu.active{
+	    height: 420px;
+	}
+	.top_mnu ul{
+	    position: relative;
+	    left: 0px;
+	    top: 70px;
+	}
+	.top_mnu ul li{
+	    float: none;
+	    margin: 0;
+	    transition: .2s all;
+	}
+	.top_mnu ul li:before{
+		display:none;
+	}
+	.top_mnu ul li.active,.top_mnu ul li:hover{
+		background: rgba(31, 31, 37, 0.36);
+	}
+	.top_mnu ul li a{
+	    text-align: center;
+	}
+	.logo_container{
+		left: 20px;
+	}
+	.what_is_consultation .line{
+	    width: 83%;
+	}
+	.what_is_consultation .block4{
+	    width: 203px;
+	}
+	.what_is_consultation .block3{
+	    left: 53%;
+	}
+	.what_is_consultation .block2{
+	    left: 23%;
+	}
+	.as_a_result div.item{
+	    margin: 2%;
+	    width: 21%;
+	}
+	.aboutme .text{
+	    width: 60%;
+	    margin-right: 5%;
+	}
+	.aboutme .myImage{
+	    width: 34%;
+	}
+	.aboutme .myImage img{
+		width: 100%;
+		height: auto;
+	}
+	.bottom_mnu ul{
+		display: none;
+	}
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 857px) {
+	.section6{
+    height: auto;
+    background-size: cover;
+}
+	.section6 .contacts{
+    float: none;
+}
+	.section6 form{
+    float: none;
+    margin: 0 auto;
+}
+}
 
+
+
+@media only screen and (max-width : 806px) {
+	.section4{
+	    height: auto;
+	    background-size: cover;
+	}
+		.reviews_slider{
+	    height: auto;
+	}
+	.reviews_slider .review .review_photo{
+    width: auto;
+}
+}
+
+@media only screen and (max-width : 779px) {
+	.aboutme .text{
+    float: none;
+    width: auto;
+    margin-right: 0;
+}
+	.aboutme .myImage{
+    float: none;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 294px;
+}
+}
+@media only screen and (max-width : 768px) {
+	.main_head{
+		background-size: cover;
+	}
+	.what_is_consultation .block3{
+	    left: 48%;
+	
+	}
+	.what_is_consultation .block2{
+	    left: 19%;
+	}
+	.what_is_consultation .block4{
+	    width: 145px;
+	    right: -60px;
+	}
+	.what_is_consultation .point4{
+	    right: 50%;
+	    margin-right: -15px;
+	}
+	.swiper-slide{
+    background-position: center;
+}
+}
+
+@media only screen and (max-width : 627px) {
+	.what_is_consultation{
+    height: auto;
+}
+	.what_is_consultation .line{
+    margin-top: 0px;
+    background: none;
+    box-shadow: none;
+    height: auto;
+}
+	.what_is_consultation .block{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: 0 auto;
+    padding-bottom: 43px;
+    margin-top: 43px;
+    border-bottom: 1px solid rgba(17,82,180,1);
+    width: auto;
+}
+.what_is_consultation .block:after{
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(17, 82, 180, 0);
+	border-top-color: #1152b4;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.what_is_consultation .block4{
+	border-bottom: none;
+}
+.what_is_consultation .block4:after{
+	display: none;
+}
+.what_is_consultation .point{
+    left: 50%;
+    margin-left: -15px;
+}
+	.what_is_consultation .text{}
+	.what_is_consultation .image{}
+	.section2 ul li{
+		margin-bottom: 15px;
+	}
+	.as_a_result div.item{
+	    width: auto;
+	
+	    float: none;
+}
+}
+
+@media only screen and (max-width : 597px) {
+	.reviews_slider .review .review_photo{
+		background: none;
+	}
+}
+
+@media only screen and (max-width : 526px) {
+	.section6 form,.myForm{
+	    width: 90%;
+	    padding: 10px 5%;
+	    height: auto;
+	}
+	.myForm input{
+	    height: 40px;
+	    width: 90%;
+	    display: block;
+	
+	    padding-left: 4%;
+	    padding-right: 4%;
+}
+	.myForm label{
+    display: block;
+		
+	
+}
+	.myForm textarea{
+    width: 90%;    display: block;    padding-left: 4%;    padding-right: 4%;
+	
+    height: 100px;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	
 }
 
 /* Custom, iPhone Retina */
