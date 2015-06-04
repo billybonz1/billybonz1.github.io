@@ -514,6 +514,9 @@ ul.menu li.active a,ul.menu li:hover a{
     right: 0px;
     top: 112px;
 }
+.buyIt:hover{
+color:#ffde00;
+}
 .supportBlock{
     padding-top: 1px;
     background-color: #fff;
