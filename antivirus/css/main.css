@@ -1,0 +1,971 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    background-color: #333333;
+    font-family: "Open Sans";
+}
+h2{
+    font-size: 32px;
+    font-family: Open Sans Bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    margin-top: 73px;
+    letter-spacing: -0.7px;
+    line-height: 35px;
+    margin-bottom: 19px;
+}
+h2 b{
+    font-size: 48px;
+}
+h3{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open Sans Bold";
+    letter-spacing: -0.6px;
+    margin-top: 31px;
+    margin-bottom: 11px;
+}
+.section p{
+    font-size: 18px;
+    font-family: "Open Sans";
+    text-align: center;
+    letter-spacing: -0.49px;
+}
+p{
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: #fff;
+    margin: 0px;
+    letter-spacing: -0.5px;
+    text-shadow: 2px 0 2px rgba(0,0,0,0.5);
+    line-height: 22.9px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.topMenu{
+    height: 50px;
+    background-color: #333333;
+    z-index: 2;
+    position: relative;
+}
+.in{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+ul.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.menu li{
+    display: block;
+    height: 50px;
+    float: left;
+    margin-right: 35px;
+    letter-spacing: 0px;
+}
+ul.menu li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    height: 47px;
+    border-top: 3px solid #333;
+    font-family: RoadRadio,sans-serif;
+    font-weight: 500;
+    line-height: 45px;
+}
+ul.menu li.active a,ul.menu li:hover a{
+    border-top: 3px solid #1cb247;
+}
+
+
+
+.chromeperfectpixel-overlay{
+    left: 50% !important;
+    margin-left: -960px !important;
+}
+.social{
+    position: absolute;
+    right: 0px;
+    top: 17px;
+}
+.social a{
+    display: block;
+    float: left;
+    margin-left: 25px;
+}
+.social .facebook{
+    width: 8px;
+    height: 16px;
+    background: url(../img/social.png);
+}
+.social .facebook:hover{
+    background-position:0px -16px;
+}
+.social .twitter{
+    width:20px;
+    height: 16px;
+    background: url(../img/social.png) -34px 0px;
+}
+.social .twitter:hover{
+    background-position:-34px -16px;
+}
+.social .instagramm{
+    width:16px;
+    height: 16px;
+    background: url(../img/social.png) -78px 0px;
+}
+.social .instagramm:hover{
+    background-position: -78px -16px;
+}
+.introBlock{
+    height: 141px;
+    background: url(../img/introBlock1.jpg) center top;
+    position: relative;
+    z-index: 1;
+}
+.introBlock .logo{
+    width: 150px;
+    height: 171px;
+    background: url(../img/logo.png);
+    display: block;
+    position: absolute;
+    top: -16px;
+    left: -24px;
+}
+.support .logo{
+    background: url(../img/supporLogo.png);
+    width: 200px;
+    height: 228px;
+    top: -24px;
+    left: -33px;
+}
+.introBlock h1{
+    margin: 0;
+    font-family: supermolotlight;
+    font-size: 28px;
+    color: #fff;
+    font-weight: normal;
+    position: absolute;
+    left: 131px;
+    top: 49px;
+    letter-spacing: 0.6px;
+    line-height: 28px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.15);
+}
+.introBlock h1 span{
+    font-family: pietaregular;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    display: block;
+    margin-top: -6px;
+}
+.ultimateProtection{
+    height: 657px;
+    background: url(../img/ultimateProtection.jpg) center top no-repeat;
+}
+.ultimateProtection .left{
+    width: 54.4%;
+}
+.certificated{
+    margin: 28px 0px 0px -13px;
+}
+.ultimateProtection .product{
+    margin: 77px -14px 0px 0px;
+}
+.buyNow{
+    font-size: 28px;
+    font-family: "Open Sans BOld";
+    text-transform: uppercase;
+    display: block;
+    width: 238px;
+    height: 68px;
+    background: url(../img/buyNow.png);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 54px 0px 0px -3px;
+    letter-spacing: -0.7px;
+    line-height: 63px;
+}
+.section{
+    padding-top: 1px;
+    height: 177px;
+}
+.advantages{
+    position: relative;
+    height: 300px;
+}
+.advantages .back{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+.advantages .back .left{
+    width: 50%;
+    height: 100%;
+    background-color: #29b650;
+}
+.advantages .back .right{
+    width: 50%;
+    height: 100%;
+    background-color: #6bcc85;
+}
+.advantages .advantage{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
+.advantages .advantage1{
+    background-color: #29b650;
+}
+.advantages .advantage2{
+    background-color: #3dbe61;
+}
+.advantages .advantage3{}
+.advantages .advantage img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+.advantages .advantage1 img{
+    margin-top: 48px;
+}
+.advantages p{
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+    font-size: 16px;
+    margin: 0px 9px;
+    text-align: center;
+    margin-top: 35px;
+    letter-spacing: -0.4px;
+    line-height: 18px;
+}
+.fiveLastDetectedThreats{
+    background: url(../img/fiveLastDetectedThreats.jpg) center bottom no-repeat;
+    position: relative;
+    padding-bottom: 89px;
+}
+.fiveLastDetectedThreats h2{
+    margin-top: 79px;
+    margin-bottom: 17px;
+}
+.fiveLastDetectedThreats .left{
+    width: 42%;
+}
+.fiveLastDetectedThreats p{
+    font-size: 18px;
+    text-shadow: none;
+    line-height: 22px;
+    margin-bottom: 9px;
+}
+.fiveLastDetectedThreats .more{
+    font-size: 18px;
+    font-family: Open Sans Semibold Italic;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: -0.4px;
+    border-bottom: 1px solid #29b650;
+}
+.fiveLastDetectedThreats .more:hover{
+    border-bottom:0;
+}
+.fiveLastDetectedThreats .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.fiveLastDetectedThreats .back .right{
+    width: 50.7%;
+    position: relative;
+    z-index: 2;
+}
+.fiveLastDetectedThreats .back table{
+    width: 100%;
+    color: #fff;
+    font-family: "Open Sans";
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    font-size: 16px;
+    margin-top: 139px;
+}
+.fiveLastDetectedThreats .back table th{
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 4px;
+    font-family: Open Sans Light;
+    font-weight: normal;
+}
+.fiveLastDetectedThreats .back table .th1{
+    width: 36px;
+}
+.fiveLastDetectedThreats .back table .th2{
+    width: 177px;
+}
+.fiveLastDetectedThreats .back table .th3{
+    width: 117px;
+}
+.fiveLastDetectedThreats .back table .th4{
+    width: 94px;
+}
+.fiveLastDetectedThreats .back table .th5{}
+.fiveLastDetectedThreats .back table td{
+    padding-bottom: 6px;
+    padding-top: 12px;
+    letter-spacing: -0.3px;
+}
+.fiveLastDetectedThreats .back table .tr2 td{
+    padding-top: 22px;
+}
+.fiveLastDetectedThreats .back table tr{
+    border-bottom:1px solid #8ddca2;
+}
+.fiveLastDetectedThreats .back table tr.first{
+    border-bottom:1px solid #29b650;
+}
+.fiveLastDetectedThreats .back table tr.last{
+    border-bottom:0;
+}
+.fiveLastDetectedThreats .back table .danger{
+    margin-top: 7px;
+}
+.fiveLastDetectedThreats .back table .danger i{
+    display: block;
+    float: left;
+    width: 11px;
+    height: 11px;
+    background-image: url(../img/danger.png);
+    background-position: -11px 0;
+    margin-right: 1px;
+    background-repeat: no-repeat;
+}
+.fiveLastDetectedThreats .back table .danger i.active{
+    background-position: 0px 0px;
+}
+.ie7 .section p{
+    font-size: 17.5px;
+}
+.ie7 .fiveLastDetectedThreats .left{
+    width: 44%;
+}
+.ie7 .fiveLastDetectedThreats .more{
+    text-decoration: underline;
+}
+.ie7 .fiveLastDetectedThreats .back .right{
+    width: 48.7%;
+}
+.ie8 .fiveLastDetectedThreats h2{
+    font-size: 31px;
+}
+.ie7 .advantages p{
+    font-size: 15.5px;
+}
+
+.footer .menu{}
+.footer .menu li{
+    margin-right: 23px;
+    height: 49px;
+}
+.footer .menu li a{
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.4px;
+}
+.footer .left{
+    width: 59%;
+}
+.footer .left p{
+    font-size: 12px;
+    text-shadow: none;
+    color: #979696;
+    letter-spacing: -0.3px;
+    line-height: 14px;
+    font-family: Open Sans Light;
+}
+.order .footer .left p{
+    margin-top: 18px;
+}
+.footer .right{
+    width: 41%;
+    height: 192px;
+}
+.footer .footerIcons{
+    width: 100%;
+    height: 100%;
+    background: url(../img/footerIcons.png) 64px 26px no-repeat;
+    position: relative;
+}
+.order .footer .footerIcons{
+    background: url(../img/sert.png) no-repeat 74px 17px;
+}
+.footer .footerIcons span{
+    width: 2px;
+    height: 177px;
+    background: url(../img/footerLine.png);
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 33px;
+}
+.support .introBlock{
+    background-image: url(../img/supportIntro.jpg);
+    height: 185px;
+}
+.support .introBlock h1{
+    font-family: Open Sans Semibold;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    left: auto;
+    right: 0px;
+    top: 31px;
+    letter-spacing: -0.9px;
+    text-align: right;
+    font-weight: normal;
+}
+.support .introBlock h1 span{
+    font-family: Open Sans Semibold;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: right;
+    margin: 6px 0px 0px 0px;
+    letter-spacing: -0.6px;
+}
+.buyIt{
+    background:url(../img/buyIt.png);
+    width: 145px;
+    height: 42px;
+    display: block;
+    font-family: Myriad Pro;
+    text-indent: -9999px;
+    position: absolute;
+    right: 0px;
+    top: 112px;
+}
+.supportBlock{
+    padding-top: 1px;
+    background-color: #fff;
+    padding-bottom: 53px;
+}
+.supportBlock h2{
+    font-size: 32px;
+    color: #333;
+    text-shadow: none;
+    font-family: 'Open Sans Semibold';
+    text-transform: capitalize;
+    margin-top: 56px;
+    margin-bottom: 30px;
+}
+.supportBlock p{
+    font-size: 14px;
+    text-shadow: none;
+    color: #333;
+    letter-spacing: -0.4px;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.reviews{
+    background: #fff url(../img/reviews.jpg);
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    padding-top: 56px;
+    padding-bottom: 46px;
+}
+.reviews .review{
+    padding-bottom: 40px;
+    position: relative;
+    width: 819px;
+}
+.reviews .review:nth-child(2n){
+    margin-bottom: 27px;
+}
+.reviews .review .img{
+    float: left;
+}
+.reviews .review .text{
+    float: left;
+    font-size: 16px;
+    color: #333333;
+    width: 634px;
+    padding: 24px 0px 0px 69px;
+    letter-spacing: -0.4px;
+    line-height: 18px;
+    background: url(../img/hooks.png) no-repeat 32px 0px;
+}
+.reviews .review .author{
+    position: absolute;
+    right: 59px;
+    bottom: 11px;
+    font-family: "Open Sans Bold";
+    font-size: 16px;
+    color: #333;
+    letter-spacing: -0.15px;
+}
+.purchase .introBlock{
+    background-image: url(../img/purchaseIntro.jpg);
+    height: 497px;
+}
+.purchase  .introBlock .promo{}
+.purchase  .introBlock .promo .img{
+    float: left;
+}
+.purchase  .introBlock .promo .img img{
+    width: 216px;
+    margin: 66px 0px 0px -8px;
+}
+.purchase  .introBlock .promo .text{
+    float: left;
+    margin: 66px 0px 0px 56px;
+    text-shadow: 0px 1px 1px rgba(0,0,0,1);
+}
+.purchase  .introBlock .promo .text h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: "Open Sans Semibold";
+    position: relative;
+    left: 0px;
+    top: 0px;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+    line-height: 16px;
+    letter-spacing: -1px;
+}
+.purchase  .introBlock .promo .text h1 span{
+    font-family: inherit;
+    margin: 0 0 0 2px;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: -0.4px;
+}
+.purchase  .introBlock .promo .text .best{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 11px;
+}
+.purchase  .introBlock .promo .text .best li{
+    float: left;
+    font-family: "Open Sans Light";
+    color: #ffffff;
+    padding-left: 15px;
+    background: url(../img/best.png) no-repeat 1px 9px;
+    margin-right: 10px;
+}
+.purchase  .introBlock .promo .text .honors{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans Semibold Italic";
+    color: #fff;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.purchase  .introBlock .promo .text .honors li{
+    padding-left: 25px;
+    margin-bottom: 7px;
+    line-height: 17px;
+    background: url(../img/honors.png) no-repeat 1px 3px;
+}
+.purchase  .introBlock .promo .text .certificated{
+    margin: 46px 0px 0px -9px;
+    width: 390px;
+}
+.buyItNow{
+    background:url(../img/buyItNow.png);
+    width: 244px;
+    height: 305px;
+    position: absolute;
+    right: -13px;
+    top: 55px;
+    padding: 13px;
+}
+.buyItNow .head{
+    font-family: Utsaah;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 4.1px;
+    margin-top: 3px;
+}
+.buyItNow .fullprice{
+    color: #333333;
+    font-size: 30px;
+    font-family: MyriadProSemiBold;
+    text-align: center;
+    margin-top: 4px;
+    position: relative;
+}
+.buyItNow .fullprice .line{
+    width: 40px;
+    height: 33px;
+    background: url(../img/noprice.png);
+    position: absolute;
+    right: 36px;
+    top: 5px;
+}
+.buyItNow .extra{
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    margin-top: 7px;
+}
+.buyItNow .extra > div{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 60px;    background: #d70732;
+    position: relative;
+    font-family: MyriadProSemiBold;
+    color: #fff;
+}
+.buyItNow .extra > div .span1{
+    font-size: 16px;
+    position: absolute;
+    top: 7px;
+    left: 73px;
+}
+.buyItNow .extra > div .span2{
+    font-size: 22px;
+    position: absolute;
+    top: 22px;
+    left: 19px;
+}
+.buyItNow .extra > div .procent{
+    font-size: 43px;            position: absolute;    
+    top: -1px;    
+    left: 148px;
+}
+.buyItNow .extra > div .span3{
+    font-size: 18px;
+    position: absolute;
+    right: 33px;
+    top: 9px;
+}
+.buyItNow .extra > div .span4{
+    font-size: 17px;
+    position: absolute;
+    right: 19px;
+    top: 26px;
+}
+
+.buyItNow .total {
+    color: #333;
+    font-size: 30px;
+    font-family: MyriadProSemiBold;
+    text-align: center;
+    margin-top: 5px;
+    letter-spacing: -0.3px;
+}
+
+.buyItNow .total span {
+    font-size: 40px;
+}
+
+.buyItNow .installs {
+    font-size: 13px;
+    font-family: MyriadProRegular;
+    text-align: center;
+    letter-spacing: -0.3px;
+    margin-top: -5px;
+}
+
+.buyItNow .installs span {
+    font-family: MyriadProBold;
+}
+
+.buyItNow .buyIt {
+    position: relative;
+    top: 29px;
+    right: 0px;
+    margin: 0 auto;
+}
+.functions{
+    background-color: #fff;
+    padding-top: 41px;
+    padding-bottom: 19px;
+}
+
+.functions {}
+.functions .function{
+    float: left;
+    width: 427px;
+    padding-left: 63px;
+    margin-bottom: 24px;
+    background: url(../img/function.png) no-repeat -1px 2px;
+}
+.functions .title{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+.functions .text{
+    font-size: 13px;
+    color: #333333;
+    line-height: 16px;
+}
+.softwareBenefits{
+    background-color: #fff;
+    padding-top: 1px;
+    padding-bottom: 67px;
+}
+.softwareBenefits h3{
+    font-size: 32px;
+    color: #333;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Open Sans Semibold';
+    letter-spacing: -0.8px;
+    margin-top: 31px;
+}
+.softwareBenefits .benefits{
+    padding-bottom: 19px;
+}
+.softwareBenefits .benefits .benefit{
+    border-bottom: 1px solid #1cb247;
+    height: 158px;
+}
+.softwareBenefits h4{
+    text-transform: uppercase;
+    letter-spacing: -0.35px;
+    margin-top: 18px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    line-height: 21px;
+}
+.softwareBenefits .benefits h4{
+    margin-top: 22px;
+}
+.softwareBenefits p{
+    font-size: 14px;
+    color: #333333;
+    text-shadow: none;
+    margin: 3px 0px 0px 0px;
+    line-height: 19px;
+    letter-spacing: -0.4px;
+}
+.softwareBenefits .benefits .benefit .text{
+    margin-top: 21px;
+    font-size: 14px;
+    color: #333333;
+    padding-top: 16px;
+    letter-spacing: -0.34px;
+    line-height: 19.7px;
+}
+.softwareBenefits .benefits .benefit .text .img{
+    float: left;
+    margin-right: 22px;
+    margin-top: -16px;
+}
+
+
+.ie7 .softwareBenefits .benefits .benefit .text{
+    font-size: 13px;
+}
+.ie7 .softwareBenefits .benefits .benefit{
+    height: 180px;
+}
+.payment{
+    width: 188px;
+    height: 54px;
+    background: url(../img/payment.png);
+    position: absolute;
+    right: 0px;
+    top: 108px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
