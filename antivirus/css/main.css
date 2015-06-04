@@ -257,6 +257,9 @@ ul.menu li.active a,ul.menu li:hover a{
     letter-spacing: -0.7px;
     line-height: 63px;
 }
+.buyNow:hover{
+    color:#ffde00;
+}
 .section{
     padding-top: 1px;
     height: 177px;
@@ -523,9 +526,6 @@ ul.menu li.active a,ul.menu li:hover a{
 }
 .buyIt:hover{
     color:#ffde00;
-}
-.buyIt:hover{
-color:#ffde00;
 }
 .supportBlock{
     padding-top: 1px;
