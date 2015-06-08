@@ -137,6 +137,7 @@ ul{
     position: relative;
     background: #222;
     border-bottom: 1px solid #1b1b1b;
+    display: block;
 }
 .thumbs .thumb:nth-child(2n+1){
     border-right: 1px solid #1b1b1b;
@@ -163,6 +164,10 @@ ul{
     left: 8px;
     line-height: 18px;
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.35);
+}
+.thumbs .thumb .top_today{
+    position: absolute;    
+    width: 68px;    height: 16px;    background: #f8cb4e;    font-size: 10px;    color: #2e2d28;    text-align: center;    top: 0px;    left: 8px;    line-height: 18px;    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.35);
 }
 .thumbs .thumb .views{
     position: absolute;
@@ -216,7 +221,7 @@ ul{
 .pagination li{
     display: inline-block;
     font-size: 12px;
-    margin-right: 1px;
+    margin-right: 9px;
 }
 .pagination li.number{
     margin-right: 16px;
@@ -236,11 +241,11 @@ ul{
     color:#1b1b1b;
 }
 .pagination .prev{
-    margin-left: 3px;
-    margin-right: 16px;
+    margin-left: 10px;
+    margin-right: 11px;
 }
 .pagination .prev a,.pagination .next a{
-    width: 38px;
+    width: 57px;
     border-radius: 14px;
     text-align: center;
     line-height: 20px;
@@ -287,10 +292,10 @@ ul{
     font-size: 10px;
     color: #c8c8c6;
     text-align: center;
-    margin-top: 8px;
+    padding-top: 8px;
     letter-spacing: -0.3px;
     line-height: 12px;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
 }
 button.menu{
     width: 16px;
@@ -400,7 +405,7 @@ button.menu{
     position:relative;
 }
 .list-categories h2{
-    margin: 0px 0px 0px 16px;
+    margin: 0px 0px 12px 16px;
     font-size: 15px;
     color: #f8cb4e;
     letter-spacing: -0.4px;
@@ -429,7 +434,6 @@ button.menu{
     color:#1b1b1b;
 }
 .list-categories .cat{
-    margin-top: 12px;
 }
 .list-categories .cat a{
     display: block;
@@ -515,7 +519,142 @@ button.menu{
     position: relative;
     z-index: 3;
 }
+.auth_form{
+    margin: 0 15px;
+    margin-top: 43px;
+    margin-bottom: 33px;
+}
+.auth_form form{}
+.auth_form form label{
+    display: block;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #c8c8c6;
+    font-weight: 300;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 3px;
+    margin-bottom: 22px;
+}
+.auth_form form label span{
+    width: 74px;
+    display: inline-block;
+    letter-spacing: -0.5px;
+}
+.auth_form form label input{
+    border: 0;
+    background: none;
+    font-size: 16px;
+    color: #eec246;
+    font-weight: 300;
+    outline: 0;
+    margin: 0px 0px 0px 5px;
+}
+.auth_form form input[type="submit"]{
+    display: block;
+    width: 249px;
+    height: 36px;
+    border: 0;
+    background-color: #eec246;
+    border-radius: 105px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+.main.login{
+    box-shadow: inset 3px 3px 7px 0px rgba(0,0,0,0.5);
+}
+.auth_form label.checkbox{
+    border-bottom: 0;
+    padding: 0;
+    margin-top: -10px;
+}
+.auth_form label.checkbox input{
+    display: none;
+}
+.auth_form label.checkbox .checkbox{
+    width: 11px;
+    height: 11px;
+    border-radius: 10px;
+    background: #e6e6e6;
+    position: relative;
+}
+.auth_form label.checkbox .checkbox span{
+    width: 5px;
+    height: 5px;
+    background: #444444;
+    border-radius: 5px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
+}
+.auth_form label.checkbox input:checked + .checkbox span{
+    display:block;
+}
+.auth_form label.checkbox .text{
+    width: auto;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 7px;
+    letter-spacing: -0.4px;
+}
 
+.auth_form.signup label{
+    margin-bottom: 19px;
+}
+.models .thumb .name{
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 124px;
+    left: 9px;
+    letter-spacing: -0.2px;
+}
+.models .thumb .roller_number{
+    position: absolute;
+    background: url(../img/rollnumber.png) no-repeat 18px 2px;
+    font-size: 12px;
+    padding-right: 17px;
+    right: 5px;
+    top: 123px;
+    color: #fff;
+}
+.sort_letters{
+    position: absolute;
+    top: 11px;
+    right: 17px;
+    width: 149px;
+    letter-spacing: -0.8px;
+    text-align: right;
+    line-height: 10px;
+}
+.sort_letters a{
+    font-size: 10px;    color: #c8c8c6;    
+    font-weight: 400;
+    text-decoration: none;
+}
+.sort_letters a.selected{
+    color: #f8cb4e;
+}
+.sort_letters a:hover{
+    color: #f8cb4e;
+}
+.owl-carousel .thumb{
+    border: 0;
+    padding: 0;
+}
+.owl-carousel.thumbs .thumb .hd{
+    left: 87px;
+}
+.owl-theme .owl-controls{
+    margin-top: 0;
+    padding-top: 7px;
+    padding-bottom: 1px;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 10px;
+    height: 10px;
+    margin: 5px 3px;
+}
 .chromeperfectpixel-overlay{
     left: 50% !important;
     margin-left: -160px !important;
