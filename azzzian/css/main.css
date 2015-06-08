@@ -65,7 +65,7 @@ ul{
     margin: 0;
 }
 .container{
-    width: 320px;
+    /* width: 320px; */
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -121,8 +121,9 @@ ul{
 }
 .banner{
     border: 1px solid #fff;
-    margin: 4px 4px;
+    margin: 4px auto;
     padding: 5px;
+    width: 300px;
 }
 .thumbs{
 }
@@ -138,19 +139,74 @@ ul{
     background: #222;
     border-bottom: 1px solid #1b1b1b;
     display: block;
+    width: 33.33%;
 }
-.thumbs .thumb:nth-child(2n+1){
+.thumbs .thumb:after{
+    content:"";
     border-right: 1px solid #1b1b1b;
+    height:100%;
+    display:block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+@media screen and (max-width: 980px){
+    .thumbs .thumb{
+        width: 50%;
+    }
+    .thumbs .thumb:nth-child(2n):after{
+    display: none;
+}
+}
+@media screen and (min-width: 980px) and (max-width: 1368px){
+    .thumbs .thumb:nth-child(3n):after{
+        display:none;
+    }
+}
+@media screen and (min-width: 1368px){
+    .thumbs .thumb{
+        width:25%;
+    }
+    .thumbs .thumb:nth-child(4n):after{
+        display:none;
+    }
+}
+@media screen and (min-width: 607px){
+    .sort_letters{
+        width:auto !important;
+        letter-spacing:2px !important;
+        top: 17px !important;
+    }
+}
+@media screen and (min-width: 607px) and (max-width: 898px){
+    
+    .models .thumb{
+        width: 33.33%;
+    }
+    .thumbs.models .thumb:after{
+        display:block;
+    }
+    .thumbs.models .thumb:nth-child(3n):after{
+        display:none;
+    }
+}
+
+@media screen and (min-width: 898px){
+    .models .thumb{
+        width: 25%;
+    }
+    .thumbs.models .thumb:after{
+        display:block;
+    }
+    .thumbs.models .thumb:nth-child(4n):after{
+        display:none;
+    }
 }
 
 .thumbs .thumb .image{}
 .thumbs .thumb .image img{
-    width: 159px;
-    height: 121px;
-}
-.thumbs .thumb:nth-child(2n+1) .image img{
-    width: 160px;
-    height: 121px;
+    width: 100%;
+    height: auto;
 }
 .thumbs .thumb .hd{
     position: absolute;
@@ -176,7 +232,7 @@ ul{
     font-size: 9px;
     font-weight: 300;
     padding-left: 17px;
-    top: 127px;
+    bottom: 6px;
     left: 4px;
     line-height: 10px;
     letter-spacing: -0.2px;
@@ -187,14 +243,14 @@ ul{
     color: #fff;
     font-size: 9px;    font-weight: 300;
     padding-left: 14px;
-    top: 127px;    
+    bottom: 6px;    
     left: 44px;
     line-height: 10px;
 }
 .thumbs .thumb .rating{
     position: absolute;
     right: 3px;
-    top: 126px;
+    bottom: 6px;
 }
 .thumbs .thumb .rating i{
     width: 12px;
@@ -217,14 +273,15 @@ ul{
 }
 .pagination{
     margin-top: 9px;
+    text-align: center;
 }
 .pagination li{
     display: inline-block;
     font-size: 12px;
-    margin-right: 9px;
+    margin-right: 1px;
 }
 .pagination li.number{
-    margin-right: 16px;
+    margin-right: 18px;
 }
 .pagination li a{
     display: block;
@@ -241,22 +298,25 @@ ul{
     color:#1b1b1b;
 }
 .pagination .prev{
-    margin-left: 10px;
-    margin-right: 11px;
+    margin-right: 16px;
 }
 .pagination .prev a,.pagination .next a{
-    width: 57px;
+    width: 36px;
     border-radius: 14px;
     text-align: center;
     line-height: 20px;
     padding-bottom: 2px;
 }
-.pagination .number a{
+.pagination .number *{
     width: 40px;    border-radius: 14px;    text-align: center;    line-height: 20px;
     padding: 5px 5px;
     font-size: 11px;
     font-style: italic;
     padding-bottom: 2px;
+    border: 0;
+    background: #282828;
+    outline: 0;
+    color: #f3c74d;
 }
 .pagination .next{}
 .pagination li.active_page{
@@ -300,7 +360,7 @@ ul{
 button.menu{
     width: 16px;
     height: 23px;
-    background: url(../img/btnmenu.png);
+    background: url(../img/btnmenu.png) center top no-repeat;
     border: 0;
     position: absolute;
     right: 14px;
@@ -520,9 +580,10 @@ button.menu{
     z-index: 3;
 }
 .auth_form{
-    margin: 0 15px;
+    margin: 0 auto;
     margin-top: 43px;
     margin-bottom: 33px;
+    width: 290px;
 }
 .auth_form form{}
 .auth_form form label{
@@ -561,6 +622,7 @@ button.menu{
 }
 .main.login{
     box-shadow: inset 3px 3px 7px 0px rgba(0,0,0,0.5);
+    padding-top: 1px;
 }
 .auth_form label.checkbox{
     border-bottom: 0;
@@ -605,7 +667,7 @@ button.menu{
     font-size: 12px;
     color: #fff;
     position: absolute;
-    top: 124px;
+    bottom: 2px;
     left: 9px;
     letter-spacing: -0.2px;
 }
@@ -615,7 +677,7 @@ button.menu{
     font-size: 12px;
     padding-right: 17px;
     right: 5px;
-    top: 123px;
+    bottom: 2px;
     color: #fff;
 }
 .sort_letters{
@@ -625,10 +687,10 @@ button.menu{
     width: 149px;
     letter-spacing: -0.8px;
     text-align: right;
-    line-height: 10px;
+    line-height: 14px;
 }
 .sort_letters a{
-    font-size: 10px;    color: #c8c8c6;    
+    font-size: 12px;    color: #c8c8c6;    
     font-weight: 400;
     text-decoration: none;
 }
@@ -721,68 +783,4 @@ button.menu{
 
 .clearfix {
     *zoom: 1;
-}
-
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
 }
