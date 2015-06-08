@@ -424,13 +424,14 @@ button.menu{
 }
 .sidebar .search input[type="submit"]{
     text-indent: -9999px;
-    background: url(../img/searchbtn.png);
+    background: url(../img/searchbtn.png) no-repeat;
     border: 0;
     width: 20px;
     height: 20px;
     position: absolute;
     right: 37px;
     top: 4px;
+    padding: 0;
 }
 .nav_sidebar{
     margin: 15px 21px 0px 0px;
@@ -512,8 +513,8 @@ button.menu{
     position: fixed;
     bottom: 0px;
     left: 50%;
-    width: 320px;
-    margin-left: -160px;
+    width: 100%;
+    margin-left: -50%;
     background: #1b1b1b;
     border-top: 1px solid #282828;
     transition: .5s bottom;
