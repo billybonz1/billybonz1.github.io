@@ -202,7 +202,6 @@ xEvent.hintHide = function(e) {
     $('#hint').remove();
 }
 
-
 function shareShow(e) {
     e.preventDefault();
     if ($(this).hasClass('down')) $(this).removeClass('down');
@@ -214,8 +213,6 @@ function shareShow(e) {
     }
     $('#shareBox').slideToggle('fast');
 }
-
-
 
 
 
