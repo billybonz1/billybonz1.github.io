@@ -1,0 +1,1017 @@
+#playerBox span {
+    color: #808080;
+}
+
+#videoInfo {
+    color: #4f4f4f;
+}
+
+#videoInfoBox {
+    padding: 15px 15px 5px 15px;
+    background: url(../images/tpl2/videoInfoBg.png) repeat-x;
+}
+
+#videoInfoBox .desc{
+    line-height: 17px;
+}
+
+#videoInfoBox .desc h2 {
+    border: none;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    background: none;
+    display: inline;
+    border-radius:0;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+#videoInfo a {
+    color: #000;
+    font-weight: bold;
+}
+
+#videoInfo a:hover {
+    color: inherit;
+}
+
+#videoUser .item {
+    float: left;
+    padding-right: 20px;
+    line-height: 20px;
+}
+
+
+.btnList a{
+    background-image: url("../images/tpl2/bgSpriteV2.png");
+    background-repeat: repeat-x;
+    background-position: 0 -468px;
+    background-color: #ececec;
+    border: 1px solid #cecece;
+    line-height: 15px;
+    padding: 3px 6px 4px 6px;
+    border-radius:3px;
+    color: #707070;
+    font-size: 11px;
+    margin: 0 6px 7px 1px;
+    box-shadow:0 1px #f0f0f0;
+    display: block;
+    float: left;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.btnList a:hover{
+    background-position: 0 -498px;
+    background-color: #f2f2f2
+}
+
+#channels {
+    padding-top: 14px;
+}
+
+#channels a {
+    color: #707070;
+}
+
+
+
+#btnLike, #btnUnLike {
+    padding: 5px 6px;
+}
+#btnLike.down .icon, #btnUnLike.down .icon{
+    opacity: 0.5;
+}
+
+#btnLoad {
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    padding: 0 7px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#btnLoad .iconL {
+    margin: 0 5px -4px;
+}
+
+#btnReport {
+    padding:5px 8px;
+}
+
+#btnFav, #btnReport, #btnShare {
+    float: right;
+}
+
+#btnShare {
+    padding: 5px 12px;
+    white-space: nowrap;
+}
+
+.tools a, .tools .rate{
+    box-shadow:0 1px #f0f0f0;
+    text-decoration:none;
+}
+
+#playerBox, #commentBox  {
+    width: 658px;
+}
+
+#playerBox .boxC {
+    padding: 4px 0 4px 0;
+    border-radius:0;
+}
+
+#player, #playerSwf, #player .noFlash, #playerSwf video, #playerSwf .mp4Thumb{
+    height: 504px;
+}
+
+#playerSwf video, #playerSwf .mp4Thumb{
+    width: 638px;
+}
+
+#playerSwf {
+    margin: 5px 9px 9px 9px;
+    background: #000;
+    color: #FFF;
+    position: relative;
+}
+
+#player .noFlash {
+    text-align: center;
+    overflow: hidden;
+}
+
+#player .btn {
+    background: url(../images/tpl2/bgSpriteV2.png) 0 -431px repeat-x;
+    height: 27px;
+    line-height: 27px;
+    color: #FFF;
+    padding: 6px 10px;
+    border-radius:3px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#player .btn:hover {
+    opacity:0.5;
+    color: #FFF !important;
+}
+
+#player .flash {
+    height: 235px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+#player .flash2 {
+    padding-top:  130px;
+    height: 504px;
+    border-bottom: none;
+}
+
+#player .flashError {
+    padding-top:  230px;
+    height: 504px;
+    border-bottom: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+#player .flash img{
+    margin: 30px 0 20px 0;
+}
+
+#player .or {
+    background: #1a1a1a;
+    line-height: 32px;
+    border-radius:3px;
+    margin: -16px auto 0 auto;
+    width: 50px;
+    color: #9e9e9e;
+}
+
+#player .mp4Play {
+    display: block;
+    margin: 20px auto 15px auto;
+    position: relative;
+
+}
+
+#playerBox .mp4Thumb {
+    display: block;
+}
+
+#playerBox .mp4Thumb img{
+    width: 100%;
+}
+
+#player .mp4Play span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -28px;
+    margin-top: -28px;
+    width: 57px;
+    height: 57px;
+    background: url(../images/tpl2/play.png) no-repeat;
+}
+
+#playerBox .rate {
+    float: left;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    width: 100px;
+    font-size: 10px;
+    height: 24px;
+    text-align: center;
+    padding: 5px 7px;
+    margin: 0;
+    line-height: 16px;
+    background-image:url("../images/tpl2/toolRateBg.png");
+    background-repeat: repeat-x;
+    background-position: -1px 0;
+    background-color: #e0e0e0;
+}
+
+#playerBox .rate div{
+    background-color: #f56c6c;
+    background-image:url("../images/tpl2/rateShadow.png");
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    height: 4px;
+    margin: 3px 0;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 1px #F0F0F0;
+}
+
+#playerBox .rate .green {
+    background-color: #a5c665;
+    border-radius: 3px 0 0 3px;
+}
+
+
+
+#playerBox .sponsorTitle, #playerBox .sponsorBottom {
+    color: #5D5D5D;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 9px 9px 14px 9px;
+}
+
+#playerBox .sponsorBottom {
+    text-align: center;
+    margin: 9px;
+    line-height: 15px;
+}
+
+#playerBox .camsFrame{
+    width: 100%;
+    height: 82px;
+}
+
+#playerBox .sponsorB{
+    text-align: center;
+}
+
+#playerBox .sponsorS {
+    text-align: left;
+}
+
+
+#playerBox .sponsorS img {
+    margin-right: 10px;
+}
+#playerBox .sponsorTitle a, #playerBox .sponsorBottom a{
+    color: #f5381f;
+}
+
+#playerBox .sponsorTitle a:hover, #playerBox .sponsorBottom a:hover{
+    color: #2F2F2F !important;
+}
+
+#playerBox .iconHD, #playerBox .iconGoldSmall {
+    float: none;
+    display: inline-block;
+}
+#playerBox .iconHD {
+    margin: 0 0 -2px 6px;
+}
+
+#playerBox .iconGoldSmall {
+    margin: 0 0 -1px 2px;
+}
+
+.toolPopup {
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+
+.toolPopup .box{
+    background: url(../images/tpl2/popupBg.png) repeat-x 0 0 #e8e8e8;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    min-width:300px;
+}
+
+.toolPopup h3 {
+    line-height: 34px;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+}
+
+.toolPopup input {
+    float: left;
+    display: block;
+    margin-right: 5px;
+    height: 28px;
+}
+
+.toolPopup label {
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    white-space:nowrap;
+    padding-right: 20px;
+}
+
+.toolPopup .item {
+    margin: 0 10px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 29px;
+    padding-top: 2px;
+}
+
+.toolPopup .item a{
+    display: block;
+    text-decoration: none;
+}
+
+.toolPopup span {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    padding: 10px 20px;
+    text-shadow: 0 1px #F2F2F2;
+}
+
+.toolPopup span a {
+    color: #303030;
+    font-weight: bold;
+}
+
+.toolPopup .arrow {
+    border-bottom: 7px solid #8f8f8f;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    height: 0;
+    width: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.toolPopup .sub .item {
+    border: none;
+    line-height: 20px;
+    font-size: 11px;
+}
+
+.toolPopup .sub {
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-top: -8px;
+    display: none;
+}
+
+.toolPopup .sub .item input{
+    border: 1px solid #fbfbfb;
+    border-top-color: #c4c4c4;
+    border-radius:2px;
+    padding: 0 2px;
+    background-color: #f5f5f5;
+    height: 19px;
+}
+
+.toolPopup .sub .item input.ok{
+    font-size: 12px;
+    height: 21px;
+    padding: 0 4px;
+    background-image: url("../images/tpl2/bgSpriteV2.png");
+    background-repeat: repeat-x;
+    background-position: 0 -468px;
+    background-color: #ececec;
+    border: 1px solid #cecece;
+    border-radius:2px;
+}
+
+.toolPopup .inp {
+    margin-top: 5px;
+}
+
+.toolPopup .inp input {
+    float: none;
+    display: inline;
+    border: 1px solid #808080;
+}
+
+#shareBox {
+    margin: 0 10px;
+    display: none;
+}
+
+#shareBox td {
+    padding: 5px;
+}
+
+#shareBox textarea{
+    border: 1px solid #d9d9d9;
+    border-radius:3px;
+    padding: 6px;
+    background-color: #f9f9f9;
+    width: 98%;
+    resize: vertical;
+    font-size: 11px;
+    color: #4f4f4f;
+}
+
+#shareBox span {
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+#shareBox .iconMail {
+    margin: 2px -2px;
+}
+
+#shareBox .text {
+    position: relative;
+}
+
+#shareBox .text .icon {
+    position: absolute;
+    top: -5px;
+    left: 364px;
+    width: 12px;
+    height: 8px;
+    background-position: -36px -55px;
+}
+
+
+.tools {
+    border-bottom: none;
+}
+
+.line {
+    border-bottom: 1px solid #D1D1D1;
+    height: 1px;
+}
+
+
+#videoPass {
+    width: 470px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.modal textarea, .modal input, #videoPass .inp{
+    border: 1px solid #d9d9d9;
+    padding: 5px;
+    border-radius:3px;
+    background: #f9f9f9;
+    color: #666;
+    resize: vertical;
+}
+
+#videoPass .inp {
+    height: 18px;
+}
+
+#videoPass .btnBig {
+    margin-left: 0;
+}
+
+.modal .friendMess {
+    background: url(../images/tpl2/sendBg.png) repeat-x 0 0 #e5e5e5;
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    font-size: 11px;
+    border-radius:4px;
+}
+
+.friendSend .inp {
+    border: 1px solid #fbfbfb;
+    border-top-color: #c4c4c4;
+    border-radius:3px;
+    padding: 4px;
+    background-color: #f5f5f5;
+}
+.friendSend textarea {
+    width: 98%;
+    height: 60px;
+    resize: vertical;
+    margin: 5px 0;
+}
+
+.friendSend .submit, #videoPass input.sibmit{
+    background-color: #E0E0E0;
+    background-image: url("../images/tpl2/bgSpriteV2.png");
+    background-position: 0 -187px;
+    background-repeat: repeat-x;
+    border: 1px solid #CECECE;
+    border-radius: 3px;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    height: 29px;
+    line-height: 29px;
+    margin: 0;
+    cursor: pointer;
+    padding: 0 13px;
+    display: block;
+    float: left;
+}
+
+.friendSend .submit:hover, #videoPass input.sibmit:hover{
+    background-position: 0 -231px;
+}
+
+#videoClosed {
+    margin: 50px auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #CECECE;
+    border-radius: 3px;
+    width: 450px;
+}
+
+#videoPass a, #videoClosed a {
+    font-weight: bold;
+}
+
+#videoPass .boxC {
+    padding: 10px 47px;
+}
+
+#videoPass .gr {
+    text-align: center;
+}
+
+#videoPass label {
+    font-weight: bold;
+    color: #5d5d5d;
+    line-height: 28px;
+}
+
+#videoPass span {
+    font-weight: bold;
+    color: #F5381F;
+    line-height: 10px;
+    font-size: 10px;
+}
+
+.friendSend .error {
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 30px;
+    margin-right: 10px;
+    border-radius: 0;
+    color:#F00;
+    background: transparent;
+}
+
+.modal h3 {
+    color: #2f2f2f;
+    font-weight: bold;
+    line-height: 17px;
+    margin-bottom: 9px;
+    padding-bottom: 9px;
+    font-size: 12px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.modal .thumb {
+    background: url(../images/tpl2/loadTab.gif) center center no-repeat #EBEBEB;
+}
+
+.modal span {
+    text-shadow: 0 1px #F4F4F4;
+    color:#B1AFAF;
+}
+
+
+.notFound {
+    background-color: #f0f7e8;
+    margin: 50px 100px;
+    border: 1px solid #a6e484;
+    color: #f5381f;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    border-radius:4px;
+}
+
+
+.notFoundB {
+    margin: 50px 100px;
+    text-align: center;
+    color: #505050;
+    font-weight: bold;
+}
+
+#loadPopup a {
+    font-weight: bold;
+}
+
+#viewPop {
+    min-width: 640px;
+}
+
+#viewPop td{
+    padding: 5px;
+}
+
+.addThis {
+    height: 36px;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+}
+
+.myVideo  .addThis {
+    display: table;
+    height: 42px;
+}
+
+
+.addthis_button_compact {
+    line-height: 32px;
+    font-weight: bold;
+}
+
+#plAds {
+    display: none;
+    width: 330px;
+    height: 305px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -190px;
+    margin-left: -155px;
+    background: rgba(190, 190, 190, 0.5);
+}
+
+#plAds .header{
+    height: 25px;
+    line-height: 25px;
+    background: #000;
+    color: #CCC;
+    font-size: 12px;
+    padding: 0 0 0 5px;
+}
+
+#plAds .header a{
+    display: block;
+    float: right;
+    height: 19px;
+    margin: 3px 5px 0 0;
+    width: 57px;
+    background: url(../images/tpl2/player.ads.logo.png?1) 0 0 no-repeat;
+}
+
+#plAds .header .close{
+    float: right;
+    background: url(../images/tpl2/icons.png?10) 0 0 no-repeat;
+    background-position: -472px -86px;
+    width: 19px;
+    height: 19px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius:3px;
+    opacity:0;
+}
+
+#plAds .header .close:hover {
+    background-position: -492px -86px;
+}
+
+#plAds iframe{
+    width: 300px;
+    height: 250px;
+    margin: 15px;
+}
+
+#translatePop .edit {
+    margin: 10px 0;
+    width: 415px;
+}
+
+#translatePop .btnBig {
+    padding: 0 13px;
+}
+
+#translatePop .msgOut {
+    text-align: center;
+    margin-top: 17px;
+    font-size: 15px;
+}
+
+#translatePop .proposition {
+    margin: 5px 0 9px 0;
+}
+
+#translatePop .proposition p {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#idxFeach .boxC {
+    height: 685px;
+}
+
+#idxFeach iframe, #idxFeach .loader {
+    height: 692px;
+}
+
+.sponsorBottom #cams {
+    background: url("/images/tpl2/boxBg.png");
+    width: 100%;
+    height: 82px;
+}
+
+.sponsorBottom #cams a{
+    text-decoration:none;
+    font-size: 11px;
+    text-shadow: 0 1px #FFF;
+    white-space: nowrap;
+    color: #7e7e7e !important;
+    font-weight: normal;
+}
+
+.sponsorBottom #cams a:hover {
+    color: #f5381f !important;
+}
+
+.sponsorBottom #cams .block {
+    height: 92px;
+}
+
+.sponsorBottom #cams .item {
+    float: left;
+    width: 86px;
+    height: 85px;
+    /*margin-left: 17px;*/
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.sponsorBottom #cams .thumb {
+    width: 86px;
+    height: 65px;
+    background-color: #d6d6d6;
+    text-align: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.sponsorBottom #cams a.arrow {
+    display: block;
+    float: left;
+    background: url("/images/tpl2/icons.png?10") no-repeat -125px -29px;
+    width :22px;
+    height: 18px;
+    margin: 30px 0 0 8px;
+}
+
+.sponsorBottom #cams a.arrow:hover {
+    background-position: -79px -29px;
+}
+
+.sponsorBottom #cams .online {
+    background: url("/images/tpl2/online.gif?2") 0 0 no-repeat;
+    position: absolute;
+    top:2px;
+    right: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius:4px;
+    border: 1px solid #727a60;
+}
+
+.sponsorBottom #cams .title {
+    color:#4a4a4a;
+    width: 213px;
+    text-align: center;
+    float:left;
+    margin-top: 22px;
+}
+
+.sponsorBottom #cams .title .a {
+    font-size:16px;
+    font-weight: bold;
+}
+
+.sponsorBottom #cams .title .b {
+    font-size:14px;
+    margin-top: 12px;
+    font-weight: normal;
+}
+
+.sponsorBottom #cams .title span {
+    color:#f43319;
+}
+
+
+#videoTips #tips_balance {
+    color: #FFF !important;
+}
+#videoTips {
+    position: relative;
+    overflow: hidden;
+    height: 504px;
+}
+
+#videoTips .video {
+    margin: 0 0 0 3px;
+}
+
+#videoTips .box{
+    top: 130px;
+    left: 80px;
+    width: 480px;
+    position: absolute;
+}
+
+#videoTips .boxC{
+    background: #000;
+    border-color: #000;
+    border-radius: 0 0 3px 3px;
+    padding-bottom: 3px;
+}
+
+#videoTips .video u, #videoTips .video b, #videoTips .hRate {
+    display: none;
+}
+
+#videoTips .fadeThumb {
+    top:0;
+    left: 0;
+    position: absolute;
+    opacity:0.4;
+    width: 100%;
+}
+
+#playerSwf .mp4Thumb {
+    position: relative;
+}
+
+#playerSwf .fadePlay {
+    bottom:0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background: url(../images/tpl2/navi.png) 0 0 no-repeat;
+    height: 27px;
+}
+
+#playerSwf .iconPlay {
+    bottom:50%;
+    left: 50%;
+    margin-left: -28px;
+    margin-top: -28px;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background: url(../images/tpl2/iconPlay.png) 0 0 no-repeat;
+}
+
+#videoTips .tipView {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+#videoTips .tipView small {
+    font-size: 12px;
+}
+
+#videoTips .btnGold{
+    border: none;
+    margin: 10px;
+}
+
+#videoTips .btnGold:visited{
+    color: #000;
+}
+
+#videoTips .tipView a {
+    text-decoration: underline;
+}
+
+#videoTips .tipView small a, #videoTips .tipView small a:visited{
+    color: #FFF !important;
+}
+
+
+#videoTips .tipInfo {
+    text-align: center;
+    font-size: 14px;
+}
+
+#videoTips .tipText{
+    margin: 22px 10px 24px 10px;
+}
+
+#videoTips .tipText b {
+    color: #e7ab67;
+}
+
+#videoTips .tipInfo a {
+    margin: 0;
+}
+
+#videoTips .tipAjax {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+#videoTips .tipAjax b {
+    border-radius:3px;
+    border: 1px solid #e48484;
+    background-color:#f7e8e8;
+    color: #2f2f2f;
+    padding: 3px;
+}
+
+#videoTips .tipAjax u {
+    border-radius:3px;
+    border: 1px solid #A6E484;
+    background-color:#F0F7E8;
+    color: #2f2f2f;
+    padding: 3px;
+}
+
+#videoTips .right {
+    color: white;
+    display: block;
+    float: right;
+    font-size: 11px;
+    padding: 2px 0 0 0;
+    margin: 0;
+}
+
+#videoTips .iconHintBig {
+    margin: 0 5px -5px 0;
+}
+
+#videoTips .buy_tips {
+    margin: 2px 0 0 10px;
+}
+
+#videoTipsUser {
+    text-align: center;
+    margin: 30px;
+}
+
+.adVideo {
+    margin: 0;
+}
+
+.adVideo2 {
+    width: 330px;
+    height: 661px;
+    margin: 0 0 0 10px;
+    padding-top: 0;
+}
+
+#player #loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -40px;
+    text-align: center;
+    background: url(../images/tpl2/loadHtml5.gif) no-repeat center center #f7f7f7;
+    border-radius: 3px;
+    display: none;
+}
+
+#log {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    padding: 10px;
+}
