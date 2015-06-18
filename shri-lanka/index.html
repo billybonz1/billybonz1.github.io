@@ -23,7 +23,9 @@
 
 	<link rel="shortcut icon" href="favicon.png" />
 
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-theme.min.css" />
+
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap-chosen/chosen.min.css"/>
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
@@ -35,6 +37,22 @@
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        Мир
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 	<header>
 		<div class="headerTop">
 			<div class="container-fluid">
@@ -51,7 +69,7 @@
 					</div>
 					<div class="col-md-4 col-sm-4">
 						<div class="menu-btn-wrap">
-							<a class="myBtn btn-menu" href="#">
+							<a class="myBtn btn-menu" href="#" data-toggle="modal" data-target="#myModal">
 								<i class="fa fa-bars"></i>
 								<span>Меню</span>
 							</a>
@@ -61,7 +79,7 @@
 						<div class="contacts-wrap">
 							<div class="contacts">
 								<div class="left">
-									<span class="cw-phone">+94 766246000</span>
+									<a class="cw-phone" href="tel:+94 766246000">+94 766246000</a>
 									<span class="cw-icons">
 										<i class="icon icon-call"></i>
 										<i class="icon icon-whatsapp"></i>
@@ -357,9 +375,9 @@
 							<p>45, Ananda Coomaraswamy Mw, <br>
 							Colombo 07, Sri Lanka.</p>
 							<br>
-							<a class="fc-phone">+0094 766236000 </a>
+							<a href="tel:+0094 766236000" class="fc-phone">+0094 766236000 </a>
 							<p>Mr .Ruwantissa</p>
-							<a class="fc-phone">+0094 766246000</a>
+							<a href="tel:+0094 766246000" class="fc-phone">+0094 766246000</a>
 							<p>Mr.Chandima</p>
 
 							<a href="">tours@nkartravelhouse.com</a>
@@ -404,6 +422,7 @@
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="libs/bootstrap/bootstrap.min.js"></script>
 	<script src="libs/bootstrap-toolkit/bootstrap-toolkit.min.js"></script>
 	<script type="text/javascript" src="libs/bootstrap-chosen/chosen.jquery.min.js"></script>
 	<script src="libs/maskedinput/jquery.maskedinput.min.js"></script>

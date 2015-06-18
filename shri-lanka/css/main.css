@@ -87,6 +87,7 @@ header{
     vertical-align: top;
     color: #000;
     box-shadow: 0px 0px 5px 0px rgba(1,2,2,0.30);
+    outline: 0 !important;
 }
 .btn-menu i{
     font-size: 25px;
@@ -97,6 +98,7 @@ header{
 }
 .btn-menu:hover{
 	background: rgb(234, 234, 234);
+	color: #000;
 }
 .btn-menu:active{
     background: #E0DFDF;
@@ -167,6 +169,7 @@ select.lang + * .chosen-drop li.highlighted{
     font-weight: 100;
     display: block;
     margin-top: 1px;
+    text-decoration: none;
 }
 .contacts-wrap .cw-icons{
     display: block;
@@ -199,6 +202,9 @@ select.lang + * .chosen-drop li.highlighted{
     background-color: #57d68d;
     color: #fff;
     margin: 9px 10px 0px 40px;
+}
+.btn-login:hover,.btn-login:active{
+	color:#fff;
 }
 .btn-login i{
     margin: 16px 0px 0px 23px;
