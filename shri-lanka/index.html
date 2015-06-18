@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+
+	<title>Заголовок</title>
+	<meta content="" name="description" />
+	<meta content="" property="og:image" />
+	<meta content="" property="og:description" />
+	<meta content="" property="og:site_name" />
+	<meta content="website" property="og:type" />
+
+	<meta content="telephone=no" name="format-detection" />
+	<meta http-equiv="x-rim-auto-match" content="none">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="shortcut icon" href="favicon.png" />
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap-chosen/chosen.min.css"/>
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header>
+		<div class="headerTop">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<a href="#" class="logo">
+							Магический остров
+						</a>
+						<select class="lang">
+						    <option>По-русски</option>
+						    <option>English</option>
+						</select>
+						<div class="clearfix"></div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="menu-btn-wrap">
+							<a class="myBtn btn-menu" href="#">
+								<i class="fa fa-bars"></i>
+								<span>Меню</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="contacts-wrap">
+							<div class="contacts">
+								<div class="left">
+									<span class="cw-phone">+94 766246000</span>
+									<span class="cw-icons">
+										<i class="icon icon-call"></i>
+										<i class="icon icon-whatsapp"></i>
+										<i class="icon icon-message"></i>
+									</span>
+								</div>
+								<div class="right">
+									<a class="myBtn btn-login" href="#">
+										<i class="icon icon-sign-in"></i>
+										<span>Вход</span>
+									</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inner">
+			<h1 class="main-header">Трансферы</h1>
+			<form action="" class="transfers">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<input type="text" placeholder="Страна" name="country">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<input type="text" placeholder="Откуда (аэропорт / отель)" name="from">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<input type="text" placeholder="Куда (аэропорт / отель)" name="to">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="people-counter">
+								<input type="hidden" name="adult" value="0">
+								<input type="hidden" name="children" value="0">
+								<div class="adults-counter left">
+									<i class="people-icons adult"></i>
+									<a href="" class="pc-arrow-up pc-arrows" data-action="down" data-value="adult"></a>
+									<span class="pc-counter" data-value="adult">0</span>
+									<a href="" class="pc-arrow-down pc-arrows" data-action="up" data-value="adult"></a>
+								</div>
+								<div class="children-counter right">
+									<i class="people-icons children"></i>
+									<a href="" class="pc-arrow-up pc-arrows" data-action="down" data-value="children"></a>
+									<span class="pc-counter" data-value="children">0</span>
+									<a href="" class="pc-arrow-down pc-arrows" data-action="up" data-value="children"></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="pc-text">
+								До 12 человек на одном трансфере, включая<br> 
+								детей до 12 лет, исключая инфантов на руках
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<input type="text" placeholder="Дата и время" name="from">
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<button>
+								Подобрать трансфер
+							</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</header>
+	<section class="actualTransfers">
+		<div class="transfer">
+			<div class="inner">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-2">
+							<div class="trasfer-img" style="background:url(img/_transferimg1.jpg)"></div>
+						</div>
+						<div class="col-md-7 col-sm-7">
+							<h3><strong>Category A </strong>(Previa / Audi A6 / Lexus ES 350) </h3>
+							<p>
+								По прибытии в аэропорт, хотелось бы быстрее и без трудностей добраться до отеля? Забронируйте индивидуальный трансфер заранее! Вам не придется ожидать в очередях на такси или автобус.
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="transfer-info-wrap">
+								<div class="numOfSeats">
+									<i class="people-icons adult"></i>
+									<span class="pc-counter">2</span>
+									<i class="people-icons children"></i>
+									<span class="pc-counter">2</span>
+								</div>
+								<div class="clearfix"></div>
+								<div class="price"><strong>122,50</strong>$</div>
+								<button class="reserv">Забронировать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="transfer">
+			<div class="inner">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-2">
+							<div class="trasfer-img" style="background:url(img/_transferimg2.jpg)"></div>
+						</div>
+						<div class="col-md-7 col-sm-7">
+							<h3><strong>VIP Transfer</strong> (BMW7 Series / Mercedes S Class) </h3>
+							<p>
+								По прибытии в аэропорт, хотелось бы быстрее и без трудностей добраться до отеля? Забронируйте индивидуальный трансфер заранее! Вам не придется ожидать в очередях на такси или автобус.
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="transfer-info-wrap">
+								<div class="numOfSeats">
+									<i class="people-icons adult"></i>
+									<span class="pc-counter">2</span>
+									<i class="people-icons children"></i>
+									<span class="pc-counter">2</span>
+								</div>
+								<div class="clearfix"></div>
+								<div class="price"><strong>232,50</strong>$</div>
+								<button class="reserv">Забронировать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="transfer">
+			<div class="inner">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-2">
+							<div class="trasfer-img" style="background:url(img/_transferimg1.jpg)"></div>
+						</div>
+						<div class="col-md-7 col-sm-7">
+							<h3><strong>Category A </strong>(Previa / Audi A6 / Lexus ES 350) </h3>
+							<p>
+								По прибытии в аэропорт, хотелось бы быстрее и без трудностей добраться до отеля? Забронируйте индивидуальный трансфер заранее! Вам не придется ожидать в очередях на такси или автобус.
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="transfer-info-wrap">
+								<div class="numOfSeats">
+									<i class="people-icons adult"></i>
+									<span class="pc-counter">2</span>
+									<i class="people-icons children"></i>
+									<span class="pc-counter">2</span>
+								</div>
+								<div class="clearfix"></div>
+								<div class="price"><strong>122,50</strong>$</div>
+								<button class="reserv">Забронировать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="transfer">
+			<div class="inner">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-2">
+							<div class="trasfer-img" style="background:url(img/_transferimg2.jpg)"></div>
+						</div>
+						<div class="col-md-7 col-sm-7">
+							<h3><strong>VIP Transfer</strong> (BMW7 Series / Mercedes S Class) </h3>
+							<p>
+								По прибытии в аэропорт, хотелось бы быстрее и без трудностей добраться до отеля? Забронируйте индивидуальный трансфер заранее! Вам не придется ожидать в очередях на такси или автобус.
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="transfer-info-wrap">
+								<div class="numOfSeats">
+									<i class="people-icons adult"></i>
+									<span class="pc-counter">2</span>
+									<i class="people-icons children"></i>
+									<span class="pc-counter">2</span>
+								</div>
+								<div class="clearfix"></div>
+								<div class="price"><strong>232,50</strong>$</div>
+								<button class="reserv">Забронировать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="transfer">
+			<div class="inner">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-2">
+							<div class="trasfer-img" style="background:url(img/_transferimg1.jpg)"></div>
+						</div>
+						<div class="col-md-7 col-sm-7">
+							<h3><strong>Category A </strong>(Previa / Audi A6 / Lexus ES 350) </h3>
+							<p>
+								По прибытии в аэропорт, хотелось бы быстрее и без трудностей добраться до отеля? Забронируйте индивидуальный трансфер заранее! Вам не придется ожидать в очередях на такси или автобус.
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="transfer-info-wrap">
+								<div class="numOfSeats">
+									<i class="people-icons adult"></i>
+									<span class="pc-counter">2</span>
+									<i class="people-icons children"></i>
+									<span class="pc-counter">2</span>
+								</div>
+								<div class="clearfix"></div>
+								<div class="price"><strong>122,50</strong>$</div>
+								<button class="reserv">Забронировать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="transfer">
+			<div class="inner">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2 col-sm-2">
+							<div class="trasfer-img" style="background:url(img/_transferimg2.jpg)"></div>
+						</div>
+						<div class="col-md-7 col-sm-7">
+							<h3><strong>VIP Transfer</strong> (BMW7 Series / Mercedes S Class) </h3>
+							<p>
+								По прибытии в аэропорт, хотелось бы быстрее и без трудностей добраться до отеля? Забронируйте индивидуальный трансфер заранее! Вам не придется ожидать в очередях на такси или автобус.
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="transfer-info-wrap">
+								<div class="numOfSeats">
+									<i class="people-icons adult"></i>
+									<span class="pc-counter">2</span>
+									<i class="people-icons children"></i>
+									<span class="pc-counter">2</span>
+								</div>
+								<div class="clearfix"></div>
+								<div class="price"><strong>232,50</strong>$</div>
+								<button class="reserv">Забронировать</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="inner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<a href="" class="footer-logo"></a>
+						<div class="copyright">
+							Copyrights © Nkar Travels & Tours (Pvt)<br> Ltd.  ® 2013
+						</div>
+						<div class="payment"></div>
+					</div>
+					<div class="col-md-2 col-sm-2">
+						<ul class="footer-menu">
+							<li><a href="">Отели</a></li>
+							<li><a href="">Туры</a></li>
+							<li><a href="">Экскурсии</a></li>
+							<li><a href="">Аюрведа</a></li>
+							<li><a href="">Услуги</a></li>
+							<li><a href="">Путеводитель</a></li>
+							<li><a href="">Бонусная программа</a></li>
+						</ul>
+						<ul class="footer-menu">
+							<li><a href="">Корпоративным клиентам</a></li>
+							<li><a href="">Турбизнесу</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-sm-2">
+						<ul class="footer-menu">
+							<li><a href="">О компании</a></li>
+							<li><a href="">Сотрудничество</a></li>
+							<li><a href="">Новости</a></li>
+							<li><a href="">Пресс-релизы</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-3">
+						<div class="footer-contacts">
+							<span>NKAR Your Travel House</span>
+							<p>45, Ananda Coomaraswamy Mw, <br>
+							Colombo 07, Sri Lanka.</p>
+							<br>
+							<a class="fc-phone">+0094 766236000 </a>
+							<p>Mr .Ruwantissa</p>
+							<a class="fc-phone">+0094 766246000</a>
+							<p>Mr.Chandima</p>
+
+							<a href="">tours@nkartravelhouse.com</a>
+							<div class="footer-icons">
+								<a href="" class="facebook"></a>
+								<a href="" class="twitter"></a>
+								<a href="" class="youtube"></a>
+								<a href="" class="flickr"></a>
+								<a href="" class="google"></a>
+								<a href="" class="linkedin"></a>
+								<a href="" class="pinterest"></a>
+								<a href="" class="blogger"></a>
+								<a href="" class="rss"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="hidden"></div>
+	<!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
+	<div class="device-xs visible-xs"></div>
+	<div class="device-sm visible-sm"></div>
+	<div class="device-md visible-md"></div>
+	<div class="device-lg visible-lg"></div>
+	<!-- end mandatory -->
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="libs/bootstrap-toolkit/bootstrap-toolkit.min.js"></script>
+	<script type="text/javascript" src="libs/bootstrap-chosen/chosen.jquery.min.js"></script>
+	<script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+	<script src="libs/equalheight/jquery.equalheight.js"></script>
+	<script src="libs/stellar/jquery.stellar.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
