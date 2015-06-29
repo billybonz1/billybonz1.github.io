@@ -44,7 +44,7 @@ $(document).ready(function(){
 		}
 	});
 	/**/
-	/*
+	/*SMOOTH SCROLLLING*/
 	try {
 		$.browserSelector();
 		if($("html").hasClass("chrome")) {
@@ -52,7 +52,8 @@ $(document).ready(function(){
 		}
 	} catch(err) {
 
-	};*/
+	};
+	/**/
 
 	$(".mt-horizontal.owl").owlCarousel({
       navigation : false, // Show next and prev buttons
@@ -104,7 +105,7 @@ $(document).ready(function(){
 
 
 
-
+	/*SCROLL TO TOP*/
 	$(".content").waypoint(function(direction) {
 		if (direction === "down") {
 			$("#top").addClass("visible");
@@ -119,6 +120,17 @@ $(document).ready(function(){
 		}, 800);
 		return false;
 	});
+	/**/
+
+	/*FIXED HEADER*/
+	$("header").waypoint(function(direction) {
+		if (direction === "down") {
+			$("body").addClass("fixed");
+		} else if (direction === "up") {
+			$("body").removeClass("fixed");
+		};
+	}, {offset: 0});
+	/**/
 	
 	
 });
@@ -132,8 +144,18 @@ function resizeWindow() {
 		var htmlFS = 10;
 	}
 	$("html").css("font-size",htmlFS+'px');
+
+	/*FIXED HEADER*/
+	var scrollTop = parseInt($("body").scrollTop()) || parseInt($("html").scrollTop());
+	if(scrollTop < 100){
+		$("body").removeClass('fixed');
+	}
 	/**/
-};
+
+	/**/
+
+	
+}
 $(document).ready(function() {
 	resizeWindow();
 });

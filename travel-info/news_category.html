@@ -34,154 +34,156 @@
         </div>
         
         <!-- HEADER -->
-        <header>
-          <div class="header__inner clearfix">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle mob-menu-control" data-toggle="collapse" data-target="#mobile-menu">
-                    <span class="sr-only">Открыть навигацию</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand header__logo">
-                  <img src="img/logo.png" height="31" width="181" alt="">
+        <header id="header">
+          <div class="header__wrap">
+            <div class="header__inner clearfix">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle mob-menu-control" data-toggle="collapse" data-target="#mobile-menu">
+                      <span class="sr-only">Открыть навигацию</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a href="#" class="navbar-brand header__logo">
+                    <img src="img/logo.png" height="31" width="181" alt="">
+                  </a>
+              </div>
+              <div class="collapse mobile-menu" id="mobile-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости страны</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
+                            <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
+                            <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
+                            <li><a href="">Визовые новости</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости авиакомпаний</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Спецпредложения авиакомпаний</a></li>
+                            <li><a href="#">Совместные акции и семинары</a></li>
+                            <li><a href="#">Особые условия по сотрудничеству</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости отелей</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Ренновации</a></li>
+                            <li><a href="#">Мероприятия/события</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Сервисы и возможности</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Новинки сервисов</a></li>
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События: участие в семинарах,выставках</a></li>
+                            <li><a href="">Это важно!</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Принимающие туроператоры</a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События и мероприятия</a></li>
+                            <li><a href="#">Фам-трипы</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+              </div>
+              
+
+              <div class="rubricator-shower hidden-xs">
+                Рубрикатор
+                <span class="caret"></span>
+              </div>
+              <div class="top-mnu hidden-xs">
+                    <ul class="top-mnu__wrap clearfix">
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости страны</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
+                            <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
+                            <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
+                            <li><a href="">Визовые новости</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости авиакомпаний</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Спецпредложения авиакомпаний</a></li>
+                            <li><a href="#">Совместные акции и семинары</a></li>
+                            <li><a href="#">Особые условия по сотрудничеству</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Новости отелей</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Спецпредложения</a></li>
+                            <li><a href="#">Ренновации</a></li>
+                            <li><a href="#">Мероприятия/события</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Сервисы и возможности</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Новинки сервисов</a></li>
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События: участие в семинарах,выставках</a></li>
+                            <li><a href="">Это важно!</a></li>
+                          </ul>
+                        </li>
+                        <li class="top-mnu__column">
+                          <a href="#" class="top-mnu__title">Принимающие туроператоры</a>
+                          <ul class="top-mnu__nested">
+                            <li><a href="#">Промо-акции</a></li>
+                            <li><a href="#">События и мероприятия</a></li>
+                            <li><a href="#">Фам-трипы</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+              </div>
+              
+              <select name="" id="countries" class="header-select countries">
+                <option value="">Все страны</option>
+                <option value="">Англия</option>
+              </select>
+
+              <div class="change-bg clearfix hidden-xs">
+                <div class="change-bg__value active" data-value="gray"></div>
+                <div class="change-bg__value" data-value="gray2"></div>
+                <div class="change-bg__value" data-value="dark-blue"></div>
+                <div class="change-bg__value" data-value="green"></div>
+                <div class="change-bg__value" data-value="blue"></div>
+              </div>
+              
+              <div class="auth clearfix hidden-xs" id="auth">
+                <a href="" class="auth__sign-in">Вход</a>
+                <a href="" class="auth__sign-up">Регистрация</a>
+              </div>
+
+              <div class="social hidden-xs">
+                <a href="" class="facebook">
+                  <i></i>
                 </a>
-            </div>
-            <div class="collapse mobile-menu" id="mobile-menu">
-                  <ul class="nav navbar-nav">
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости страны</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
-                          <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
-                          <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
-                          <li><a href="">Визовые новости</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости авиакомпаний</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Спецпредложения авиакомпаний</a></li>
-                          <li><a href="#">Совместные акции и семинары</a></li>
-                          <li><a href="#">Особые условия по сотрудничеству</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости отелей</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Спецпредложения</a></li>
-                          <li><a href="#">Ренновации</a></li>
-                          <li><a href="#">Мероприятия/события</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Сервисы и возможности</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Новинки сервисов</a></li>
-                          <li><a href="#">Промо-акции</a></li>
-                          <li><a href="#">События: участие в семинарах,выставках</a></li>
-                          <li><a href="">Это важно!</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Принимающие туроператоры</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Промо-акции</a></li>
-                          <li><a href="#">События и мероприятия</a></li>
-                          <li><a href="#">Фам-трипы</a></li>
-                        </ul>
-                      </li>
-                  </ul>
-            </div>
-            
+                <a href="" class="youtube"></a>
+                <a href="" class="instagramm"></a>
+                <a href="" class="vk"></a>
+              </div>
 
-            <div class="rubricator-shower hidden-xs">
-              Рубрикатор
-              <span class="caret"></span>
-            </div>
-            <div class="top-mnu hidden-xs">
-                  <ul class="top-mnu__wrap clearfix">
-                      <li class="top-mnu__column">
-                        <a href="#" class="top-mnu__title">Новости страны</a>
-                        <ul class="top-mnu__nested">
-                          <li><a href="">Новые объекты в стране – отели, аттракционы, парки, музеи</a></li>
-                          <li><a href="">Мероприятия в стране – выставки, концерты, события </a></li>
-                          <li><a href="">Мероприятия и приёмы в Посольствах</a></li>
-                          <li><a href="">Визовые новости</a></li>
-                        </ul>
-                      </li>
-                      <li class="top-mnu__column">
-                        <a href="#" class="top-mnu__title">Новости авиакомпаний</a>
-                        <ul class="top-mnu__nested">
-                          <li><a href="#">Спецпредложения авиакомпаний</a></li>
-                          <li><a href="#">Совместные акции и семинары</a></li>
-                          <li><a href="#">Особые условия по сотрудничеству</a></li>
-                        </ul>
-                      </li>
-                      <li class="top-mnu__column">
-                        <a href="#" class="top-mnu__title">Новости отелей</a>
-                        <ul class="top-mnu__nested">
-                          <li><a href="#">Спецпредложения</a></li>
-                          <li><a href="#">Ренновации</a></li>
-                          <li><a href="#">Мероприятия/события</a></li>
-                        </ul>
-                      </li>
-                      <li class="top-mnu__column">
-                        <a href="#" class="top-mnu__title">Сервисы и возможности</a>
-                        <ul class="top-mnu__nested">
-                          <li><a href="#">Новинки сервисов</a></li>
-                          <li><a href="#">Промо-акции</a></li>
-                          <li><a href="#">События: участие в семинарах,выставках</a></li>
-                          <li><a href="">Это важно!</a></li>
-                        </ul>
-                      </li>
-                      <li class="top-mnu__column">
-                        <a href="#" class="top-mnu__title">Принимающие туроператоры</a>
-                        <ul class="top-mnu__nested">
-                          <li><a href="#">Промо-акции</a></li>
-                          <li><a href="#">События и мероприятия</a></li>
-                          <li><a href="#">Фам-трипы</a></li>
-                        </ul>
-                      </li>
-                  </ul>
-            </div>
-            
-            <select name="" id="countries" class="header-select countries">
-              <option value="">Все страны</option>
-              <option value="">Англия</option>
-            </select>
+              <div class="header-search hidden-xs">
+                <input type="text" placeholder="Что ищем ?">
+                <input type="submit">
+              </div>
 
-            <div class="change-bg clearfix hidden-xs">
-              <div class="change-bg__value active" data-value="gray"></div>
-              <div class="change-bg__value" data-value="gray2"></div>
-              <div class="change-bg__value" data-value="dark-blue"></div>
-              <div class="change-bg__value" data-value="green"></div>
-              <div class="change-bg__value" data-value="blue"></div>
+              <select class="header-select lang pull-right" name="" id="lang">
+                <option value="">Rus</option>
+                <option value="">Eng</option>
+              </select>
             </div>
-            
-            <div class="auth clearfix hidden-xs" id="auth">
-              <a href="" class="auth__sign-in">Вход</a>
-              <a href="" class="auth__sign-up">Регистрация</a>
-            </div>
-
-            <div class="social hidden-xs">
-              <a href="" class="facebook">
-                <i></i>
-              </a>
-              <a href="" class="youtube"></a>
-              <a href="" class="instagramm"></a>
-              <a href="" class="vk"></a>
-            </div>
-
-            <div class="header-search hidden-xs">
-              <input type="text" placeholder="Что ищем ?">
-              <input type="submit">
-            </div>
-
-            <select class="header-select lang pull-right" name="" id="lang">
-              <option value="">Rus</option>
-              <option value="">Eng</option>
-            </select>
           </div>
         </header>
         <!-- HEADER END -->

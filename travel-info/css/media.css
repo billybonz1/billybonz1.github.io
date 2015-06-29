@@ -39,6 +39,9 @@
 	.rubricator-shower{
 		margin-left: 3%;
 	}
+	.social{
+    	margin-left: 2%;
+    }
 }
 @media only screen and (max-width: 1072px) {
     .rubricator-shower{
@@ -47,6 +50,7 @@
     .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).countries{
     	margin-left: 2%;
     }
+    
 }
 @media only screen and (max-width: 1037px) {
 	.auth{
@@ -157,7 +161,12 @@
     
     header {
         padding-bottom: 3px;
+        height: auto;
     }
+    .fixed .header__wrap{
+    	position: relative;
+    }
+    
     .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
         display: none;
     }

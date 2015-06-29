@@ -3,6 +3,7 @@ body {
     background-color: #C8C8C8;
     color: #5D5D5D;
     -webkit-font-smoothing: antialiased;
+    transition: background 1s;
 }
 body.bg-gray {
     background-image: url(../img/bg-gray.jpg);
@@ -106,6 +107,18 @@ screen\9 {
 header {
     background: #000;
     position: relative;
+    height: 45px;
+}
+.header__wrap{
+    background: #000;
+    position: relative;
+}
+.fixed .header__wrap{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 2;
 }
 
 .header__inner {
@@ -615,9 +628,6 @@ header {
     background-position: left bottom;
     border-radius: 0 0 7px 7px;
 }
-
-
-
 .mt-new {
     display: block;
     float: left;
