@@ -3,7 +3,7 @@ body {
     background-color: #C8C8C8;
     color: #5D5D5D;
     -webkit-font-smoothing: antialiased;
-    transition: background 1s;
+    transition: .2s background;
 }
 body.bg-gray {
     background-image: url(../img/bg-gray.jpg);
