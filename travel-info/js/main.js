@@ -45,14 +45,10 @@ $(document).ready(function(){
 	});
 	/**/
 	/*SMOOTH SCROLLLING*/
-	try {
-		$.browserSelector();
-		if($("html").hasClass("chrome")) {
-			$.smoothScroll();
-		}
-	} catch(err) {
-
-	};
+	$.srSmoothscroll({
+        step: 120,
+        speed: 800
+    });
 	/**/
 
 	$(".mt-horizontal.owl").owlCarousel({
@@ -126,10 +122,14 @@ $(document).ready(function(){
 	$("header").waypoint(function(direction) {
 		if (direction === "down") {
 			$("body").addClass("fixed");
+			$(".header__wrap").animate({"top":"0px"},600);
 		} else if (direction === "up") {
-			$("body").removeClass("fixed");
+			$(".header__wrap").animate({"top":"-45px"},200,function(){
+				$("body").removeClass("fixed");
+			});
+			
 		};
-	}, {offset: 0});
+	}, {offset: -150});
 	/**/
 	
 	

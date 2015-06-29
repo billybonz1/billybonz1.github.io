@@ -17,6 +17,9 @@ body.bg-green {
 body.bg-dark-blue {
     background-image: url(../img/bg-dark-blue.jpg);
 }
+body.bg-white{
+    background-color: #FFF;
+}
 h2 a:hover{
     color:#edb52b;
 }
@@ -111,11 +114,11 @@ header {
 }
 .header__wrap{
     background: #000;
-    position: relative;
+    position: static;
+    top:-45px;
 }
 .fixed .header__wrap{
     position: fixed;
-    top:0;
     left:0;
     width: 100%;
     z-index: 2;
@@ -357,12 +360,12 @@ header {
     background: #c8c8c8;
 }
 
-.change-bg__value[data-value="gray2"] {
-    border-color: #a2a2a2;
+.change-bg__value[data-value="white"] {
+    border-color: #fff;
 }
 
-.change-bg__value[data-value="gray2"].active {
-    background: #a2a2a2;
+.change-bg__value[data-value="white"].active {
+    background: #fff;
 }
 
 .change-bg__value[data-value="dark-blue"] {
@@ -1593,6 +1596,7 @@ footer .statistic{
     left: -40px;
     background:none;
     border: 1px solid #383838;
+    outline: 0;
     color: #010101;
     transition:.5s opacity,.5s left;
 }
