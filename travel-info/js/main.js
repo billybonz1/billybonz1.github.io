@@ -34,6 +34,15 @@ $(document).ready(function(){
 	/**/
 
 	/*BG CHANGE*/
+	$(".change-bg__value").click(function(){
+		if(!$(this).hasClass('active')){
+			var old_bg = $(".change-bg__value.active").data("value");
+			var bg = $(this).data("value");
+			$(".change-bg__value.active").removeClass("active");
+			$(this).addClass("active")
+			$("body").removeClass("bg-"+old_bg).addClass('bg-'+bg);
+		}
+	});
 	/**/
 	/*
 	try {
@@ -90,6 +99,11 @@ $(document).ready(function(){
 	    week_actual.trigger('owl.prev');
 	});
 	/**/
+
+
+
+
+
 
 	$(".content").waypoint(function(direction) {
 		if (direction === "down") {
