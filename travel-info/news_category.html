@@ -34,7 +34,7 @@
         </div>
         
         <!-- HEADER -->
-        <header id="header">
+        <header id="main_header">
           <div class="header__wrap">
             <div class="header__inner clearfix">
               <div class="navbar-header">
@@ -154,7 +154,7 @@
 
               <div class="change-bg clearfix hidden-xs">
                 <div class="change-bg__value active" data-value="gray"></div>
-                <div class="change-bg__value" data-value="gray2"></div>
+                <div class="change-bg__value" data-value="white"></div>
                 <div class="change-bg__value" data-value="dark-blue"></div>
                 <div class="change-bg__value" data-value="green"></div>
                 <div class="change-bg__value" data-value="blue"></div>
@@ -175,7 +175,7 @@
               </div>
 
               <div class="header-search hidden-xs">
-                <input type="text" placeholder="Что ищем ?">
+                <input type="text">
                 <input type="submit">
               </div>
 
@@ -260,9 +260,10 @@
                   <li role="presentation"><a href="#interactive" aria-controls="interactive" role="tab" data-toggle="tab">Интерактив</a></li>
                 </ul>
                 <div class="category-news__sorting">
-                  Сортировать по: <a href="javascript:void(0);" class="">убыванию</a>
+                  Сортировать по: 
+                  <a href="javascript:void(0)">убыванию</a><i class="icon-sort-down"></i>
                 </div>
-                <div class="tab-content">
+                <div class="tab-content clearfix">
                   <div role="tabpanel" class="tab-pane fade in active" id="last-news">
                     <div class="category-news-grid">
                       <article class="category-news__item effect-jazz">
@@ -559,12 +560,15 @@
                   <div role="tabpanel" class="tab-pane fade" id="picture-story">...</div>
                   <div role="tabpanel" class="tab-pane fade" id="interactive">...</div>
                 </div>
-
+                <div class="category-news__loader loading">
+                  <div class="spin"></div>
+                  <span>Больше новостей</span>
+                </div>
               </div>
-
+              
             </div>
             <div class="grid__item sidebar">
-              <div class="content__left_column-banner">
+              <div class="content__left_column-banner hidden-xs">
                 <img src="img/img-banner-renault.jpg" alt="">
               </div>
               <div class="news-feed news-feed-gray">
@@ -639,6 +643,117 @@
               <div class="content__left_column-banner hidden-xs">
                 <img src="img/img-banner-bee.jpg" alt="">
               </div>
+            </div>
+
+            <div class="bottom-news clearfix hidden-xs">
+                <div class="bottom-news__column">
+                  <h2 class="bottom-news__title">
+                    <a href="">Новости отелей</a>
+                  </h2>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news1.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                        <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                      </div>
+                    </a>
+                  </article>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news2.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                        <p>Почему исламисты не испытывают недостатка в </p>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+                <div class="bottom-news__column">
+                  <h2 class="bottom-news__title">
+                    <a href="">Туроператоры</a>
+                  </h2>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news3.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                        <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                      </div>
+                    </a>
+                  </article>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news4.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                        <p>Почему исламисты не испытывают недостатка в </p>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+                <div class="bottom-news__column">
+                  <h2 class="bottom-news__title">
+                    <a href="">Авиакомпании</a>
+                  </h2>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news5.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                        <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                      </div>
+                    </a>
+                  </article>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news6.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                        <p>Почему исламисты не испытывают недостатка в </p>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+                <div class="bottom-news__column">
+                  <h2 class="bottom-news__title">
+                    <a href="">Страны и города</a>
+                  </h2>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news7.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                        <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                      </div>
+                    </a>
+                  </article>
+                  <article class="bottom-news__item">
+                    <a href="">
+                      <div class="img-wrap">
+                        <img src="img/bottom_news8.jpg">
+                      </div>
+                      <div class="bottom-news__item-text">
+                        <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                        <p>Почему исламисты не испытывают недостатка в </p>
+                      </div>
+                    </a>
+                  </article>
+                </div>
             </div>
           </div>
         </div>

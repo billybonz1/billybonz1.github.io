@@ -10,66 +10,7 @@
     /*HEADER*/
     /*HEADER END*/
 }
-@media only screen and (max-width: 1190px){
-	.auth{
-		margin-left: 5%;
-	}
-}
-@media only screen and (max-width: 1190px){
-	.auth{
-		margin-left: 4%;
-	}
-	.rubricator-shower{
-		margin-left: 5%;
-	}
-}
-@media only screen and (max-width: 1122px){
-	.auth{
-		margin-left: 3%;
-	}
-	.rubricator-shower{
-		margin-left: 3%;
-	}
-}
-@media only screen and (max-width: 1082px){
-	.auth{
-		margin-left: 3%;
-		width: 164px;
-	}
-	.rubricator-shower{
-		margin-left: 3%;
-	}
-	.social{
-    	margin-left: 2%;
-    }
-}
-@media only screen and (max-width: 1072px) {
-    .rubricator-shower{
-    	margin-left: 2%;
-    }
-    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).countries{
-    	margin-left: 2%;
-    }
-    
-}
-@media only screen and (max-width: 1037px) {
-	.auth{
-		margin-left: 2%;
-	}
 
-	.social a{
-		margin-left: 15px !important;
-	}
-	.social a.facebook{
-		margin-left: 0;
-	}
-}
-@media only screen and (max-width: 1000px) {
-	.social{
-		margin-left: 0%;
-	}
-}
-/* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
     /*HEADER*/
@@ -97,69 +38,11 @@
 }
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 982px) {
-	.rubricator-shower{
-		margin-left: 0;
-	}
-	.header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).countries{
-		margin-left: 0;
-	}
-}
 
-@media only screen and (max-width: 940px) {
-	.change-bg{
-		margin-left: 0;
-	}
-	.auth{
-		margin-left: 1%;
-	}
-}
-@media only screen and (max-width: 907px) {
-	.change-bg{
-		display: none;
-	}
-
-	/*CATEGORY NEWS*/
-	.category-news__item{
-	     width: calc(50% - 8px/2);
-	}
-	.category-news__item:nth-child(3n){
-		margin-right: 8px;
-	}
-	.category-news__item:nth-child(2n){
-		margin-right: 0;
-	}
-
-	/*CATEGORY NEWS END*/
-}
-@media only screen and (max-width: 820px) {
-	.social a{
-		margin-left: 10px !important;
-	}
-	.auth__sign-up{
-		margin-left: 6px;
-	}
-	.auth{
-		width: 150px;
-	}
-}
-@media only screen and (max-width: 784px) {
-	.rubricator-shower{
-		font-size: 10px;
-		padding-top: 16px;
-	}
-	.header-select > .btn{
-		font-size: 10px;
-	}
-	.header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
-		padding-top: 10px;
-		width: 90px;
-	}
-}
 @media only screen and (max-width: 767px) {
     /*HEADER*/
     
-    header {
+    #main_header {
         padding-bottom: 3px;
         height: auto;
     }
