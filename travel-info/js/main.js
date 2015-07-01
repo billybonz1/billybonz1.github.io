@@ -54,10 +54,10 @@ $(document).ready(function(){
 	
 	/**/
 	/*SMOOTH SCROLLLING*/
-	/*$.srSmoothscroll({
+	$.srSmoothscroll({
         step: 120,
         speed: 800
-    });*/
+    });
 	/**/
 
 
