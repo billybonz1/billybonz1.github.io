@@ -107,9 +107,24 @@ $(document).ready(function(){
 	})(jQuery);
 	/**/
 
-
-
-
+	/*NEWS PAGE SHOW MORE ANIMATION*/
+	(function($){
+		$("button[role=hot-topics-more]").click(function(){
+			var wrap = $(this).data("wrap");
+			wrap_scroll_top = $(wrap).offset().top;
+			$("body, html").animate({
+				scrollTop: wrap_scroll_top - 60
+			}, 500,function(){
+				$(wrap).find(".hot-topics__item.old").hide("slow",function(){
+				});
+				$(wrap).find(".hot-topics__item.hidden").removeClass("hidden");
+				
+			});
+			
+			
+		});
+	})(jQuery);
+	/**/
 
 	/*SCROLL TO TOP*/
 	$(".content").waypoint(function(direction) {

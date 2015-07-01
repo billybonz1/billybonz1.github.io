@@ -14,7 +14,12 @@
         <link rel="stylesheet" type="text/css" href="libs/bootstrap-select/bootstrap-select.min.css"/>
         <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
         <link rel="stylesheet" type="text/css" href="libs/icomoon/style.css"/>
+
+        <!--NEW-->
         <link rel="stylesheet" type="text/css" href="libs/bootstrap-star-rating/star-rating.min.css"/>
+        <link rel="stylesheet" type="text/css" href="libs/animate/animate.css"/>
+        <!-- -->
+
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/media.css">
@@ -265,7 +270,7 @@
                         </article>
                       </div>
 
-                      <div class="news-page-add-comment">
+                      <div class="news-page-add-comment clearfix">
                         <div class="news-page-comment-img">
                           <img src="img/img-no-user.png" alt="">
                         </div>
@@ -278,8 +283,8 @@
                       </div>
                   </div>
                   <div class="grid__item-in one-thirds">
-                      <div class="hot-topics__wrap">
-                        <article class="hot-topics__item effect-jazz">
+                      <div class="hot-topics__wrap clearfix" id="news_page_hot">
+                        <article class="hot-topics__item effect-jazz old">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics3.jpg" alt="">
@@ -293,7 +298,7 @@
                             </div>
                           </a>
                         </article>
-                        <article class="hot-topics__item effect-jazz">
+                        <article class="hot-topics__item effect-jazz old">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics5.jpg" alt="">
@@ -307,7 +312,7 @@
                             </div>
                           </a>
                         </article>
-                        <article class="hot-topics__item effect-jazz">
+                        <article class="hot-topics__item effect-jazz old">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics4.jpg" alt="">
@@ -321,7 +326,7 @@
                             </div>
                           </a>
                         </article>
-                        <article class="hot-topics__item effect-jazz">
+                        <article class="hot-topics__item effect-jazz old">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics6.jpg" alt="">
@@ -336,7 +341,7 @@
                           </a>
                         </article>
 
-                        <article class="hot-topics__item effect-jazz">
+                        <article class="hot-topics__item effect-jazz hidden">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics3.jpg" alt="">
@@ -350,7 +355,7 @@
                             </div>
                           </a>
                         </article>
-                        <article class="hot-topics__item effect-jazz">
+                        <article class="hot-topics__item effect-jazz hidden">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics5.jpg" alt="">
@@ -364,7 +369,7 @@
                             </div>
                           </a>
                         </article>
-                        <article class="hot-topics__item effect-jazz">
+                        <article class="hot-topics__item effect-jazz hidden">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics4.jpg" alt="">
@@ -378,7 +383,7 @@
                             </div>
                           </a>
                         </article>
-                        <article class="hot-topics__item effect-jazz">
+                        <article class="hot-topics__item effect-jazz hidden">
                           <a href="#">
                             <div class="img-wrap">
                               <img src="./img/img-hot-topics6.jpg" alt="">
@@ -393,10 +398,290 @@
                           </a>
                         </article>
                       </div>
-                      <button class="bttn bttn-gray">Показать еще</button>
+                      <button class="bttn bttn-gray" role="hot-topics-more" data-wrap="#news_page_hot">Показать еще</button>
                   </div>
                 </div>
+                <div class="grid clearfix">
+                  <div class="row-news hidden-xs">
+                    <div class="row-news__wrap">
+                      <h2 class="row-news__title">
+                        <a href="">Новости по теме</a>
+                      </h2>
+                      <div class="row-news__articles clearfix">
+                        <article class="row-news__item effect-jazz">
+                              <a href="#">
+                                <div class="img-wrap">
+                                  <img src="./img/img-row-news1.jpg" alt="">
+                                </div>
+                                <div class="row-news__item-text clearfix">
+                                  <h3>Италия: фуникулёр на гору Монте-Бьянко</h3>
+                                  <div class="article-params">
+                                      <div class="article-comments">
+                                        <span class="icon-bubble"></span>
+                                        12
+                                      </div>
+                                      <div class="article-views">
+                                        <span class="icon-eye"></span>
+                                        213
+                                      </div>
+                                  </div>
+                                </div>
+                              </a>
+                        </article>
+                        <article class="row-news__item effect-jazz">
+                              <a href="#">
+                                <div class="img-wrap">
+                                  <img src="./img/img-row-news2.jpg" alt="">
+                                </div>
+                                <div class="row-news__item-text clearfix">
+                                  <h3>Субтехника полифигурно дает</h3>
+                                  <div class="article-params">
+                                      <div class="article-comments">
+                                        <span class="icon-bubble"></span>
+                                        12
+                                      </div>
+                                      <div class="article-views">
+                                        <span class="icon-eye"></span>
+                                        213
+                                      </div>
+                                  </div>
+                                </div>
+                              </a>
+                        </article>
+                        <article class="row-news__item effect-jazz">
+                              <a href="#">
+                                <div class="img-wrap">
+                                  <img src="./img/img-row-news3.jpg" alt="">
+                                </div>
+                                <div class="row-news__item-text clearfix">
+                                  <h3>Лайн-ап дает тон-полутоновый</h3>
+                                  <div class="article-params">
+                                      <div class="article-comments">
+                                        <span class="icon-bubble"></span>
+                                        12
+                                      </div>
+                                      <div class="article-views">
+                                        <span class="icon-eye"></span>
+                                        213
+                                      </div>
+                                  </div>
+                                </div>
+                              </a>
+                        </article>
+                        <article class="row-news__item effect-jazz">
+                              <a href="#">
+                                <div class="img-wrap">
+                                  <img src="./img/img-row-news4.jpg" alt="">
+                                </div>
+                                <div class="row-news__item-text clearfix">
+                                  <h3>Плавно-мобильное голосовое поле</h3>
+                                  <div class="article-params">
+                                      <div class="article-comments">
+                                        <span class="icon-bubble"></span>
+                                        12
+                                      </div>
+                                      <div class="article-views">
+                                        <span class="icon-eye"></span>
+                                        213
+                                      </div>
+                                  </div>
+                                </div>
+                              </a>
+                        </article>
+                        <article class="row-news__item effect-jazz">
+                              <a href="#">
+                                <div class="img-wrap">
+                                  <img src="./img/img-row-news4.jpg" alt="">
+                                </div>
+                                <div class="row-news__item-text clearfix">
+                                  <h3>Плавно-мобильное голосовое поле</h3>
+                                  <div class="article-params">
+                                      <div class="article-comments">
+                                        <span class="icon-bubble"></span>
+                                        12
+                                      </div>
+                                      <div class="article-views">
+                                        <span class="icon-eye"></span>
+                                        213
+                                      </div>
+                                  </div>
+                                </div>
+                              </a>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid__item-in one-fourth">
+                    <div class="content__left_column-article hidden-xs">
+                      <article class="mt-new mt-vertical mt-vertical-2" style="background-image:url(./img/img_mt_left2.jpg);">
+                        <a href="#">
+                          <h3>Дело в отношении авиакомпании «Победа»</h3>
+                          <div class="mt-text">После четырех лет монтажных работ регион Валле-д'Аоста сообщает о запуске ...</div>
+                          <div class="mt-cat">Новости отелей</div>
+                          <div class="article-params">
+                              <div class="article-comments">
+                                <span class="icon-bubble"></span>
+                                12
+                              </div>
+                              <div class="article-views">
+                                <span class="icon-eye"></span>
+                                213
+                              </div>
+                          </div>
+                        </a>
+                      </article>
+                    </div>
+                  </div>
+                  <div class="grid__item-in three-fourth">
+                    <div class="row-news row-news-2 hidden-xs">
+                      <div class="row-news__wrap">
+                        <h2 class="row-news__title">
+                          <a href="">Коротко о главном</a>
+                        </h2>
+                        <div class="row-news__articles clearfix">
+                          <article class="row-news__item">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Хотим мы того или нет, но эмоциональным фоном вчерашнего визита в Москву
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          12
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Хотим мы того или нет, но эмоциональным фоном вчерашнего визита в Москву
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          12
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Римские чиновники жили на содержании у мигрантов 44 стран 
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          2
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Римские чиновники жили на содержании у мигрантов 44 стран 
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          2
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Римские чиновники жили на содержании у мигрантов 44 стран странсотрудника администрации итальянской столицы арестованы 
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          2
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Римские чиновники жили на содержании у мигрантов 44 стран странсотрудника администрации итальянской столицы арестованы 
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          2
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item w1440">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Римские чиновники жили на содержании у мигрантов 44 стран 
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          2
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item w1440">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Римские чиновники жили на содержании у мигрантов 44 стран странсотрудника администрации итальянской столицы арестованы 
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          2
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                          <article class="row-news__item w1440">
+                                <a href="#">
+                                  <div class="row-news__item-text clearfix">
+                                    <p>
+                                      Римские чиновники жили на содержании у мигрантов 44 стран странсотрудника администрации итальянской столицы арестованы 
+                                    </p>
+                                    <div class="article-params">
+                                        <div class="article-comments">
+                                          <span class="icon-bubble"></span>
+                                          2
+                                        </div>
+                                    </div>
+                                  </div>
+                                </a>
+                          </article>
+                        </div>
+                      </div>
+                    </div>
+                  </div>        
+                </div>
               </div>
+              
+
             </div>
             <div class="grid__item sidebar">
               <div class="content__left_column-banner hidden-xs">
@@ -476,6 +761,118 @@
               </div>
             </div>
           </div>
+          <div class="grid clearfix">
+                  <div class="bottom-news clearfix hidden-xs">
+                    <div class="bottom-news__column">
+                      <h2 class="bottom-news__title">
+                        <a href="">Новости отелей</a>
+                      </h2>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news1.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                            <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                          </div>
+                        </a>
+                      </article>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news2.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                            <p>Почему исламисты не испытывают недостатка в </p>
+                          </div>
+                        </a>
+                      </article>
+                    </div>
+                    <div class="bottom-news__column">
+                      <h2 class="bottom-news__title">
+                        <a href="">Туроператоры</a>
+                      </h2>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news3.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                            <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                          </div>
+                        </a>
+                      </article>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news4.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                            <p>Почему исламисты не испытывают недостатка в </p>
+                          </div>
+                        </a>
+                      </article>
+                    </div>
+                    <div class="bottom-news__column">
+                      <h2 class="bottom-news__title">
+                        <a href="">Авиакомпании</a>
+                      </h2>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news5.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                            <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                          </div>
+                        </a>
+                      </article>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news6.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                            <p>Почему исламисты не испытывают недостатка в </p>
+                          </div>
+                        </a>
+                      </article>
+                    </div>
+                    <div class="bottom-news__column">
+                      <h2 class="bottom-news__title">
+                        <a href="">Страны и города</a>
+                      </h2>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news7.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Они приехали с кувалдами, ломами и болгаркой»></h3>
+                            <p>Как будет работать «Комитет против пыток» в Чечне после второго нападения</p>
+                          </div>
+                        </a>
+                      </article>
+                      <article class="bottom-news__item">
+                        <a href="">
+                          <div class="img-wrap">
+                            <img src="img/bottom_news8.jpg">
+                          </div>
+                          <div class="bottom-news__item-text">
+                            <h3>«Начиная с романтиков, заканчивая садистами и педофилами»</h3>
+                            <p>Почему исламисты не испытывают недостатка в </p>
+                          </div>
+                        </a>
+                      </article>
+                    </div>
+                  </div>
+          </div>
         </div>
 
 
@@ -505,8 +902,10 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="libs/bootstrap-toolkit/bootstrap-toolkit.min.js"></script>
         <script type="text/javascript" src="libs/bootstrap-select/bootstrap-select.min.js"></script>
+
+        <!-- NEW -->
         <script type="text/javascript" src="libs/bootstrap-star-rating/star-rating.min.js"></script>
-        
+        <!-- -->
 
         <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
         <script src="libs/owl-carousel/owl.carousel.min.js"></script>
