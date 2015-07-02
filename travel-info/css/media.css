@@ -17,15 +17,6 @@
     /*HEADER END*/
     /*CONTENT*/
     
-    .mt-new .mt-cat {
-        font-size: 1.5rem;
-    }
-   	.mt-new .mt-text {
-        font-size: 1.4rem;
-    }
-    .mt-horizontal .mt-new .mt-text {
-        font-size: 1.7rem;
-    }
     /*CONTENT END*/
     
     /*FOOTER*/
@@ -55,92 +46,6 @@
     }
     /*HEADER END*/
     /*CONTENT*/
-    
-    .content {
-        margin-top: 0;
-        padding: 0;
-        border-radius: 0;
-        background-image: none;
-	}
-    .grid__item{
-        padding: 0;
-        width: 100%;
-    }
-    .grid__item-in{
-        padding:0;
-        width:100%;
-    }
-    
-    .mt-horizontal {
-        width: 100%;
-        margin: 0 0 1px 0;
-        height: auto;
-    }
-    .mt-horizontal .mt-new {
-        height: 250px;
-    }
-    .mt-small {
-        width: calc(33.333333% - 2px/3);
-        margin: 0 1px 0 0;
-    }
-    .mt-horizontal .mt-new h3 {
-        font-size: 30px;
-        margin-left: 20px;
-        margin-top: 32px !important;
-        color: #fff !important;
-    }
-    .mt-horizontal .mt-new .mt-cat {
-        left: 20px !important;
-        bottom: 21px !important;
-        opacity: 1 !important;
-        font-size: 13px;
-    }
-    .mt-horizontal .mt-new .mt-text {
-        display: none;
-    }
-    .mt-horizontal .mt-new .article-params {
-        bottom: 22px;
-        width: auto;
-        right: 20px;
-    }
-    .mt-horizontal.owl .owl-pagination {
-        display: none;
-    }
-    .mt-horizontal-2 .mt-new h3{
-    	line-height: normal;
-    	font-size: 24px;
-    }
-    .mt-small h3 {
-        font-size: 17px !important;
-        margin-left: 20px;
-        margin-top: 22px !important;
-        color: #fff !important;
-    }
-    .mt-small h3 span {
-        font-size: 17px !important;
-    }
-    .mt-small .mt-cat {
-        display: none
-    }
-   	.mt-small .mt-text {
-        display: none;
-    }
-    .mt-small .article-params {
-        bottom: 17px;
-    }
-	.mt-small-2{
-		margin-top: 1px;
-		width: calc(50% - 1px/2);
-		height: auto;
-		float: left;
-	}
-	.mt-small-2 h3{
-		padding-bottom: 60px;
-		font-size: 15px !important;
-	}
-	.mt-small-2:nth-child(2){
-		margin-right: 0;
-	}
 
     .news-feed{
     	margin-top: 1px;
@@ -204,24 +109,7 @@
 }
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 480px) {
-    /*CONTENT*/
-    
-    .mt-small:nth-child(3) {
-        display: none;
-    }
-    .mt-small {
-        width: calc(50% - 1px/2);
-        height: 169px;
-    }
-    .mt-small:nth-child(2) {
-        margin-right: 0;
-    }
-    .mt-horizontal .mt-new {
-        height: 169px;
-    }
-    /*CONTENT END*/
-}
+
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 320px) {}
