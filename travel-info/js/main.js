@@ -137,6 +137,41 @@ $(document).ready(function(){
 			  
 			});
 		});
+
+		$(".category-news__loader-search").click(function(){
+			$.getJSON( "./news_page_hot.json", function( data ) {
+			  $("#news_page_hot article").addClass('animated zoomOut');
+			  var items = [];
+			  setTimeout(function(){
+			  	$.each( data, function( key, val ) {
+				  	var item = "<article class='category-news__item effect-jazz opacity0'>";
+				  	item += "<a href='#'>";
+				  	item += "<div class='img-wrap'>";
+				  	item += "<img src='"+val.img+"'>";
+				  	item += "</div>"
+				  	item += "<div class='category-news__item-text'>";
+				  	item += "<h3>"+val.title+"</h3>";
+				  	item += "<p>"+val.text+"</p>";
+				  	item += "<div class='category-news__item-date pull-left'>"+val.date+"</div>";
+				  	item += "<div class='article-params pull-right'>";
+                    item += "<div class='article-comments'>";
+                    item += "<span class='icon-bubble'></span>12";
+                    item += "<span class='icon-bubble'></span></div>";
+                    item += "<div class='article-views'><span class='icon-eye'></span>213";
+                    item += "</div>";
+				  	item += "</div>";
+				  	item += "</a>";
+				  	item += "</article>";
+				  	items.push(item);
+				 });
+				 var html = items.join("");
+				 $( ".category-news-grid" ).append(html);
+				 $(".category-news-grid article.opacity0").addClass('animated zoomIn');
+				},300);
+
+			  
+			});
+		});
 	})(jQuery);
 	/**/
 
@@ -262,6 +297,69 @@ $(document).ready(function(){
 		  mainClass: 'mfp-fade'
 		});
 	}
+	/**/
+
+	/*ADVERT*/
+	$(".show-advert-all-prices").on("click",function(){
+		$(".advert-all-prices").slideDown('slow',function(){
+			/*var top = $(this).offset().top;
+			$("body, html").animate({
+				scrollTop: top - 70
+			}, 400);*/
+		});
+	});
+	$(".blue-select").selectpicker({
+	    size: 2
+	});
+	if($("#order-advert-form").length){
+		H5F.setup(document.getElementById("order-advert-form"));
+		$("#order-advert-form").validator();
+		$('#order-advert-form').validator().on('submit', function (e) {
+		  if (e.isDefaultPrevented()) {
+		  } else {
+		    $.ajax({
+				type: "POST",
+				url: "//formspree.io/bux-center@ya.ru",
+				data: $("#order-advert-form").serialize()
+			}).done(function() {
+				$('#order-advert-form')[0].reset();
+				$("#order-advert").modal('hide');
+				$("#success").modal('show');
+
+			});
+			return false;
+		  }
+		});
+	}
+
+	if($("#contact-us").length){
+		H5F.setup(document.getElementById("contact-us"));
+		$("#contact-us").validator();
+		$('#contact-us').validator().on('submit', function (e) {
+		  if (e.isDefaultPrevented()) {
+		  } else {
+		    $.ajax({
+				type: "POST",
+				url: "//formspree.io/bux-center@ya.ru",
+				data: $("#contact-us").serialize()
+			}).done(function() {
+				$('#contact-us')[0].reset();
+				$("#success").modal('show');
+
+			});
+			return false;
+		  }
+		});
+	}
+
+	if($("#reg").length){
+		H5F.setup(document.getElementById("reg"));
+		$("#contact-us").validator();
+		$('#contact-us').validator().on('submit', function (e) {
+		  
+		});
+	}
+	
 	/**/
 });
 

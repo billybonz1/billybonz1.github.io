@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"required"
+			],
+			[
+				"slide",
+				"slideDown	.slideDown()"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"g",
+				"photo-page-gallery/"
+			],
+			[
+				"art",
+				"article"
+			],
+			[
+				"ar",
+				"art	arcTo(x1,y1,x2,y2,radius)"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
 				"add",
 				"addClass	.addClass()"
 			],
@@ -216,94 +252,6 @@
 	"buffers":
 	[
 		{
-			"file": "/Z/home/cosovan/www/travel-info/www/photo.html",
-			"settings":
-			{
-				"buffer_size": 41801,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/news_category.html",
-			"settings":
-			{
-				"buffer_size": 41786,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/news_page.html",
-			"settings":
-			{
-				"buffer_size": 49085,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/js/main.js",
-			"settings":
-			{
-				"buffer_size": 5217,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/index.html",
-			"settings":
-			{
-				"buffer_size": 56458,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Z/home/jedai_verstki/template_bootstrap/js/common.js",
-			"settings":
-			{
-				"buffer_size": 4152,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/libs/smoothscroll/jquery.simplr.smoothscroll.min.js",
-			"settings":
-			{
-				"buffer_size": 686,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/css/main.css",
-			"settings":
-			{
-				"buffer_size": 43253,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/libs/icomoon/style.css",
-			"settings":
-			{
-				"buffer_size": 742,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/css/media.css",
-			"settings":
-			{
-				"buffer_size": 6086,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Z/home/cosovan/www/travel-info/www/css/fonts.css",
-			"settings":
-			{
-				"buffer_size": 125,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"contents": "/*==========  Desktop First Method  ==========*/\n/* Large Devices, Wide Screens */\n\n@media only screen and (max-width: 1200px) {\n    /*HEADER*/\n    \n    .top-banner {\n        font-size: 17px;\n        padding-top: 22px;\n        padding-left: 130px;\n    }\n    .top-banner .top-banner-btn {\n        right: 10%;\n    }\n    .rubricator-shower {\n        margin-left: 3%;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).countries {\n        margin-left: 1%;\n    }\n    .change-bg {\n        margin-left: 2%;\n    }\n    .auth {\n        margin-left: 4.8%;\n    }\n    .social {\n        margin-left: 0.7%;\n    }\n    .header-search {\n        margin-left: 3%;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).lang {\n        margin-left: 1.6%;\n    }\n    /*HEADER END*/\n}\n\n@media only screen and (max-width: 1107px) {\n    /*HEADER*/\n    \n    .auth {\n        margin-left: 1.8%;\n    }\n    /*HEADER END*/\n}\n\n@media only screen and (max-width: 1072px) {\n    /*HEADER*/\n    \n    .top-banner {\n        font-size: 16px;\n        padding-top: 24px;\n        padding-left: 101px;\n    }\n    .social a {\n        margin-left: 12px !important;\n    }\n    /*HEADER END*/\n}\n/* Medium Devices, Desktops */\n\n@media only screen and (max-width: 992px) {\n    /*HEADER*/\n    \n    .top-banner {\n        font-size: 14px;\n        padding-top: 27px;\n        padding-left: 5%;\n    }\n    .top-banner .top-banner-btn {\n        right: 4%;\n    }\n    .rubricator-shower {\n        margin-left: 0%;\n        font-size: 11px;\n        padding-bottom: 17px;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).countries {\n        margin-left: 0%;\n        width: 96px;\n    }\n    .header-select > .btn {\n        font-size: 11px;\n    }\n    .change-bg {\n        margin-left: 0%;\n    }\n    .auth {\n        margin-left: 3px;\n        width: 123px;\n    }\n    .social {\n        margin-left: 0;\n    }\n    .header-search {\n        margin-left: 0.5%;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).lang {\n        margin-left: 0%;\n        width: 59px;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) button {}\n    .change-bg .cb-value {\n        margin-right: 2px;\n    }\n    .auth .sign-up {\n        margin-left: 6px;\n        font-size: 11px;\n    }\n    .auth .sign-in {\n        font-size: 11px;\n        padding: 5px 7px;\n    }\n    /*HEADER END*/\n    /*CONTENT*/\n    .main-tiles .mt-new .mt-cat{\n    font-size: 1.5rem;\n}\n    .main-tiles .mt-new .mt-text{\n    font-size: 1.4rem;\n}\n.main-tiles .mt-horizontal .mt-new .mt-text{\n    font-size: 1.7rem;\n}\n\n    /*CONTENT END*/\n}\n/* Small Devices, Tablets */\n\n@media only screen and (max-width: 768px) {\n    /*HEADER*/\n    \n    header {\n        padding-bottom: 3px;\n    }\n    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {\n        display: none;\n    }\n    /*HEADER END*/\n    \n    /*CONTENT*/\n    .content {\n        margin-top: 0;\n        padding: 0;\n    }\n    .main-tiles .mt-center {\n        margin-top: 0;\n        width: 100%;\n    }\n    .main-tiles .mt-horizontal {\n        width: 100%;\n        margin: 0 0 1px 0;\n        height: auto;\n    }\n    .main-tiles .mt-horizontal .mt-new {\n        height: 250px;\n    }\n    .main-tiles .mt-small {\n        width: calc(33.333333% - 2px/3);\n        margin: 0 1px 0 0;\n    }\n    .main-tiles .mt-horizontal .mt-new h3 {\n        font-size: 30px;\n        margin-left: 20px;\n        margin-top: 32px !important;\n        color: #fff !important;\n    }\n    .main-tiles .mt-horizontal .mt-new .mt-cat {\n        left: 20px !important;\n        bottom: 21px !important;\n        opacity: 1 !important;\n    \n        font-size: 13px;\n}\n    .main-tiles .mt-horizontal .mt-new .mt-text {\n        display: none;\n    }\n    .main-tiles .mt-horizontal .mt-new .mt-params {\n        bottom: 22px;\n        width: auto;\n        right: 20px;\n    }\n    .mt-horizontal.owl .owl-pagination {\n        display: none;\n    }\n    .main-tiles .mt-small h3 {\n        font-size: 17px !important;\n        margin-left: 20px;\n        margin-top: 22px !important;\n        color: #fff !important;\n    }\n    .main-tiles .mt-small span {\n        font-size: 17px !important;\n    }\n    .main-tiles .mt-small .mt-cat {\n        display: none\n    }\n    .main-tiles .mt-small .mt-text {\n        display: none;\n    }\n    .main-tiles .mt-small .mt-params {\n        bottom: 17px;\n    }\n    /*CONTENT END*/\n}\n/* Extra Small Devices, Phones */\n\n@media only screen and (max-width: 480px) {\n    /*CONTENT*/\n    .main-tiles .mt-small:nth-child(4) {\n        display: none;\n    }\n    .main-tiles .mt-small {\n        width: calc(50% - 1px/2);\n        height: 169px;\n    }\n    .main-tiles .mt-small:nth-child(3) {\n        margin-right: 0;\n    }\n    .main-tiles .mt-horizontal .mt-new {\n        height: 169px;\n    }\n    /*CONTENT END*/\n}\n/* Custom, iPhone Retina */\n\n@media only screen and (max-width: 320px) {}\n/*==========  Mobile First Method  ==========*/\n/* Custom, iPhone Retina */\n\n@media only screen and (min-width: 320px) {}\n/* Extra Small Devices, Phones */\n\n@media only screen and (min-width: 480px) {}\n/* Small Devices, Tablets */\n\n@media only screen and (min-width: 768px) {\n    .collapse.in.mobile-menu {\n        display: none;\n    }\n}\n/* Medium Devices, Desktops */\n\n@media only screen and (min-width: 992px) {}\n/* Large Devices, Wide Screens */\n\n@media only screen and (min-width: 1200px) {}\n",
 			"settings":
 			{
@@ -377,14 +325,31 @@
 	},
 	"expanded_folders":
 	[
-		"/Z/home/cosovan/www/travel-info/www",
-		"/Z/home/cosovan/www/travel-info/www/libs/font-aweosme/css"
+		"/Z/home/cosovan/www/travel-info/www"
 	],
 	"file_history":
 	[
-		"/Z/home/cosovan/www/travel-info/www/libs/bootstrap-star-rating/star-rating.min.css",
+		"/Z/home/cosovan/www/travel-info/www/css/main.css",
+		"/Z/home/cosovan/www/travel-info/www/css/fonts.css",
+		"/Z/home/cosovan/www/travel-info/www/css/media.css",
+		"/Z/home/jedai_verstki/template_bootstrap/js/common.js",
+		"/Z/home/cosovan/www/travel-info/www/mail.php",
+		"/Z/home/cosovan/www/travel-info/www/js/main.js",
+		"/Z/home/cosovan/www/travel-info/www/contact_us.html",
+		"/Z/home/cosovan/www/travel-info/www/reklama.html",
+		"/Z/home/cosovan/www/travel-info/www/about.html",
+		"/Z/home/cosovan/www/travel-info/www/photo_page.html",
+		"/Z/home/cosovan/www/travel-info/www/reg.html",
+		"/Z/home/cosovan/www/travel-info/www/libs/bootstrap-validator/h5f.js",
+		"/Z/home/cosovan/www/travel-info/www/libs/bootstrap-validator/validate.js",
+		"/Z/home/cosovan/www/travel-info/www/news_page.html",
+		"/Z/home/cosovan/www/travel-info/www/photo.html",
 		"/Z/home/cosovan/www/travel-info/www/news_category.html",
+		"/Z/home/cosovan/www/travel-info/www/search.html",
+		"/Z/home/cosovan/www/travel-info/www/libs/smoothscroll/jquery.simplr.smoothscroll.min.js",
 		"/Z/home/cosovan/www/travel-info/www/index.html",
+		"/Z/home/cosovan/www/travel-info/www/news_page_hot.json",
+		"/Z/home/cosovan/www/travel-info/www/libs/bootstrap-star-rating/star-rating.min.css",
 		"/Z/home/cosovan/www/travel-info/www/index.haml",
 		"/D/Git/angular-phonecat/package.json",
 		"/D/Git/gruntProject/package.json",
@@ -397,9 +362,7 @@
 		"/Z/home/jedai_verstki/template_bootstrap/css/main.css",
 		"/C/Users/Artem_2/AppData/Local/Temp/Rar$DR02.240/silviomoreto-bootstrap-select-a8ed49e/less/bootstrap-select.less",
 		"/C/Users/Artem_2/AppData/Local/Temp/Rar$DR91.240/silviomoreto-bootstrap-select-a8ed49e/less/variables.less",
-		"/Z/home/cosovan/www/travel-info/www/js/main.js",
 		"/D/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
-		"/Z/home/cosovan/www/travel-info/www/css/main.css",
 		"/Z/home/jedai_verstki/template_bootstrap/css/media.css",
 		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/header.php",
 		"/C/Users/Artem_2/AppData/Local/Temp/fz3temp-1/footer.php",
@@ -493,23 +456,7 @@
 		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/functions 2.php",
 		"/C/Users/artem/AppData/Local/Temp/fz3temp-2/thanks.html",
 		"/C/Users/artem/Desktop/beyourself/functions.php",
-		"/C/Users/artem/Desktop/beyourself/rtl.css",
-		"/C/Users/artem/Desktop/beyourself/style.css",
-		"/Z/home/fort/www/facts-and-figures.php",
-		"/Z/home/fort/www/swf/karta.swf",
-		"/Z/home/fort/www/includes/header.php",
-		"/Z/home/fort/www/farmakonadzor.php",
-		"/Z/home/fort/www/includes/footer.php",
-		"/Z/home/fort/www/css/main.css",
-		"/D/GitHub/arkanik.github.io/index.php",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/footer.php",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/header.php",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/style.css",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/index 5.php",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/template 5.php",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/template 4.php",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/index 2.php",
-		"/C/Users/artem/AppData/Local/Temp/fz3temp-1/template 3.php"
+		"/C/Users/artem/Desktop/beyourself/rtl.css"
 	],
 	"find":
 	{
@@ -527,6 +474,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".mt-new .mt-cat",
+			".content {",
+			".content{",
+			"content",
+			".mt-small",
 			"вшмюпкшв",
 			"Новости",
 			"Новости по теме",
@@ -579,630 +531,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Z/home/cosovan/www/travel-info/www/photo.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41801,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10163,
-								10157
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Z/home/cosovan/www/travel-info/www/news_category.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								41786
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 569.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Z/home/cosovan/www/travel-info/www/news_page.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 49085,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11079,
-								11079
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 644.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Z/home/cosovan/www/travel-info/www/js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5217,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3470,
-								3470
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Z/home/cosovan/www/travel-info/www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 56458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17356,
-								17356
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2730.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Z/home/jedai_verstki/template_bootstrap/js/common.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1853,
-								1853
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 495.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Z/home/cosovan/www/travel-info/www/libs/smoothscroll/jquery.simplr.smoothscroll.min.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								686,
-								686
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": -0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -1210,362 +540,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 7,
-					"file": "/Z/home/cosovan/www/travel-info/www/css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 43253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								40918,
-								40918
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_indent": true,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 30808.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Z/home/cosovan/www/travel-info/www/libs/icomoon/style.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 742,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/Z/home/cosovan/www/travel-info/www/css/media.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6086,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								724,
-								681
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_indent": true,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/Z/home/cosovan/www/travel-info/www/css/fonts.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								125,
-								125
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": -0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 0,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1650,7 +625,7 @@
 						"translation.y": 1665.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
