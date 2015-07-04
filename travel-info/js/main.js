@@ -222,7 +222,18 @@ $(document).ready(function(){
 	if($('.photo-page-gallery').length){
 		var sync1 = $("#photo-page-gallery-top");
 		  var sync2 = $("#photo-page-gallery-bottom");
-		 
+		 var syncPosition = function(el){
+		    var current = this.currentItem;
+		    console.log(current);
+		    sync2
+		      .find(".owl-item")
+		      .removeClass("synced")
+		      .eq(current)
+		      .addClass("synced")
+		    if(sync2.data("owlCarousel") !== undefined){
+		      center(current)
+		    }
+		  }
 		  sync1.owlCarousel({
 		    singleItem : true,
 		    slideSpeed : 1000,
@@ -242,18 +253,7 @@ $(document).ready(function(){
 		    }
 		  });
 		 
-		  function syncPosition(el){
-		    var current = this.currentItem;
-		    console.log(current);
-		    sync2
-		      .find(".owl-item")
-		      .removeClass("synced")
-		      .eq(current)
-		      .addClass("synced")
-		    if(sync2.data("owlCarousel") !== undefined){
-		      center(current)
-		    }
-		  }
+		  
 		 
 		  sync2.on("click", ".owl-item", function(e){
 		    e.preventDefault();
