@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-transform: capitalize;
-    background: #f2f2f2;
+    background: #101010;
 }
 
 h1,
@@ -35,17 +35,16 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-      color: #f5381f !important;
 }
 
 .lblack a {
-    color: #000000;
+    color: #fff;
 }
 
 #top {
     padding: 5px;
-    max-width: 1000px;
     margin: 0 auto;
+    background: #1b1b1b;
 }
 
 #main {
@@ -63,6 +62,7 @@ a:hover {
     margin: 20px;
     width: 90%;
     display: block;
+    color: #fff;
 }
 
 .llog {
@@ -74,14 +74,14 @@ a:hover {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #494949;
+    color: #fff;
 }
 
 .llog a {
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #494949;
+    color: #fff;
 }
 
 .lsearch {}
@@ -89,7 +89,7 @@ a:hover {
 .linput {
     display: -moz-inline-stack;
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;    font-weight: 700;
     zoom: 1;
     *display: inline;
     margin: 0px;
@@ -135,10 +135,11 @@ a:hover {
 .lwrap {
     max-width: 840px;
     text-align: left;
-    display: inline-block;
-    border: 1px solid #d1d1d1;    
-    border-radius: 0px 3px 3px 0;    min-height: 50px;    
-    background: url(img/boxBg.png);    padding: 4px;
+    display: inline-block;    
+    border-radius: 0px 3px 3px 0;    min-height: 50px;        
+    padding: 4px;
+    border: 1px solid #303030;
+    border-left: 0;
 }
 
 .llinks {
@@ -152,6 +153,7 @@ a:hover {
     *display: inline;
     font-weight: bold;
     font-size: 16px;
+    border: 1px solid #303030;
 }
 
 .llinks a {
@@ -162,21 +164,25 @@ a:hover {
 .llink {
 }
 .llink .head{
-    background: #373737;
-      text-shadow: #000 0 1px;
-      line-height: 17px;
-      font-size: 14px;
-      color: #FFF;
-      font-weight: bold;
       
-      display: block;
-      padding: 7px 0 8px 10px;
-    text-align: left;
-    border-radius: 3px 0 0 0;
+        font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1px 0px 0px 0px;
+  
+        padding: 0px 0px 0px 11px;
+  background-color: #1c1c1c;
+  border-top: 1px solid #1c1c1c;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #222;
+  border-left: 1px solid #222;
+  
+        line-height: 32px;
+  color: #fff;
+        text-align: left;
 }
 
 .llink a {
-      background-color: #4c4c4c;
   display: block;
   text-shadow: #000 0 1px;
   font-weight: bold;
@@ -184,17 +190,13 @@ a:hover {
   line-height: 17px;
   padding: 4px 5px 4px 11px;
   color: #EAEAEA;
-  border-bottom: 1px solid #454545;
-  border-top: 1px solid #5b5b5b;
   text-decoration: none;
       text-align: left;
 }
 
 .llink a:hover {
-      background-image: url(img/boxLeftBgSel.png);
   color: #FFF !important;
-  border-top: 1px solid #3F3F3F;
-  border-bottom: 1px solid #2E2E2E;
+  background: #2f2f2f;
 }
 
 .llanguage {
@@ -202,8 +204,7 @@ a:hover {
 }
 
 .llanguage a:hover {
-    background: #373737;
-    color: #fff !important;
+    background: #484646;
 }
 
 .llanguage a {
@@ -211,10 +212,9 @@ a:hover {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    color: #FFFFFF;
     font-weight: bold;
     text-shadow: 0 1px #000000;
-    background: #535353;
+    background: #323030;    color: #00a8d9;
     padding: 6px;
     margin-bottom: 5px;
 }
@@ -229,10 +229,11 @@ a:hover {
   
   
   border-radius: 3px 3px 0 0;
-  text-shadow: #F2F2F2 0 1px;
+  
 }
 .ltitle h1 {
-    font-size: 14px;    color: #494949;    font-weight: bold;
+    font-size: 17px;    
+    color: #fff;    font-weight: bold;
 }
 
 .lsub {
@@ -250,14 +251,14 @@ a:hover {
 .lsub img {
     width: 100%;
     border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
-.lsub img:hover {
+.lsub:hover img {
     border: 1px solid #B2D1E0;
 }
 
 .lsub .ldes {
-    margin: 5px;
     text-align: left;
 }
 
@@ -269,11 +270,18 @@ a:hover {
   display: block;
   text-decoration: none;
   overflow: hidden;
-  margin-top: 6px;
-  padding: 0 4px;
-  color:#2F2F2F;
+  
+  
+    padding: 6px 4px;
+  
+    color: #e20066;
 }
-
+.lsub:hover .ldes{
+  background-color: #e20066;
+}
+.lsub:hover .ldes a{
+  color:#fff !Important;
+}
 .lsub .lchandes {
     margin: 5px;
     text-align: left;
@@ -285,8 +293,8 @@ a:hover {
 }
 
 .lsub .ltt {
-    margin: 10px;
     text-align: left;
+    padding: 4px;
 }
 
 .lsub .ltt a {
@@ -295,11 +303,12 @@ a:hover {
     zoom: 1;
     *display: inline;
     font-size: 11px;
-    color: #89A650;
+    color: #00a8d9;
     margin-right: 3px;
 }
 
 .lsub .ltt a:hover {
+  color:#fff;
 }
 
 .lpg {
@@ -320,22 +329,21 @@ a:hover {
 }
 
 .lsrt a:hover {
-      background: url(img/pagerItemBgHover.png) #E0E0E0 0 0 repeat-x !important;
-        color: #f5381f !important;
+      background: #3f3f3f;
+        
+      color: #00a8d9 !important;
 }
 
 .lsrt a {
       display: block;
       float: left;
-      border: 1px solid #CECECE;
       border-radius: 2px;
       min-width: 12px;
       text-align: center;
       padding: 0 10px;
       margin: 0 3px 5px 2px;
-      background: url(img/pagerItemBg.png?1) #E0E0E0 0 0 repeat-x;
-      color: #5e5e5e;
-      box-shadow: 0 1px #EBEBEB;
+      background: #1f1f1f;
+      color: #00a8d9;
       font-size: 14px;
       text-decoration: none;
       font-weight:bold;
