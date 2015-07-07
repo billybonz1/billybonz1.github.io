@@ -44,12 +44,13 @@ a:hover {
 
 #top {
     padding: 5px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 #main {
     margin: 10px auto;
-    padding: 0 auto;
-    max-width: 1000px;
+    width: 1000px;
 }
 #main::after{
   content:"";
