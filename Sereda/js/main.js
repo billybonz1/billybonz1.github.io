@@ -58,14 +58,16 @@
 		var total_height = $("header").height() + $(".main").height();
 		var window_height = $(window).height();
 		var service_text_height = window_height - total_height - 20;
+		var fixed_height = window_height - 20;
 		if(service_text_height < 200){
-			$(".services-text div").addClass("fixed").css({
+			$(".services-text").addClass('fixed');
+			$(".services-text div").css({
 				"top":$("header").height() + "px"
-			});
+			}).height(fixed_height);
 		}else{
-			$(".services-text div").removeClass("fixed").attr("style","");
+			$(".services-text").removeClass('fixed');
+			$(".services-text div").attr("style","");
 		}
-		console.log(service_text_height);
 	}
 	checkHeight();
 	$(window).resize(function(event) {
