@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'facebook';
+    src: url('facebookletterfaces-webfont.eot');
+    src: url('facebookletterfaces-webfont.eot?#iefix') format('embedded-opentype'),
+         url('facebookletterfaces-webfont.woff2') format('woff2'),
+         url('facebookletterfaces-webfont.woff') format('woff'),
+         url('facebookletterfaces-webfont.ttf') format('truetype'),
+         url('facebookletterfaces-webfont.svg#facebook_letter_facesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
