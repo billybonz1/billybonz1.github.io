@@ -69,7 +69,7 @@ section p{
 	z-index: 9999;
 }
 .loader .loaderInner {
-	background-image: url("../../img/load.gif");
+	background-image: url("../img/load.gif");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: #FFFFFF;
