@@ -1,0 +1,11 @@
+{
+  "name": "GOIT-Advanced",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt-csso": "^0.7.1"
+  },
+  "dependencies": {
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
