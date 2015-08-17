@@ -1,0 +1,50 @@
+h1{
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    color: orange;
+}
+p{
+    width: 600px;
+}
+p:first-letter{
+    font-size: 30px;
+    color: red;
+}
+p em{
+    background-color: green;
+    color: #fff;
+}
+ul > li{
+    font-weight: bold;
+    color: #000;
+}
+.fruits-list li{
+    font-weight: normal;
+    color: gray;
+}
+.vegetables-list li{
+    font-weight: normal;
+    color: red;
+}
+#warehouse h2{
+    color: blue;
+}
+#warehouse .fruits-list li{
+    color: green;
+}
+.students-table thead td{
+    font-weight: bold;
+    text-align: center;
+}
+.students-table tbody td{
+    background-color: green;
+    color: #fff;
+}
+.students-table tbody td:first-child{
+    background: none;
+    color: orange;
+}

@@ -1,0 +1,10 @@
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(even) td:first-child{
+    background: #ddebf7;
+}
+tr td:nth-child(odd){
+    background: #f2f2de;
+}
+tr:nth-child(odd) td:first-child{
+    background: #fff;
+}

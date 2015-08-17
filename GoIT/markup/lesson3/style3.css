@@ -1,0 +1,30 @@
+form input[type="checkbox"]:disabled + label
+{
+    color: #ccc
+}
+
+
+form input[type="checkbox"]:not(:disabled)
+{
+    font-size: 150%;
+}
+
+form input[type="checkbox"]:not(:disabled) + label
+{
+    font-size: 150%;
+    color: green;
+}
+
+*:not(:link):not(:visited)
+{
+	color: red !important;
+}
+form a:only-of-type{
+    color:green;
+}
+form div:first-of-type label{
+    font-weight: bold;
+}
+form div:last-of-type label{
+    font-style: italic;
+}

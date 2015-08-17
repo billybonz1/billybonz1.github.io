@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Task 1</title>
+</head>
+<body>
+		<del><p>Incorrect info</p></del>
+		<ins><p>New info</p></ins>
+		<dfn>New term in document</dfn><br/>
+		<pre>
+		<code>
+			&lt;script type="text/javascript"&gt;
+					var $form = $(this);
+					$.ajax({
+						type: 'POST',
+						url: '/task1.php',
+						dataType: 'json',
+						data: $form.serialize(),
+						success: function(response) {
+							console.info(response);
+							if (response.status == 'success') {
+								$.ajax({
+									type: 'POST',
+									url: '/sample-task1.php',
+									dataType: 'json',
+									data: $form.serialize(),
+								})
+								$form.hide();
+								$form.html('<b>Спасибо!</b>').show();
+								yaCounter31190221.reachGoal('order');
+							}
+						}
+					})
+				&lt;/script&gt;
+		</code>
+		</pre>
+		<br/>
+		
+		<samp>Output result of computer programm</samp><br/>
+		<kbd>Name of keys or typing text</kbd><br/>
+		<var>Math or Program variable</var>
+		<cite>Citation or reference to another material</cite>
+		<address>Kyivska street 24</address>
+		<q>Short citation</q>
+		<blockquote>Long citation</blockquote>
+		<abbr title="Encyclopedia of Mormonism">EOM</abbr>
+		<p>
+			Lorem ipsum dolor sit amet, <mark>consectetur</mark> adipisicing elit. Fuga labore <mark>nesciunt</mark> omnis quaerat quam quia sapiente vero. Aperiam excepturi fugit inventore, labore molestias nam, nihil sapiente sit vero vitae voluptatum.
+		</p>
+</body>
+</html>
