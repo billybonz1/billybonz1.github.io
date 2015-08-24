@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	background-color: #A64DFF;
+}
+.main ul{
+	margin: 0 auto;
+	padding: 0;
+	width: 900px;
+}
+.main ul:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.main li{
+	float: left;
+	list-style-type: none;
+}
+.main li.right{
+	float: right;
+}
+.main li a{
+	display: block;
+	font-family: Economica;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 9px;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+	margin-right: 15px;
+}
+.main li a:hover{
+	background-color: #EEE;
+	color: #A59F9A;
+}

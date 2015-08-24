@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.pager{
+	text-align: center;
+	margin-top: 20px;
+}
+.pager ul{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.pager ul li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.pager li a{
+	color: #A13BCF;
+	text-decoration: none;
+	font-family: Verdana;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.pager li.page{
+	margin: 0 1px;
+}
+.pager li.sep{
+	vertical-align: bottom;
+}
+.pager li.page a{
+	display: block;
+	border: 1px solid #E5E5E5;
+	padding: 5px 8px;
+	border-radius:5px;
+}
+.pager li.page a:hover{
+	background-color: #A13BCF;
+	color: #fff;
+	border-color: #A13BCF;
+}
