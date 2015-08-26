@@ -13,19 +13,7 @@
 
 
 @media only screen and (max-width: 992px) {
-    /*HEADER*/
-    /*HEADER END*/
-    /*CONTENT*/
-    
-    /*CONTENT END*/
-    
-    /*FOOTER*/
-    footer{
-	}
-    footer .footer-menu{
-	    left: 42%;
-	}
-    /*FOOTER END*/
+   
 }
 /* Small Devices, Tablets */
 
@@ -33,78 +21,14 @@
 @media only screen and (max-width: 767px) {
     /*HEADER*/
     
-    #main_header {
-        padding-bottom: 3px;
-        height: auto;
-    }
-    .fixed .header__wrap{
-    	position: relative;
-    }
     
-    .header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
-        display: none;
-    }
     /*HEADER END*/
     /*CONTENT*/
 
-    .news-feed{
-    	margin-top: 1px;
-    }
-    .content__right_column-banner,
-    .content__left_column-banner{
-        max-width:280px;
-        margin:0 auto;
-    }
-    .subscription{
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 26px;
-        margin-bottom: 34px;
-    }
+    
     /*CONTENT END*/
     /*FOOTER*/
-    footer{
-        padding: 0;
-        background-color: #fff;
-    }
-    footer .footer-menu{
-        position: relative;
-        left: 0;
-        top: 0;
-    }
-    footer .footer-menu ul{}
-    footer .footer-menu ul li{
-        float: none;
-        margin-right: 0;
-    }
-    footer .footer-menu ul li a{
-        display: block;
-        margin-bottom: 1px;
-        padding-left: 21px;
-        height: 39px;
-        font-size: 14px;
-        font-weight: bold;
-        text-decoration: none;
-        line-height: 37px;
-        background-color: #dcdcdc;
-    }
-    footer .footer-menu ul li a:hover{
-        background-color: #CDCDCD;
-    }
-    footer .footer-menu ul li a:active{}
-    .copyright{
-        padding-left: 21px;
-        padding-top: 22px;
-        padding-bottom: 29px;
-        width: 197px;
-    }
-    footer .copyright span{
-	    margin-left: 0;
-	    display: block;
-	}
-    .statistic{
-	    display: none;
-	}
+    
     /*FOTER END*/
 }
 /* Extra Small Devices, Phones */
@@ -123,10 +47,7 @@
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
-    .collapse.in.mobile-menu {
-        display: none;
-    }
-    
+  
 }
 /* Medium Devices, Desktops */
 
@@ -135,65 +56,5 @@
 
 @media only screen and (min-width: 1200px) {}
 @media only screen and (min-width: 1440px) {
-	.header__logo{
-		padding-left: 0;
-	}
-	.header-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn).lang{
-		margin-right: 0;
-	}
-	.content{
-		max-width: 1440px;
-	}
-	.header__inner {
-		max-width: 1440px;
-	}
-	.sidebar{
-		width: 17%;
-	}
-	.four-fifth{
-		width: 83%;
-	}
-	.one-fourth{
-		width: 20.7%;
-	}
-	.three-fourth{
-		width: 79.3%;
-	}
-	
-	.row-news__item{
-		width: calc(20% - 31px*4/5);
-	}
-	.row-news__item:nth-child(4){
-		margin-right: 31px;
-	}
-	.row-news__item:nth-child(5){
-	    display: block;
-	    margin-right: 0;
-	}
-	.row-news-2 .row-news__item{
-		display: inline-block;
-	}
-	.row-news-2 .row-news__item:nth-child(5){
-		margin-right: 34px;
-	}
-	.row-news-2 .row-news__item{
-		width: calc(33% - 34px*2/3);
-	}
-	.row-news-2 .row-news__item.w1440{
-	    display: inline-block;
-	}
-	.row-news-2 .row-news__item:nth-child(2n){
-		margin-right: 34px;
-	}
-	.row-news-2 .row-news__item:nth-child(3n){
-		margin-right: 0;
-	}
 
-
-	/*CATEGORY NEWS*/
-	
-	/*CATEGORY NEWS END*/
-	footer{
-		max-width: 1440px;
-	}
 }

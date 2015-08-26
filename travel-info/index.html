@@ -10,14 +10,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="libs/bootstrap-select/bootstrap-select.min.css"/>
         <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
         <link rel="stylesheet" type="text/css" href="libs/icomoon/style.css"/>
         <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="libs/calendar/calendar.min.css"/>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/media.css">
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
     </head>
     <body class="bg-gray">
         <!--[if lt IE 8]>
@@ -97,7 +96,7 @@
               
 
               <div class="rubricator-shower hidden-xs">
-                Рубрикатор
+                Разделы новостей
                 <span class="caret"></span>
               </div>
               <div class="top-mnu hidden-xs">
@@ -543,25 +542,11 @@
 
               <div class="grid clearfix">
                 <div class="grid__item-in one-fourth">
-                  <div class="content__left_column-article hidden-xs">
-                    <article class="mt-new mt-vertical mt-vertical-2" style="background-image:url(./img/img_mt_left2.jpg);">
-                      <a href="#">
-                        <h3>Дело в отношении авиакомпании «Победа»</h3>
-                        <div class="mt-text">После четырех лет монтажных работ регион Валле-д'Аоста сообщает о запуске ...</div>
-                        <div class="mt-cat">Новости отелей</div>
-                        <div class="article-params">
-                            <div class="article-comments">
-                              <span class="icon-bubble"></span>
-                              12
-                            </div>
-                            <div class="article-views">
-                              <span class="icon-eye"></span>
-                              213
-                            </div>
-                        </div>
-                      </a>
-                    </article>
+                  <div class="event_calendar__wrap">
+                    <div class="event_calendar__title">Календарь <br> событий</div>
+                    <div class="event_calendar"></div>
                   </div>
+                  
                 </div>
                 <div class="grid__item-in three-fourth">
                   <div class="row-news row-news-2 hidden-xs">
@@ -823,8 +808,8 @@
 
               <div class="grid clearfix">
                 <div class="grid__item-in one-fourth">
-                  <div class="content__left_column-banner hidden-xs">
-                    <img src="img/img-banner-bee.jpg" alt="">
+                   <div class="content__left_column-banner hidden-xs">
+                      <img src="img/img-banner-bee.jpg" alt="">
                   </div>
                 </div>
                 <div class="grid__item-in three-fourth">
@@ -1115,8 +1100,9 @@
         <button type="button" class="btn" id="top">
           <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
         </button>
-
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="libs/calendar/moment.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="libs/bootstrap-toolkit/bootstrap-toolkit.min.js"></script>
         <script type="text/javascript" src="libs/bootstrap-select/bootstrap-select.min.js"></script>
@@ -1124,6 +1110,7 @@
         <script src="libs/owl-carousel/owl.carousel.min.js"></script>
         <script type="text/javascript" src="libs/smoothscroll/jquery.simplr.smoothscroll.min.js"></script>
         <script type="text/javascript" src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+        <script type="text/javascript" src="libs/calendar/calendar.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
