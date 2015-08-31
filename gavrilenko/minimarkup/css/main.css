@@ -79,17 +79,22 @@ textarea {
 body{
 }
 .wrap{
-    width: 320px;
+    max-width: 640px;
+    min-width: 300px;
     margin: 0 auto;
     text-align: center;
     background: #212324;
 }
+.logo img{
+    width: 100%;
+    height: auto;
+}
 .wrap h1{
-    font-size: 16px;
+    font-size: 28px;
     font-family: TrajanProRegular;
     font-weight: normal;
     color: #fff;
-    width: 244px;
+    width: 75%;
     margin: 14px auto 18px auto;
     position: relative;
 }
@@ -105,6 +110,7 @@ body{
     background:#fbda00;
 
 }
+
 .btn {
     display: inline-block;
     font-size: 16px;
@@ -149,7 +155,7 @@ body{
 
 .bottom-menu{
     border-top: 1px solid #1b1c1d;
-    width: 290px;
+    width: 75%;
     margin: 0 auto;
     margin-top: 19px;
 }
@@ -166,15 +172,15 @@ body{
     color: #fbda00;
     font-family: "Open Sans";
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     margin: 0 6px;
 }
 .copyright{
-    font-size: 10px;
+    font-size: 13px;
     color: #c8c8c6;
     font-family: "Open Sans";
-    width: 290px;
+    width: 75%;
     margin: 0 auto;
     padding-bottom: 33px;
 }
@@ -186,6 +192,11 @@ body{
     display: inline-block;
     margin-bottom: 21px;
     position: relative;
+    width: 75%;
+}
+.video img{
+    width:100%;
+    height:auto;
 }
 
 .video a{
@@ -202,6 +213,25 @@ body{
 
 
 
+@media (max-width:586px){
+    .wrap h1{
+        width: 244px;
+        font-size: 16px;
+    }
+    .bottom-menu{
+        width:290px;
+    }
+    .bottom-menu ul li a{
+        font-size:14px;
+    }
+    .copyright{
+        width:290px;
+        font-size:10px;
+    }
+    .video{
+        width: 87%;
+    }
+}
 
 
 
