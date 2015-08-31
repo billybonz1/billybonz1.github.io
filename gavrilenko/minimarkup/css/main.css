@@ -85,9 +85,21 @@ body{
     text-align: center;
     background: #212324;
 }
+.logo{
+    position: relative;
+    display: block;
+    background-image: url(../img/logo_bg.jpg);
+    background-size: cover;
+}
 .logo img{
     width: 100%;
     height: auto;
+}
+.logo .img_logo{
+    width: 45%;
+    position: absolute;
+    top: 14px;
+    left: 16px;
 }
 .wrap h1{
     font-size: 32px;
