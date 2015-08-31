@@ -77,16 +77,17 @@ textarea {
 
 
 body{
-    background: #212324;
 }
 .wrap{
     width: 320px;
     margin: 0 auto;
     text-align: center;
+    background: #212324;
 }
 .wrap h1{
     font-size: 16px;
     font-family: TrajanProRegular;
+    font-weight: normal;
     color: #fff;
     width: 244px;
     margin: 14px auto 18px auto;
