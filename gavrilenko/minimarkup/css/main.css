@@ -90,11 +90,11 @@ body{
     height: auto;
 }
 .wrap h1{
-    font-size: 28px;
+    font-size: 32px;
     font-family: TrajanProRegular;
     font-weight: normal;
     color: #fff;
-    width: 75%;
+    width: 91%;
     margin: 14px auto 18px auto;
     position: relative;
 }
@@ -104,8 +104,8 @@ body{
     position:absolute;
     bottom: 0px;
     left: 50%;
-    margin-left: -48%;
-    width: 96%;
+    margin-left: -40%;
+    width: 80%;
     height:1px;
     background:#fbda00;
 
@@ -218,6 +218,10 @@ body{
         width: 244px;
         font-size: 16px;
     }
+    .wrap h1:before{
+    width: 92%;
+    margin-left: -46%;
+}
     .bottom-menu{
         width:290px;
     }
