@@ -184,9 +184,20 @@ body{
     padding: 4px;
     display: inline-block;
     margin-bottom: 21px;
+    position: relative;
 }
 
-
+.video a{
+    display: block;
+    background-image: url(../img/video.png);
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -24px;
+    margin-top: -24px;
+}
 
 
 
