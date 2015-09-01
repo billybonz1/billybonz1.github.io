@@ -1,0 +1,102 @@
+body{
+	margin:0;
+}
+.testominols{
+    text-align: center;
+    background: url(img/testominols_bg.jpg);
+    background-size: cover;
+    font-family:"Trebuchet MS"
+;
+    padding-bottom: 58px;
+}
+.testominols__wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.testominols__title{
+    font-size: 40px;
+    color: #3170a8;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-indent: -35px;
+}
+.testominols__title span{
+	color:#ee8129;
+}
+.testominols__item{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+.testominols__item__img{
+    width: 99px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 22px;
+    margin-bottom: 22px;
+}
+.testominols__item__img img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.testominols__item__text{
+	position: relative;
+	top: 0px;
+	display: inline-block;
+	width: 331px;
+	height: 70px;
+	background-color: #fff;
+	vertical-align: top;
+	padding: 15px;
+	padding-top: 12px;
+	border: 1px solid #e0e0e0;
+}
+.testominols__item__text:after{
+	content:"";
+	position: absolute;
+	left: -32px;
+	top: 50%;
+	margin-top: -12px;
+	display:block;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-left: 16px solid transparent;
+	border-right: 16px solid #fff;
+}
+.testominols__item__text p{
+    margin: 0px 0px;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 18px;
+    letter-spacing: 0.35px;
+    line-height: 18px;
+}
+.testominols__item__text__info{
+	border-bottom: 1px dotted #666666;
+	border-bottom-style: dotted;
+	position: relative;
+}
+.testominols__item__text__info__name{
+	font-size:13px;
+	color:#3070a8;
+	text-align: left;
+	font-style: italic;
+	padding-bottom: 9px;
+	letter-spacing: 0.1px;
+}
+.testominols__item__text__info__name:before{
+	content:"-";
+}
+.testominols__item__text__info__role{
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    font-size: 13px;      color: #3070a8;      text-align: left;      font-style: italic;
+}
+.chromeperfectpixel-overlay{
+    left: 50% !important;
+    top: 0px !Important;
+    margin-left: -700px !important;
+}

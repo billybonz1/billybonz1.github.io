@@ -64,8 +64,8 @@
     height: 40px;
     margin-bottom: 30px;
     outline: 0;
-    position: relative
-;font-family: Trebuchet ms;
+    position: relative;
+    font-family:"Trebuchet MS";
     cursor: pointer;
 }
 .buy button:active{
