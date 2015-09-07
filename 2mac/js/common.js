@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+	$(".main-header__top__cart").on("click",function(){
+		$(".cover").show();
+		$(".popup-cart").fadeIn(200);
+	});
+
+	$(".cover,.popup-cart__close").on("click",function(){
+		$(".cover").hide();
+		$(".popup-cart").hide(200);
+	});
+
+	/*$('.map-ukraine-overlay').maphilight({
+		stroke:false
+	});*/
+
 	$('.scrollup').click(function () {
 	    $("html, body").animate({
 	        scrollTop: 0

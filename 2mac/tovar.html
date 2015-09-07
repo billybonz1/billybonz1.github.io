@@ -38,6 +38,74 @@
 
 <body>
 	<div class="scrollup"></div>
+	<div class="cover"></div>
+	<div class="popup-cart">
+		<div class="sprite icon-popup-close popup-cart__close"></div>
+		<h2>Корзина</h2>
+		<div class="popup-cart__goods">
+			<div class="popup-cart__good">
+				<a href="#" class="popup-cart__good__img">
+					<img src="img/catalog1.jpg" alt="" class="img-responsive">
+				</a>
+				<a href="#" class="popup-cart__good__title">
+					CD привод для MacBook
+				</a>
+				<div class="popup-cart__good__qunatity">
+					<span class="sprite icon-quantity-minus quantity__minus"></span>
+					<div data-mesure=" шт."> 1</div>
+					<span class="sprite icon-quantity-plus quantity__plus"></span>
+				</div>
+				<div class="popup-cart__good__price">
+					20 $
+				</div>
+				<div class="popup-cart__good__delete sprite icon-good-delete"></div>
+			</div>
+			<div class="popup-cart__good">
+				<a href="#" class="popup-cart__good__img">
+					<img src="img/catalog2.jpg" alt="" class="img-responsive">
+				</a>
+				<a href="#" class="popup-cart__good__title">
+					SSD накопитель 64гб для MacBook / MacBook Pro
+				</a>
+				<div class="popup-cart__good__qunatity">
+					<span class="sprite icon-quantity-minus quantity__minus"></span>
+					<div data-mesure=" шт."> 1</div>
+					<span class="sprite icon-quantity-plus quantity__plus"></span>
+				</div>
+				<div class="popup-cart__good__price">
+					75 $
+				</div>
+				<div class="popup-cart__good__delete sprite icon-good-delete"></div>
+			</div>
+		</div>
+		<div class="popup-cart__total">
+			Итого: <span>95 $</span>
+		</div>
+		<h2>Личные данные</h2>
+		<form action="" class="personal-data">
+			<input type="text" name="name" placeholder="* Имя и Фамилия">
+			<input type="text" name="mail" placeholder="Эл. почта">
+			<input type="text" name="phone" placeholder="* Телефон">
+			<input type="text" name="city" placeholder="Город">
+			<input type="text" name="address" placeholder="Адрес">
+			<h2>Способ доставки</h2>
+			<label>
+				<input type="radio" name="dost">
+				Доставка новой почтой
+			</label>
+			<label>
+				<input type="radio" name="dost">
+				Доставка по городу Киев
+			</label>
+			<label>
+				<input type="radio" name="dost">
+				Самовывоз
+			</label>
+			<h2>Комментарии к заказу</h2>
+			<textarea name="comment"></textarea>
+			<button class="btn_blue">Оформить заказ</button>
+		</form>
+	</div>
 	
 	<!-- Здесь пишем код -->
 	<header class="main-header">
@@ -131,7 +199,7 @@
 						<strong>Цена запчасти:</strong>
 						<span>20 $</span>
 					</div>
-					<a href="" class="tovar__buy">Купить</a>
+					<a href="" class="btn_blue tovar__buy">Купить</a>
 					<div class="tovar__prices__value">
 						<strong>Цена на установку:</strong>
 						<span>+200грн.</span>
@@ -204,11 +272,11 @@
 
 	//Header Styles (compress & paste to header after release)
 	var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="header.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	ms.href="_header.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 	
 	//User Styles + Media Queries
 	var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="main.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	ms.href="_main.min.css";document.getElementsByTagName("head")[0].appendChild(ms);
 
 </script>
 
