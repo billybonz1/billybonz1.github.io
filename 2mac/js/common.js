@@ -57,7 +57,9 @@ $(document).ready(function() {
 		var cbmowl = $(".catalog-by-models__slider .owl-carousel");
 		cbmowl.owlCarousel({
 		    items : 4,
-		    pagination: false
+		    itemsTablet: 4,
+		    itemsSmall: 4,
+		    itemsDesktopSmall: 4,pagination: false
 		});
 		$(".catalog-by-models__slider .icon-cright").click(function(){
 		    cbmowl.trigger('owl.next');
@@ -71,6 +73,9 @@ $(document).ready(function() {
 		var asowl = $("#article-slider");
 		asowl.owlCarousel({
 		    items : 2,
+		    itemsDesktop: 2,
+		    itemsTablet: 2,
+		    itemsSmall: 2,
 		    pagination: false
 		});
 		$("#article-slider + div .icon-cright").click(function(){
@@ -83,6 +88,9 @@ $(document).ready(function() {
 		var vsowl = $("#video-slider");
 		vsowl.owlCarousel({
 		    items : 2,
+		    itemsDesktop: 2,
+		    itemsTablet: 2,
+		    itemsSmall: 2,
 		    pagination: false
 		});
 		$("#video-slider + div .icon-cright").click(function(){
