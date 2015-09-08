@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    color: #333;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.sivtsev {
+    position: relative;
+    background-color: #fff;
+    width: 369px;
+    height: auto;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 5px #444;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    padding: 10px 15px 15px 10px;
+}
+
+p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+.uline {
+    width: 100%;
+    height: 0;
+    border: #ffcccc 1px solid;
+}
+
+.sight01 {
+    font-size: 6.5em;
+    height: 152px;
+}
+
+.sight02 {
+    font-size: 5.2em;
+    height: 127px;
+}
+
+.sight03 {
+    font-size: 4.8em;
+    height: 127px;
+}
+
+.sight04 {
+    font-size: 4.05em;
+    height: 114px;
+}
+
+.sight05 {
+    font-size: 3.6em;
+    height: 109px;
+}
+
+.sight06 {
+    font-size: 3.15em;
+    height: 102px;
+}
+
+.sight07 {
+    font-size: 2.4em;
+    height: 90px;
+}
+
+.sight08 {
+    font-size: 2em;
+    line-height: 41px;
+}
+
+.sight09 {
+    font-size: 1.25em;
+    height: 56px;
+}
+
+.sight10 {
+    font-size: 0.9em;
+}
+
+.sight15 {
+    font-size: 0.65em;
+    height: 39px;
+    line-height: 4em;
+}
+
+.sight20 {
+    font-size: 0.5em;
+    line-height: 4.2em;
+}
