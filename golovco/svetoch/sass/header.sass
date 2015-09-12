@@ -1,0 +1,401 @@
+@import "bourbon"
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+.pull-left
+	float: left
+.pull-right
+	float: right
+	text-align: right
+.clearfix
+	&:after
+		content:""
+		display: block
+		clear: both 
+
+@import "fonts"
+@import "sprite"
+
+strong
+	font-family: "PTSansBold" 
+	font-weight: normal
+body
+	font-size: 18px
+	position: relative
+	line-height: 1.6
+	font-family: "PTSansRegular", sans-serif
+	overflow-x: hidden
+
+.sprite
+	background-image: url(img/sprite.png) 
+
+strong
+	font-weight: bold
+
+p
+	font-size: 18px
+	padding-bottom: 30px
+	line-height: 1.4
+
+.w7
+	width: 7% 
+	display: inline-block
+
+.w6
+	width: 6% 
+	display: inline-block
+	
+.w50
+	width: 49.7%
+	display: inline-block
+	vertical-align: middle
+
+.w57
+	width: 56.7%
+	display: inline-block
+	vertical-align: bottom
+
+.w43
+	width: 42.7%
+	display: inline-block
+	vertical-align: bottom
+
+.w44
+	width: 42.7%
+	display: inline-block
+	vertical-align: middle
+
+
+.w40
+	width: 39.7%
+	display: inline-block
+	vertical-align: middle
+
+.w60
+	width: 59.7%
+	display: inline-block
+	vertical-align: middle
+
+.w70
+	width: 69.7%
+	display: inline-block
+	vertical-align: middle
+
+.w64
+	width: 63.7%
+	display: inline-block
+	vertical-align: middle
+
+.w38
+	width: 37.7%
+	display: inline-block
+	vertical-align: middle
+
+.w36
+	width: 35.7%
+	display: inline-block
+	vertical-align: middle
+
+.w30
+	width: 29.7%
+	display: inline-block
+	vertical-align: middle
+
+.padding30
+	padding-top: 30px 
+	padding-bottom: 30px
+	
+
+.center
+	text-align: center 
+
+.italic
+	font-family: "PTSansItalic"
+	font-style: italic
+	
+
+@mixin mysprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .icon-#{$sprite-name}
+      @include sprite-position($sprite)
+      @include sprite-width($sprite)
+      @include sprite-height($sprite)
+
+@include mysprites($spritesheet-sprites)
+
+.icon-vk
+	&:hover
+		@include sprite-position($vk-hover)
+		
+.icon-f
+	&:hover
+		@include sprite-position($f-hover)
+
+.icon-tw
+	&:hover
+		@include sprite-position($tw-hover)
+
+.icon-yt
+	&:hover
+		@include sprite-position($yt-hover)
+
+.icon-g
+	&:hover
+		@include sprite-position($g-hover)
+
+
+
+.inner
+	width: 1102px
+	height: 100%
+	margin: 0 auto
+	position: relative
+
+.w991
+	width: 991px
+
+.w1200
+	width: 1200px
+
+.w1068
+	width: 1068px
+
+.w1085
+	width: 1085px
+
+.header-screen
+	height: 810px
+	background:#b00fc2 url(img/opt/bg.jpg) center top 
+
+.logo
+	position: absolute
+	top: 46px
+	background-color: #FFF
+	height: 75px
+	width: 219px
+
+.logo__img
+	img
+		width: 74px
+		display: block
+
+.logo__text
+	margin-right: 13px 
+
+.logo__text__title
+	font-family: "CyrillicOld"
+	font-size: 38.28px
+	color: #930D00 
+	line-height: 28px 
+	margin-top: 8px
+ 
+
+.logo__text__desc
+ 	font-size: 13.28px
+ 	color: #000
+ 	line-height: 12px
+ 	margin-top: 4px
+ 	margin-left: 2px 
+ 	text-align: left
+
+
+.header-social 
+	position: absolute
+	right: 0
+	top: 66px 
+	a
+		display: inline-block 
+		width: 31px
+		height: 31px
+		margin-left: 2px
+
+
+.intro__text
+	padding: 20px 0px 0px 21px 
+	position: absolute
+	top: 289px
+	width: 648px
+	height: 197px
+	background-color: rgba(255,255,255,0.64)
+	h1
+		font-size: 42px
+		font-family: "PTSansBold" 
+		line-height: 35px 
+		padding-bottom: 18px
+	p
+		font-size: 24px
+		border-top: 1px solid #a3a3a3 
+		margin-right: 94px
+		line-height: 24px
+		padding-top: 14px
+
+.intro__text__more
+	position: absolute
+	bottom: -111px
+	left: 0px 
+	display: block
+	width: 240px
+	height: 71px
+	border: 2px solid #fff
+	border-radius: 4px
+	font-size: 24px
+	font-family: "PTSansBold" 
+	text-decoration: none
+	text-align: center
+	color: #FFF
+	text-transform: uppercase
+	text-indent: -10px
+	line-height: 67px 
+	&:hover
+		background-color: rgba(255,255,255,0.1)  
+	&:active
+		background-color: rgba(255,255,255,0.3)  
+
+.catch-form
+	position: absolute
+	right: 0
+	padding: 0 19px 
+	top: 256px
+	width: 326px
+	height: 409px
+	background-color: rgba(255,255,255,0.79)
+	border: 2px solid #fff
+	border-radius: 8px
+	-ms-text-align-last: center
+	text-align: center
+	input[type="text"]
+		width: 300px
+		height: 55px
+		border-radius: 1px
+		border:1px solid #454760
+		padding: 0 13px
+		margin-bottom: 6px
+		font-size: 14px
+		color: #000  
+		font-family: "PTSansRegular";
+		&:focus
+			outline: 0
+	input[type="submit"]
+		width: 213px
+		height: 55px
+		margin-top: 20px
+		border: 2px solid #fff
+		font-size: 24px
+		color: #272A47  
+		text-transform: uppercase
+		background-color: #FFD12F 
+		border-radius:4px
+		cursor: pointer
+		font-family: "PTSansBold" 
+		&:hover
+			background-color: darken(#FFD12F,5) 
+		&:active
+			background-color: darken(#FFD12F,10) 
+		&:focus
+			outline: 0
+	&.catch-form_violet
+		background-color: #820494 
+		float: right
+		position: relative
+		top: 0
+		.catch-form__header
+			color: #FFF 
+			font-size: 30px
+			margin-top: 14px
+			margin-bottom: 27px
+			line-height: 29px
+			text-transform: uppercase
+		.catch-form__caption
+ 			color: #FFF 
+		input[type="text"]
+			border: 1px solid #272a47
+		input[type="submit"]
+			width: 100%
+ 		
+		
+.catch-form__header
+	font-family: "PTSansBold" 
+	margin-top: 20px 
+	margin-bottom: 15px 
+	font-size: 24px
+	line-height: 25px 
+	color: #272A47 
+	text-align: center
+	
+.catch-form__caption
+	font-size: 14px
+	letter-spacing: -0.1px 
+	margin-top: 12px
+
+.screen
+	h2
+		font-size: 36px 
+		font-family: "PTSansBold" 
+		text-transform: uppercase 
+		text-align: center
+		line-height: 36px
+		padding-top: 60px  
+		padding-bottom: 60px
+	&_gray
+		background-color: #F8F8F8 
+	&_violet
+		background-color: #820494 
+		h2
+			color: #FFF 
+
+.c262841
+	color: #262841 
+
+
+
+.block-with-img
+	img
+		float: right
+	p:last-child
+		padding-bottom: 0
+		
+
+.hidden
+	display: none
