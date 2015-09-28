@@ -354,6 +354,30 @@ html.fp-enabled,
     text-align: center;
 }
 
+.section1{
+    background-image:url(../img/slide1.jpg);
+}
+
+.section2{
+    background-image:url(../img/slide2.jpg);
+}
+
+.section3{
+    background-image:url(../img/slide3.jpg);
+}
+
+.section4{
+    background-image:url(../img/slide4.jpg);
+}
+.section5{
+    background-image:url(../img/slide5.jpg);
+}
+
+@media all and (orientation: portrait) {
+    .section1{
+        background-image:url(../img/slide2.jpg);
+    }
+}
 @media(max-width:640px){
     .text h2{
         font-size: 14px;
