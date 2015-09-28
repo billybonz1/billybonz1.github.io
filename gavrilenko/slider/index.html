@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Adult slider</title>
+	<meta name="viewport" content="width=device-width">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:600,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,6 +18,10 @@
 		    	</h2>
 		    	<span>Do you want to know more ?</span>
 		    	<a href="#" class="btn move">Yes, I do</a>
+	    	</div>
+	    	<div class="bottom-text">
+	    		The website is for the chosen ones, there are no prostitutes here, all girls are real and they live next to you.. <br>
+				You don't have to pay for sex, all dates are fully confidential as most of women have their families and hope to keep their cheating in strict secrecy!
 	    	</div>
 	    </div>
 	    <div class="section" style="background-image:url(img/slide2.jpg);">
@@ -38,7 +43,7 @@
 	    	<div class="text">
 		    	<span class="white">Do you like to give a cuni orgasm <br> to a woman ?</span>
 		    	<a href="#" class="btn move">Yes</a>
-		    	<a href="#" class="btn btn_opacity">No</a>
+		    	<a href="#" class="btn move btn_opacity">No</a>
 	    	</div>
 	    	<div class="bottom-text">
 	    		The website is for the chosen ones, there are no prostitutes here, all girls are real and they live next to you.. <br>
@@ -50,7 +55,7 @@
 	    		<h2>Many women on our websites like <strong>to be ass-fucked.</strong></h2>
 		    	<span>Do you like it ?</span>
 		    	<a href="#" class="btn move">Yes</a>
-		    	<a href="#" class="btn btn_opacity">No</a>
+		    	<a href="#" class="btn move btn_opacity">No</a>
 	    	</div>
 	    	<div class="bottom-text">
 	    		The website is for the chosen ones, there are no prostitutes here, all girls are real and they live next to you.. <br>
@@ -78,6 +83,7 @@
 	<script>
 	$(document).ready(function(){
 		$('#fullpage').fullpage();
+		$.fn.fullpage.setAllowScrolling(false);
 		$(".move").on("click",function(){
 			$.fn.fullpage.moveSectionDown();
 		});
