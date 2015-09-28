@@ -375,7 +375,19 @@ html.fp-enabled,
 
 @media all and (orientation: portrait) {
     .section1{
-        background-image:url(../img/slide2.jpg);
+        background-image:url(../img/1.jpg);
+    }
+    .section2{
+        background-image:url(../img/2.jpg);
+    }
+    .section3{
+        background-image:url(../img/3.jpg);
+    }
+    .section4{
+        background-image:url(../img/4.jpg);
+    }
+    .section5{
+        background-image:url(../img/5.jpg);
     }
 }
 @media(max-width:640px){
