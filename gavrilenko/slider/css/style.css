@@ -276,7 +276,6 @@ html.fp-enabled,
 .text.smaller h2{
     font-size: 2vw;
     text-shadow: 0px 1px 1px #ffffff;
-    line-height: 44px;
 }
 .text.smaller span{
     font-size: 2.2vw;
