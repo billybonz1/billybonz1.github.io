@@ -1,12 +1,4 @@
 @font-face {
-    font-family: 'Nota';
-    src: url('fonts/Nota-Normal.eot');
-    src: local('Ã¢ËœÂº'), url('fonts/Nota-Normal.woff') format('woff'), url('fonts/Nota-Normal.ttf') format('truetype'), url('fonts/Nota-Normal.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Nota-Light';
     src: url('fonts/Nota-Light.eot');
     src: local('☺'), url('fonts/Nota-Light.woff') format('woff'), url('fonts/Nota-Light.ttf') format('truetype'), url('fonts/Nota-Light.svg') format('svg');
@@ -388,6 +380,14 @@ html.fp-enabled,
     .section5{
         background-image:url(../img/5.jpg);
     }
+    .text h2{
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+}
+    .text span{
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+}
 }
 @media(max-width:640px){
     .text h2{
