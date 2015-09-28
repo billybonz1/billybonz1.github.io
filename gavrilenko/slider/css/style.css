@@ -333,7 +333,8 @@ html.fp-enabled,
     font-size: 1.3vw;
     background-color: rgba(0,0,0,0.5);
     color: #fff;
-    font-family: "Nota-Light";
+    font-family: "Open Sans";
+    font-weight: 300;
     padding: 19px 0;
     position: absolute;
     bottom: 36px;
