@@ -381,7 +381,7 @@ html.fp-enabled,
         background-color: rgba(255,255,255,0.5);
         padding: 5px;
     }
-        .text span{
+    .text span{
         background-color: rgba(255,255,255,0.5);
         padding: 5px;
     }
@@ -393,20 +393,20 @@ html.fp-enabled,
 }
 @media(max-width:640px){
     .text h2{
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .btn{
-        font-size: 22px;
+        font-size: 17px;
     }
     .text.smaller h2{
-        font-size: 13px;
+        font-size: 12px;
     }
     .text.smaller span{
-        font-size: 22px;
+        font-size: 17px;
     }
     .text span{
-        font-size: 22px;
+        font-size: 16px;
     }
     .bottom-text{
         bottom: 4px;
@@ -415,13 +415,18 @@ html.fp-enabled,
         display: none;
     }
     .text.right{
-    right: 3%;
-}
+        right: 3%;
+    }
 }
 @media(max-width:980px){
     .bottom-text{
-    font-size: 13px;
-}
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
 }
 @media(min-width:1920px){
     .text{
