@@ -384,7 +384,12 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
   }
 }
 
-@media(max-width:1064px){
+@media (min-height:858px) {
+  #footer{
+    position:relative;
+  }
+}
+@media (max-height:852px) {
   #footer{
     position:relative;
   }
