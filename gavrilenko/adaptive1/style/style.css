@@ -102,7 +102,7 @@ input {vertical-align: middle;}
   width: 100%;
   height: 423px;
 }
-.news_b {padding: 5px 0px 5px 0px; border-top:1px dashed #b8b8b8;}
+.news_b {padding: 0px 15px 5px 15px; border-top:1px dashed #b8b8b8;margin-top: 0px;}
 .news_t img{
   width: 100%;
 }
@@ -119,7 +119,7 @@ input {vertical-align: middle;}
   }
 }
 .news .date {float:right; background:#e0e2da url("../images/newsicon.png") no-repeat; min-width:35px; height:22px; padding:0 5px 0 37px; line-height:22px;}
-.news .author {float:left; background:#e0e2da url("../images/newsicon.png") no-repeat 0 -22px; min-width:32px; height:22px; padding:0 5px 0 34px; line-height:22px;}
+.news .author {float:left; background:#e0e2da url("../images/newsicon.png") no-repeat 0 -22px; min-width:32px; height:22px; padding:0 5px 0 34px; line-height:22px;margin-top: 0px;}
 .news .category {float:left; background:#e0e2da url("../images/newsicon.png") no-repeat 0 -44px; min-width:38px; height:22px; padding:0 5px 0 40px; line-height:22px; margin-left:10px;}
 .news .more a {float:right; display: block;background:#242424;height:22px; padding:0 3px; line-height:22px; text-decoration:none; color:#fff;}
 .news .more a:hover {background:#26bce5;}
@@ -246,7 +246,7 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
 
 
 
-#sideRight {float: right;width: 24%; position: relative; background:#fff;}
+#sideRight {float: right;width: 24%; position: relative; background:#fff;padding-top: 20px;}
 
 .block {margin:10px; border-bottom:1px dashed #b8b8b8; padding-bottom:5px;}
 .block h3 {text-transform:uppercase; color:#000; font-weight:normal; padding:0 0 5px 5px;}
@@ -308,7 +308,7 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
 .catlist a{
   display: block;
   font-size: 17px;
-  margin-top: 20px;
+  margin-bottom: 20px;
   padding-left: 15px;
 }
 
