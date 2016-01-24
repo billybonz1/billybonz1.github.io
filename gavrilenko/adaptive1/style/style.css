@@ -389,3 +389,9 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
     position:relative;
   }
 }
+
+@media(max-height:852px){
+  #footer{
+    position:relative;
+  }
+}
