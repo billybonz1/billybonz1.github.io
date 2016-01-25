@@ -399,10 +399,12 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
     padding-bottom: 0px;
     height: 0px;
     transition: .3s all;
+    visibility: hidden;
   }
   #toolbar .toolmenu.active{
     padding-bottom: 26px;
     height: auto;
+    visibility: visible;
   }
   #toolbar{
     height: auto;
@@ -468,4 +470,23 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
 }
 .choose_color .blue{
   background: blue;
+}
+.up{
+  position: fixed;/* фиксированная позиция */
+  opacity: 0.8;/* прозрачность */
+  padding: 10px 10px 10px;/* отступы */
+  background: #aaa;
+  border-radius: 5px;/* скругление углов */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  left: 10px;/* отступ слева */
+  bottom: 10px;/* отступ снизу */
+  display: none;/* спрятать блок */
+  cursor: pointer;
+  color: #4A4242;
+  font-weight: bold;
+}
+.up:after{
+  content: "▲";
+  font-weight: bold;
 }
