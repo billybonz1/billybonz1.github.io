@@ -450,7 +450,7 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
 }
 .choose_color{
   position: fixed;
-  top: 64px;
+  top: 219px;
   left: 10px;
 }
 .choose_color span{
