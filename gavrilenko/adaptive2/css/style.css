@@ -46,9 +46,9 @@ body {/* background: #000; */ font: 12px Verdana, Geneva, sans-serif;/* color: #
 .thumbs li > a .img{position:relative;}
 .thumbs li > a .img::before {content: ""; background: url("../img/play.png") no-repeat; width: 45px; height: 45px; position: absolute; left: 50%; top: 50%; margin: -23px 0 0 -23px; z-index: 10;opacity: 0.5;}
 .thumbs li > a img {background:#FFF url("../img/ajax.gif") no-repeat center center;width: 100%;}
-.thumbs li p {margin: 0; padding: 2px 5px 3px 5px;/* position: absolute; */ left: 0; top: 0;width: 100%; font-size: 10px;background-color: rgba(165, 165, 165, 0.8);color: #000; overflow: hidden; text-align: left;}
+.thumbs li p {margin: 0;padding: 0px 4px 0px 5px;/* position: absolute; */ left: 0; top: 0;width: 100%; font-size: 10px;background-color: rgba(165, 165, 165, 0.8);color: #000; overflow: hidden; text-align: left;}
 .rating {background: #0f0f0f; position: absolute; right: 0; top: 0; z-index: 100; color: #fff; padding: 2px 7px 2px 23px; font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
-.hand {background: url("../img/hand.png") no-repeat; width: 13px; height: 12px; position: absolute; left: 6px; top: 4px;}
+.hand {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVBJREFUeNqUkztLA1EQRncvgqWtjWLASDBCKgsxP8DGxtK42loEBAUbhUiKIHYWNoIQJNZWqSzVUkghREgKg8Ha0gcSz8C3cFmzPgYOG+a138xOwufMeJCwWViHRZiQ7wlu4BzafnLoNRiFKpRgAC3oKpaFguWryQG8W2DEK76ABbiEQ+gnlJmaPdiAaYjgzSlYVXENykOK4zE24UjjVczpNHNJbz5JFF3BasJ3DE3tKef0YyDZf7WanpGTnFaK7DR7hHsoOi2nG/zfOjDpfkl6hTWYS0tw2m42JR5JalNzj3mxGeg5XVjBuzrfXmAXVmBeR2SWgbzVOjlDHUma3cGSbsRsX1+u4XTb1mQZtn5o8qlxd9SsDg/xEu22byX3FKaGNDDZZ7AN17reb3+mig4r0PI63sLykl1X8UeyQWw5bb9o31m+npbdMNl+8pcAAwDo0UsYYiuFrwAAAABJRU5ErkJggg==); width: 13px;height: 13px; position: absolute; left: 6px;top: 3px;background-size: 100%;}
 
 
 @media only screen and (max-width: 767px) {
@@ -144,7 +144,8 @@ body {/* background: #000; */ font: 12px Verdana, Geneva, sans-serif;/* color: #
 .pagination li a{
     display: block;
     background: red;
-    padding: 6px 10px;
+    padding: 13px 24px;
     border-radius: 7px;
     color: #fff;
+    font-size: 20px;
 }
