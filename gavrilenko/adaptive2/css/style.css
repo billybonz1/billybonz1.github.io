@@ -106,13 +106,22 @@ body {/* background: #000; */ font: 12px Verdana, Geneva, sans-serif;/* color: #
     font-size: 20px;
     float: left;
 }
+.home span{
+    display: inline-block;
+    width: 50px;
+    height: 49px;
+    background: url(https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png);
+    background-size: 100%;
+    vertical-align: middle;
+    margin-right: 11px;
+}
 .menu{
     float: right;
     margin-right: 20px;
 }
 .header a{
     display: inline-block;
-    margin: 14px 0 0 20px;
+    margin: 5px 0 0 20px;
     vertical-align: middle;
     transition: .3s all;
 }
