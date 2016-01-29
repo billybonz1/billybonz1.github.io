@@ -3,7 +3,13 @@ html {height: 100%;}
 body {background-color:#f2f2f2; font: 12px/18px Tahoma, Arial, Verdana, sans-serif; width: 100%;position: relative;}
 
 h1, h2, h3, h4, h5 { line-height: normal; }
+.sidebar h3{
+  padding-left:15px;
+}
 h1 { font-size: 1.25em; } h2 {font-size: 19px;color: #323232;margin-top: 17px;margin-bottom: 37px;} h3 {font-size: 17px;margin-bottom: 20px;color: #323232;} h4 { font-size: 1.1em; } h5 { font-size: 1em; }
+#content h2{
+  padding-left: 15px;
+}
 .red h3{
   color: #940E0E;
 }
@@ -472,21 +478,21 @@ button.fbutton span { cursor: pointer; display: block; padding-top: 2px; }
   background: blue;
 }
 .up{
-  position: fixed;/* фиксированная позиция */
-  opacity: 0.8;/* прозрачность */
-  padding: 10px 10px 10px;/* отступы */
+  position: fixed;/* Ñ„Ð¸ÐºÑÐ¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ð°Ñ Ð¿Ð¾Ð·Ð¸Ñ†Ð¸Ñ */
+  opacity: 0.8;/* Ð¿Ñ€Ð¾Ð·Ñ€Ð°Ñ‡Ð½Ð¾ÑÑ‚ÑŒ */
+  padding: 10px 10px 10px;/* Ð¾Ñ‚ÑÑ‚ÑƒÐ¿Ñ‹ */
   background: #aaa;
-  border-radius: 5px;/* скругление углов */
+  border-radius: 5px;/* ÑÐºÑ€ÑƒÐ³Ð»ÐµÐ½Ð¸Ðµ ÑƒÐ³Ð»Ð¾Ð² */
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  left: 10px;/* отступ слева */
-  bottom: 10px;/* отступ снизу */
-  display: none;/* спрятать блок */
+  left: 10px;/* Ð¾Ñ‚ÑÑ‚ÑƒÐ¿ ÑÐ»ÐµÐ²Ð° */
+  bottom: 10px;/* Ð¾Ñ‚ÑÑ‚ÑƒÐ¿ ÑÐ½Ð¸Ð·Ñƒ */
+  display: none;/* ÑÐ¿Ñ€ÑÑ‚Ð°Ñ‚ÑŒ Ð±Ð»Ð¾Ðº */
   cursor: pointer;
   color: #4A4242;
   font-weight: bold;
 }
 .up:after{
-  content: "▲";
+  content: "â–²";
   font-weight: bold;
 }
