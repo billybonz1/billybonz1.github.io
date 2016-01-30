@@ -41,7 +41,7 @@ img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-i
 
 body {/* background: #000; */ font: 12px Verdana, Geneva, sans-serif;/* color: #000; */}
 .thumbs {text-align: center;}
-.thumbs li {display: inline-block; vertical-align: top; margin: 0 0 4px 0; position: relative;width: 15%;padding-bottom: 38px;}
+.thumbs li {display: inline-block; vertical-align: top;margin: 0 0 4px 5px; position: relative;width: 15%;padding-bottom: 28px;}
 .thumbs li > a {display: block; position: relative;}
 .thumbs li > a .img{position:relative;}
 .thumbs li > a .img::before {content: ""; background: url("../img/play.png") no-repeat; width: 45px; height: 45px; position: absolute; left: 50%; top: 50%;margin: -22px 0 0 -23px; z-index: 10;opacity: 0.5;}
@@ -50,7 +50,7 @@ body {/* background: #000; */ font: 12px Verdana, Geneva, sans-serif;/* color: #
 .thumbs li p + p{
     bottom: -30px;
 }
-.rating {background: rgba(15, 15, 15, 0.42); position: absolute;right: 4px;bottom: 43px; z-index: 100; color: #fff;padding: 2px 5px 2px 5px; font-family: Arial, Helvetica, sans-serif;font-size: 11px;}
+.rating {background: rgba(15, 15, 15, 0.42); position: absolute;right: 4px;bottom: 33px; z-index: 100; color: #fff;padding: 2px 5px 2px 5px; font-family: Arial, Helvetica, sans-serif;font-size: 11px;}
 .hand { position: absolute; left: 6px;top: 3px;background-size: 100%;}
 
 
@@ -64,7 +64,7 @@ body {/* background: #000; */ font: 12px Verdana, Geneva, sans-serif;/* color: #
 .header{
     background: #E62118;
     height: 60px;
-    margin-bottom: 12px;
+    margin-bottom: 3px;
 }
 .link1{
     width: 16px;
