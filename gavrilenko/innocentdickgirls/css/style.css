@@ -2762,28 +2762,3 @@ body.noscroll {
 
 
 
-@media(max-width: 980px){
-	#block-container-white .content h1{
-		font-size: 47px;
-	}
-	#block-container-white .content p{
-		font-size: 35px;
-		line-height: 53px;
-	}
-	header nav a{
-		font-size: 26px;
-	}
-	footer .box li{
-		font-size: 29px;
-		margin-bottom: 21px;
-	}
-	footer .box .col-1{
-		margin-right: 95px;
-	}
-	footer .box .col-3 p{
-		font-size: 26px;
-	}
-	footer .cop{
-		font-size: 21px;
-	}
-}
