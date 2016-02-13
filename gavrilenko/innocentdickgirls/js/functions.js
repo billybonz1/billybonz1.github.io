@@ -12,6 +12,15 @@ var sliding_tumbs=0;
 				$(this).find(".text").css("height","auto");
 			}
 		});
+		$("#updates .anons").each(function(){
+			thumbs_h = $(this).find(".col-1 img").height() - 50;
+			text_h = $(this).find(".col-2").height();
+			if(thumbs_h > text_h){
+				$(this).find(".col-2").height(thumbs_h);
+			}else{
+				$(this).find(".col-2").css("height","auto");
+			}
+		});
 	}
 
 	$(document).ready(function () {

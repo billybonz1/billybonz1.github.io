@@ -267,14 +267,7 @@ footer .banner .to-top:hover {
 	margin-right: 8px;
 }
 
-#block-container .tumbs li span,
-#updates .anons .col-1 span {
-	background: url(/images_v2/border.png) no-repeat 0 0;
-	width: 145px;
-	height: 206px;
-	position: absolute;
-	margin-left: -145px;
-}
+
 
 #block-container .tumbs li span:hover,
 #updates .anons .col-1 span:hover {
@@ -501,19 +494,9 @@ footer .banner .to-top:hover {
 	overflow: hidden;
 }
 
-#updates .anons .col-1 {
-	width: 145px;
-	float: left;
-}
 
-#updates .anons .col-2 {
-	float: left;
-	width: 676px;
-	background: #fff;
-	margin-left: 13px;
-	min-height: 156px;
-	padding: 25px 30px;
-}
+
+
 
 #updates .anons .col-2 .tit {
 	color: #222222;
@@ -1684,8 +1667,6 @@ footer .banner .to-top:hover {
 #block-container .tumbs li span,
 #updates .anons .col-1 span {
 	background: url(../images_v2/border.png) no-repeat 0 0;
-	width: 145px;
-	height: 206px;
 	position: absolute;
 	margin-left: -145px;
 }
@@ -1938,17 +1919,22 @@ footer .banner .to-top:hover {
 }
 
 #updates .anons .col-1 {
-	width: 145px;
-	float: left;
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
 }
-
+#updates .anons .col-1 img{
+	width: 100%;
+	height: auto;
+}
 #updates .anons .col-2 {
-	float: left;
-	width: 676px;
+	display: inline-block;
 	background: #fff;
 	margin-left: 13px;
 	min-height: 156px;
 	padding: 25px 30px;
+	width: 65%;
+	vertical-align: top;
 }
 
 #updates .anons .col-2 .tit {
