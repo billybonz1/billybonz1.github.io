@@ -433,18 +433,9 @@ footer .banner .to-top:hover {
 
 }
 
-#block-container-white .content h1 {
-	font-weight: normal;
-	color: #222;
-	font-size: 30px;
-	display: block;
-	margin-bottom: 25px;
-}
 
-#block-container-white .content p {
-	font-weight: 300;
-	margin-bottom: 23px;
-}
+
+
 
 .backgraund-2 header {
 	background: url("/images_v2/header2.png") repeat-x scroll 0 0 transparent;
@@ -1867,7 +1858,14 @@ footer .banner .to-top:hover {
 	font-weight: 300;
 	margin-bottom: 23px;
 }
-
+@media(max-width: 780px){
+	#block-container-white .content h1{
+		font-size: 41px;
+	}
+	#block-container-white .content p{
+		font-size: 28px;
+	}
+}
 .backgraund-2 header {
 	background: url("../images_v2/header2.png") repeat-x scroll 0 0 transparent;
 }
