@@ -182,9 +182,6 @@ footer .box li span {
 	color: #666666;
 }
 
-footer .box li {
-	margin-bottom: 9px;
-}
 
 footer .box .col-3 {
 	color: #ffffff;
@@ -2775,5 +2772,18 @@ body.noscroll {
 	}
 	header nav a{
 		font-size: 26px;
+	}
+	footer .box li{
+		font-size: 29px;
+		margin-bottom: 21px;
+	}
+	footer .box .col-1{
+		margin-right: 95px;
+	}
+	footer .box .col-3 p{
+		font-size: 26px;
+	}
+	footer .cop{
+		font-size: 21px;
 	}
 }
