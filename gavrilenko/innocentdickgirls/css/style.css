@@ -87,6 +87,7 @@ header .logo img{
 header nav {
 	margin-top: 32px;
 	float: left;
+	margin-left: 16px;
 }
 
 header nav a {
@@ -110,12 +111,9 @@ header  .join-buttom {
 	color: #fff;
 	background: #bba90a;
 	margin-right: 25px;
+	margin-left: 26px;
 }
 
-header  .join-buttom:hover {
-	border: 2px solid #d80015;
-	background: #F78093;
-}
 
 
 
@@ -1297,7 +1295,7 @@ header nav a {
 	color: #ffffff;
 	font-size: 20px;
 	text-transform: uppercase;
-	margin-left: 16px;
+	margin-left: 8px;
 }
 
 @media(max-width:523px){
