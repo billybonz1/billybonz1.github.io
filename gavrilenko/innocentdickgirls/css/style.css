@@ -216,14 +216,6 @@ footer .banner .to-top:hover {
 	background-size: cover;
 }
 
-#block-container {
-	width: 914px;
-	margin: 30px auto 60px;
-	/*	background: url(/images_v2/px.png) repeat 0 0;*/
-	background: url(/images_v2/shadow22.png) repeat;
-	/*	background: url(/images_v2/header-shadow.png) repeat-x 0 0;*/
-	padding: 27px 18px 22px;
-}
 
 #block-container h1 {
 	font-weight: normal;
@@ -262,10 +254,6 @@ footer .banner .to-top:hover {
 	margin-bottom: 7px;
 }
 
-#block-container .tumbs li {
-	float: left;
-	margin-right: 8px;
-}
 
 
 
@@ -1614,7 +1602,7 @@ footer .banner .to-top:hover {
 }
 
 #block-container {
-	width: 914px;
+	max-width: 914px;
 	margin: 30px auto 60px;
 	/*	background: url(/images_v2/px.png) repeat 0 0;*/
 	background: url(../images_v2/shadow22.png) repeat;
@@ -1657,11 +1645,12 @@ footer .banner .to-top:hover {
 #block-container .tumbs {
 	overflow: hidden;
 	margin-bottom: 7px;
+	text-align: center;
 }
 
 #block-container .tumbs li {
-	float: left;
-	margin-right: 8px;
+	display: inline-block;
+	margin-right: 4px;
 }
 
 #block-container .tumbs li span,
