@@ -1858,7 +1858,7 @@ footer .banner .to-top:hover {
 	font-weight: 300;
 	margin-bottom: 23px;
 }
-@media(max-width: 780px){
+@media(max-width: 980px){
 	#block-container-white .content h1{
 		font-size: 41px;
 	}
