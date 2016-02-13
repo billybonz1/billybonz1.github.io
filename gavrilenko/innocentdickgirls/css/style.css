@@ -90,13 +90,6 @@ header nav {
 	margin-left: 16px;
 }
 
-header nav a {
-	font-weight: normal;
-	color: #ffffff;
-	font-size: 20px;
-	text-transform: uppercase;
-	margin-right: 16px;
-}
 
 header  .join-buttom {
 	border: 2px solid #FAEB0A;
@@ -1287,6 +1280,7 @@ header nav a {
 	font-size: 20px;
 	text-transform: uppercase;
 	margin-left: 8px;
+	margin-right: 8px;
 }
 
 @media(max-width:523px){
@@ -1858,14 +1852,7 @@ footer .banner .to-top:hover {
 	font-weight: 300;
 	margin-bottom: 23px;
 }
-@media(max-width: 980px){
-	#block-container-white .content h1{
-		font-size: 41px;
-	}
-	#block-container-white .content p{
-		font-size: 28px;
-	}
-}
+
 .backgraund-2 header {
 	background: url("../images_v2/header2.png") repeat-x scroll 0 0 transparent;
 }
@@ -2771,4 +2758,22 @@ body.noscroll {
 #cent #join {
 	height: 364px;
 	margin-top: -182px;
+}
+
+
+
+
+
+
+@media(max-width: 980px){
+	#block-container-white .content h1{
+		font-size: 47px;
+	}
+	#block-container-white .content p{
+		font-size: 35px;
+		line-height: 53px;
+	}
+	header nav a{
+		font-size: 26px;
+	}
 }
