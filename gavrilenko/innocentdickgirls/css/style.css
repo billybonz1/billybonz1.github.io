@@ -1897,7 +1897,7 @@ footer .banner .to-top:hover {
 }
 
 #updates .title h1 {
-	font-size: 30px;
+	font-size: 29px;
 	color: #fff;
 	font-weight: normal;
 }
@@ -1933,10 +1933,23 @@ footer .banner .to-top:hover {
 	margin-left: 13px;
 	min-height: 156px;
 	padding: 25px 30px;
-	width: 65%;
+	width: 78%;
 	vertical-align: top;
+	box-sizing: border-box;
 }
-
+@media(max-width: 928px){
+	#updates .anons .col-2{
+		width: 77%;
+	}
+}
+@media(max-width:701px){
+	#updates .anons .col-1 {
+		width: 40%;
+	}
+	#updates .anons{
+		text-align: center;
+	}
+}
 #updates .anons .col-2 .tit {
 	color: #222222;
 	font-size: 20px;
