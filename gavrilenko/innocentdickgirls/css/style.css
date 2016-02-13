@@ -58,6 +58,7 @@ body {
 .box {
 	width: 100%;
 	margin: 0 auto;
+	position: relative;
 }
 
 header {
@@ -78,6 +79,7 @@ header .logo {
 	float: left;
 	margin-top: 15px;
 	margin-right: 25px;
+	margin-left: 25px;
 }
 header .logo img{
 	width: 100%;
@@ -107,6 +109,7 @@ header  .join-buttom {
 	width: 196px;
 	color: #fff;
 	background: #bba90a;
+	margin-right: 25px;
 }
 
 header  .join-buttom:hover {
@@ -115,34 +118,6 @@ header  .join-buttom:hover {
 }
 
 
-
-#slider .box .pager .play {
-	background: url(../images_v2/play.png) no-repeat 0 0;
-	width: 38px;
-	height: 38px;
-	float: left;
-	margin-top: 25px;
-	margin-right: 20px;
-}
-
-
-
-#slider .box .pager .s-prev {
-	float: left;
-	background: url(../images_v2/s-prev.png) no-repeat 0 0;
-	width: 16px;
-	height: 24px;
-	margin-top: 32px;
-}
-
-#slider .box .pager .s-next {
-	float: left;
-	background: url(../images_v2/s-next.png) no-repeat 0 0;
-	width: 16px;
-	height: 24px;
-	margin-top: 32px;
-	margin-left: 15px;
-}
 
 
 #slider .box .pager .items li {
@@ -182,32 +157,7 @@ header  .join-buttom:hover {
 	color: #951136;
 }
 
-#simple .top-shadow {
-	background: url("../images_v2/shadow2.png") repeat-x scroll 0 0 transparent;
-	height: 86px;
-	overflow: hidden;
-	position: absolute;
-	z-index: 1;
-	width: 100%;
-}
 
-#simple .top-shadow .title {
-	width: 610px;
-	padding-left: 20px;
-	float: left;
-	line-height: 86px;
-	display: block;
-	color: #fff;
-	font-size: 30px;
-}
-
-#simple .top-shadow .links {
-	line-height: 86px;
-	width: 510px;
-	font-size: 20px;
-	color: #fff;
-	float: left;
-}
 
 
 #simple .text .s-title {
@@ -1263,7 +1213,10 @@ body.noscroll {
 	padding: 0;
 	outline: none;
 }
-
+#cent{
+	max-width:922px;
+	margin: 0 auto;
+}
 html, body {height: 100%;}
 
 header,
@@ -1274,7 +1227,9 @@ aside,
 footer {
 	display: block
 }
-
+#dialog{
+	background: rgba(255,255,255,0.7);
+}
 /*sticky footer*/
 
 #slider{
@@ -1334,7 +1289,7 @@ header#fix {
 
 
 header .logo img{
-	width: 100%;
+	width: 92%;
 }
 
 header nav a {
@@ -1385,55 +1340,58 @@ header  .join-buttom:hover {
 	width: 100%;
 	bottom: 0;
 	padding-bottom: 10px;
+	text-align: center;
 }
 
 #slider .box .pager p {
-	float: left;
 	color: #fff;
 	font-size: 20px;
-	margin-top: 18px;
 	margin-left: 12px;
 	padding-right: 33px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
 }
 
 #slider .box .pager .play {
 	background: url(../images_v2/play.png) no-repeat 0 0;
 	width: 38px;
 	height: 38px;
-	float: left;
-	margin-top: 25px;
 	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 #slider .box .pager .pause {
 	background: url(../images_v2/pause.png) no-repeat 0 0;
 	width: 38px;
 	height: 38px;
-	float: left;
-	margin-top: 25px;
 	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 #slider .box .pager .s-prev {
-	float: left;
 	background: url(../images_v2/s-prev.png) no-repeat 0 0;
 	width: 16px;
 	height: 24px;
-	margin-top: 32px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 #slider .box .pager .s-next {
-	float: left;
+	display: inline-block;
 	background: url(../images_v2/s-next.png) no-repeat 0 0;
 	width: 16px;
 	height: 24px;
-	margin-top: 32px;
 	margin-left: 15px;
+	vertical-align: middle;
 }
 
 #slider .box .pager .items {
 	overflow: hidden;
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 @media(max-width:1167px){
 	#slider .box .pager .pause,#slider .box .pager .play{
@@ -1442,6 +1400,7 @@ header  .join-buttom:hover {
 	}
 	#slider .shadow-bot{
 		position: relative;
+		padding-top: 10px;
 	}
 	#slider .box .pager div.items{
 		width: 91% !important;
@@ -1451,12 +1410,12 @@ header  .join-buttom:hover {
 	#slider .box .pager .s-prev{
 		position: absolute;
 		left: 0px;
-		top: 65px;
+		top: 84px;
 	}
 	#slider .box .pager .s-next{
 		position: absolute;
 		right: 0px;
-		top: 65px;
+		top: 84px;
 	}
 }
 #slider .box .pager .items li {
@@ -1521,8 +1480,7 @@ header  .join-buttom:hover {
 }
 
 #simple .top-shadow {
-	background: url("../images_v2/shadow2.png") repeat-x scroll 0 0 transparent;
-	height: 86px;
+	background: url("../images_v2/shadow2.png") repeat scroll 0 0 transparent;
 	overflow: hidden;
 	position: absolute;
 	z-index: 1;
@@ -1530,7 +1488,6 @@ header  .join-buttom:hover {
 }
 
 #simple .top-shadow .title {
-	width: 610px;
 	padding-left: 20px;
 	float: left;
 	line-height: 86px;
@@ -1540,11 +1497,11 @@ header  .join-buttom:hover {
 }
 
 #simple .top-shadow .links {
-	line-height: 86px;
-	width: 510px;
+	line-height: 77px;
 	font-size: 20px;
 	color: #fff;
-	float: left;
+	float: right;
+	margin-right: 20px;
 }
 
 #simple .bottom-block {
@@ -1560,6 +1517,7 @@ header  .join-buttom:hover {
 	display: inline-block;
 	width: 47%;
 	vertical-align: top;
+	box-sizing: border-box;
 }
 @media(max-width:850px){
 	#simple .tumbs{
@@ -1594,6 +1552,7 @@ header  .join-buttom:hover {
 	width: 47%;
 	display: inline-block;
 	text-align: left;
+	box-sizing: border-box;
 }
 
 
@@ -2102,7 +2061,12 @@ footer .banner .to-top:hover {
 	margin-right: 2%;
 	vertical-align: top;
 }
-
+@media(max-width:743px){
+	#updates .profile .col-2 .options{
+		width: 100%;
+		margin-right: 0;
+	}
+}
 #updates .profile .col-2 .options p {
 	margin-bottom: 2px;
 }
@@ -2130,7 +2094,11 @@ footer .banner .to-top:hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
+@media(max-width:401px){
+	#updates .profile .col-2 .tit-c a {
+		font-size: 13px;
+	}
+}
 #updates .profile .col-2 .tit-c a:hover {
 	background-position: right -40px;
 }
@@ -2195,6 +2163,7 @@ footer .banner .to-top:hover {
 	margin-right: 30px;
 	float: left;
 	max-width: 579px;
+	padding: 39px;
 }
 
 #join .text-box .payment {

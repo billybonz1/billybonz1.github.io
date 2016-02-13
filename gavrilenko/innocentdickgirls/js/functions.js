@@ -1,6 +1,19 @@
 var slideshow_playing=0;
 var images_cash=new Array();
 var sliding_tumbs=0;
+
+	function thumbs_height(){
+		$(".bottom-block").each(function(){
+			var thumbs_h = $(this).find(".tumbs").height() - 40;
+			var text_h = $(this).find(".text").height();
+			if(thumbs_h > text_h){
+				$(this).find(".text").height(thumbs_h);
+			}else{
+				$(this).find(".text").css("height","auto");
+			}
+		});
+	}
+
 	$(document).ready(function () {
 		$(document).on('click','a.smooth_slide',function(event){
 			$('html, body').animate({
@@ -125,10 +138,15 @@ var sliding_tumbs=0;
 			return false;
 		});
 
+		thumbs_height()
 
 	});
 
+	$(window).resize(function(){
+		thumbs_height();
+	});
 $(window).load(function (){
+		thumbs_height();
 		$('a.slider_thumb').each(function(){
 			img=new Image();
 			img.src=$(this).attr('href');
