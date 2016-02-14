@@ -28,6 +28,11 @@ var text_h1,text_h,thumbs_h,thumbs_h1;
 	}
 
 	$(document).ready(function () {
+		$(".nav-switcher").on("click",function(){
+			$(this).toggleClass("active");	
+			$(this).next().toggleClass("active");	
+		});
+		
 		$(document).on('click','a.smooth_slide',function(event){
 			$('html, body').animate({
 			scrollTop: $( $.attr(this, 'href') ).offset().top
