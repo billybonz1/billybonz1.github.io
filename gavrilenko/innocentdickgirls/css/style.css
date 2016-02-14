@@ -1264,6 +1264,7 @@ header nav a {
 		width: 16%;
 		float: right;
 		margin-right: 13px;
+		cursor: pointer;
 	}
 	header .logo{
 		float: none;
