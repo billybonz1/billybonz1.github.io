@@ -102,12 +102,12 @@ header  .join-buttom {
 	margin-top: 20px;
 	padding: 2px 0;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none !important;
 	width: 196px;
 	color: #fff;
 	background: #bba90a;
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 16px;
+	margin-left: 16px;
 }
 
 
@@ -1218,6 +1218,16 @@ body {
 	}
 	header .join-buttom {
 		float: left;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.backgraund{
+		padding-top: 144px !important;
+	}
+}
+@media(max-width:773px){
+	.backgraund{
+		padding-top: 212px !important;
 	}
 }
 header#fix {
@@ -1969,7 +1979,7 @@ footer .banner .to-top:hover {
 }
 #updates .profile .col-1 img{
 	width:100%;
-	display: block;
+	display: inline-block;
 }
 #updates .profile .col-1 span{
     position: absolute;
