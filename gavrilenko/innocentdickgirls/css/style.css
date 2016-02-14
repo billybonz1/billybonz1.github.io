@@ -1967,10 +1967,13 @@ footer .banner .to-top:hover {
 	display: block;
 }
 #updates .anons .col-1 span{
-    width: 100%;
-    height: 100%;
+    width: 97%;
+    height: 98%;
     position: absolute;
     border: 5px solid transparent;
+}
+#updates .anons .col-1 span:hover{
+	border:5px solid;
 }
 #updates .anons .col-2 {
 	display: inline-block;
