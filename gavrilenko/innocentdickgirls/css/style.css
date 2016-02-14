@@ -1389,6 +1389,7 @@ header  .join-buttom:hover {
 	overflow: hidden;
 	display: inline-block;
 	vertical-align: middle;
+	width: 42% !important;
 }
 @media(max-width:1167px){
 	#slider .box .pager .pause,#slider .box .pager .play{
