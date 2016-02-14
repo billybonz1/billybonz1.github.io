@@ -1355,19 +1355,20 @@ header  .join-buttom:hover {
 		padding-top: 10px;
 	}
 	#slider .box .pager div.items{
-		width: 91% !important;
+		width: 79% !important;
 		box-sizing: border-box;
 		margin: 0 18px;
+		margin-top: 39px;
 	}
 	#slider .box .pager .s-prev{
 		position: absolute;
 		left: 0px;
-		top: 84px;
+		top: 136px;
 	}
 	#slider .box .pager .s-next{
 		position: absolute;
 		right: 0px;
-		top: 84px;
+		top: 136px;
 	}
 }
 #slider .box .pager .items li {
