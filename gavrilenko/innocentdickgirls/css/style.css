@@ -2090,11 +2090,21 @@ footer .banner .to-top:hover {
 	font-size: 30px;
 	display: block;
 	margin-bottom: 20px;
+	position: relative;
 }
 #updates .profile .col-2 .tit-c:after{
 	clear:both;
 	content:"";
 	display:block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 0px;
+	background: url(../images_v2/top-right.png) no-repeat right 0;
+	top: 44px;
+}
+#updates .profile .col-2 .tit-c:hover:after{
+    background-position: 0px -40px;
 }
 #updates .profile .col-2 .options {
 	display: inline-block;
@@ -2129,7 +2139,6 @@ footer .banner .to-top:hover {
 	font-size: 20px;
 	color: #951136;
 	padding-right: 57px;
-	background: url(../images_v2/top-right.png) no-repeat right 0;
 	display: block;
 	line-height: 20px;
 	padding-top: 10px;
