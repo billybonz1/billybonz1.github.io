@@ -108,6 +108,7 @@ header  .join-buttom {
 	background: #bba90a;
 	margin-right: 50px;
 	margin-left: 50px;
+	text-decoration: none !important;
 }
 
 
