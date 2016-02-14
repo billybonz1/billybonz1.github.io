@@ -87,7 +87,7 @@ header .logo img{
 header nav {
 	margin-top: 32px;
 	float: left;
-	margin-left: 16px;
+	margin-left: 42px;
 }
 
 
@@ -103,8 +103,8 @@ header  .join-buttom {
 	width: 196px;
 	color: #fff;
 	background: #bba90a;
-	margin-right: 25px;
-	margin-left: 26px;
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
 
@@ -1248,9 +1248,11 @@ header nav a {
 @media(max-width:523px){
 	header .logo{
 		float: none;
+		margin-left: 3%;
 	}
 	header nav{
 		float: none;
+		margin-left: 0;
 	}
 	header nav a {
 		display: block;
@@ -1530,7 +1532,7 @@ footer .box {
 }
 
 footer .box .col-1 {
-	padding-left: 20px;
+	padding-left: 50px;
 	margin-right: 34px;
 	display: inline-block;
 	vertical-align: top;
@@ -1554,7 +1556,7 @@ footer .box .col-3 {
 	color: #ffffff;
 	display: inline-block;
 	margin-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 footer .box .col-3 p {
@@ -1566,8 +1568,8 @@ footer .cop {
 	display: block;
 	position: absolute;
 	bottom: -53px;
-	left: 18px;
-	padding-right: 60px;
+	left: 50px;
+	padding-right: 81px;
 }
 
 footer .banner {position: absolute;right: 20px;bottom: -74px;}
