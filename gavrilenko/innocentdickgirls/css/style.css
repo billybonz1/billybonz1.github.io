@@ -108,7 +108,6 @@ header  .join-buttom {
 	background: #bba90a;
 	margin-right: 50px;
 	margin-left: 50px;
-	text-decoration: none !important;
 }
 
 
@@ -1966,6 +1965,20 @@ footer .banner .to-top:hover {
 	width: 25%;
 	display: inline-block;
 	vertical-align: top;
+	position: relative;
+}
+#updates .profile .col-1 img{
+	width:100%;
+	display: block;
+}
+#updates .profile .col-1 span{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    background: #FBFBFB;
+    width: 100%;
+    height: 100%;
 }
 @media(max-width:599px){
 	#updates .profile .col-1{
