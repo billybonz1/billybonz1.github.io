@@ -2129,6 +2129,8 @@ footer .banner .to-top:hover {
 	float: left;
 	max-width: 579px;
 	padding: 39px;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 #join .text-box .payment {
@@ -2200,6 +2202,7 @@ footer .banner .to-top:hover {
 	text-align: center;
 	margin-bottom: 20px;
 	text-decoration: none;
+	width: auto !important;
 }
 
 #join .col-2 .or {
