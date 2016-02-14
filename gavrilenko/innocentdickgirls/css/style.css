@@ -1266,6 +1266,14 @@ header nav a {
 		margin-right: 13px;
 		cursor: pointer;
 	}
+	.nav-switcher.active{
+    margin-top: 17px;
+}
+	.nav-switcher.active span:nth-child(2){
+		display:none;
+	}
+	.nav-switcher.active span:nth-child(1){transform: rotate(45deg);}
+	.nav-switcher.active span:nth-child(3){transform: rotate(-45deg) translateX(11px) translateY(-10px);}
 	header .logo{
 		float: none;
 		margin-left: 3%;
@@ -1276,6 +1284,9 @@ header nav a {
 		margin-top: 47px;
 		height: 0px;
 		overflow: hidden;
+	}
+	header nav.active{
+		height:auto;
 	}
 	header nav a {
 		display: block;
