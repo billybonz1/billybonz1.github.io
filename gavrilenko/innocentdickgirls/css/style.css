@@ -1228,16 +1228,16 @@ header#fix {
 
 
 header .logo img{
-	width: 92%;
+	width: 90%;
 }
 
 header nav a {
 	font-weight: normal;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 19px;
 	text-transform: uppercase;
-	margin-left: 8px;
-	margin-right: 8px;
+	margin-left: 7px;
+	margin-right: 7px;
 }
 
 @media(max-width:523px){
@@ -1590,6 +1590,7 @@ footer .banner .to-top:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-top: 86px;
 }
 
 #block-container {
