@@ -1239,6 +1239,8 @@ header#fix {
 
 header .logo img{
 	width: 90%;
+	max-width: 451px;
+	margin-bottom: 30px;
 }
 
 header nav a {
@@ -1257,6 +1259,7 @@ header nav a {
 	height: 6px;
 	margin-top: 9px;
 	background: #fff;
+	transition: .3s all;
 }
 @media(max-width:523px){
 	.nav-switcher{
@@ -1265,16 +1268,16 @@ header nav a {
 		float: right;
 		margin-right: 13px;
 		cursor: pointer;
-		margin-top: -6px;
+		margin-top: -19px;
 	}
 	.nav-switcher.active{
-    margin-top: 10px;
+    margin-top: 3px;
 }
 	.nav-switcher.active span:nth-child(2){
 		display:none;
 	}
-	.nav-switcher.active span:nth-child(1){transform: rotate(45deg);}
-	.nav-switcher.active span:nth-child(3){transform: rotate(-45deg) translateX(11px) translateY(-10px);}
+	.nav-switcher.active span:nth-child(1){transform: rotate(-45deg);}
+	.nav-switcher.active span:nth-child(3){transform: rotate(45deg) translateX(-12px) translateY(-10px);}
 	header .logo{
 		float: none;
 		margin-left: 3%;
@@ -1308,7 +1311,7 @@ header nav a {
 		margin: 20px auto;
 		display: block;
 		position: absolute;
-		top: 43px;
+		top: 83px;
 		margin: 0;
 		font-size: 23px;
 		left: 11px;
@@ -1967,13 +1970,10 @@ footer .banner .to-top:hover {
 	display: block;
 }
 #updates .anons .col-1 span{
-    width: 97%;
-    height: 98%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     border: 5px solid transparent;
-}
-#updates .anons .col-1 span:hover{
-	border:5px solid;
 }
 #updates .anons .col-2 {
 	display: inline-block;
