@@ -1274,6 +1274,8 @@ header nav a {
 		float: none;
 		margin-left: 0;
 		margin-top: 47px;
+		height: 0px;
+		overflow: hidden;
 	}
 	header nav a {
 		display: block;
@@ -1287,6 +1289,9 @@ header nav a {
 		margin: 20px auto;
 		display: block;
 	}
+	.backgraund{
+    padding-top: 193px !important;
+}
 }
 header  .join-buttom:hover {
 	border: 2px solid #d80015;
