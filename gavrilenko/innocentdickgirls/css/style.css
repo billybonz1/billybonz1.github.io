@@ -1342,10 +1342,10 @@ header  .join-buttom:hover {
 	color: #fff;
 	font-size: 20px;
 	margin-left: 12px;
-	padding-right: 33px;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: left;
+	max-width: 454px;
 }
 
 #slider .box .pager .play {
@@ -2129,7 +2129,7 @@ footer .banner .to-top:hover {
 	font-size: 20px;
 	color: #951136;
 	padding-right: 57px;
-	display: inline;
+	display: block;
 	line-height: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
