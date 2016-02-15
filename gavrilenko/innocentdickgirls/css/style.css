@@ -1264,9 +1264,10 @@ header nav a {
 	.nav-switcher.active span:nth-child(3){transform: rotate(45deg) translateX(-12px) translateY(-10px);}
 	header .logo{
 		float: none;
-		margin-left: 3%;
 		margin-right: 0;
 		display: block;
+		margin-left: 0;
+		text-align: center;
 	}
 	header nav{
 		float: none;
@@ -1574,6 +1575,7 @@ footer {
 	border-bottom: 104px solid #161616;
 	position\: r;
 	position: relative;
+	padding-right: 50px;
 }
 
 footer .box {
@@ -1621,7 +1623,11 @@ footer .cop {
 	left: 50px;
 	padding-right: 81px;
 }
-
+@media(max-width:503px){
+	footer .cop{
+    bottom: -71px;
+}
+}
 footer .banner {position: absolute;right: 20px;bottom: -74px;}
 
 footer .banner .to-top {
