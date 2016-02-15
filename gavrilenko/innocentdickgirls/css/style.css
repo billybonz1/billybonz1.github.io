@@ -2129,7 +2129,7 @@ footer .banner .to-top:hover {
 	font-size: 20px;
 	color: #951136;
 	padding-right: 57px;
-	display: block;
+	display: inline;
 	line-height: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
