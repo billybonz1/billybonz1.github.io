@@ -260,11 +260,6 @@ footer .banner .to-top:hover {
 
 
 
-#block-container .tumbs li span:hover,
-#updates .anons .col-1 span:hover {
-	background: url(/images_v2/border-h.png) no-repeat 0 0;
-}
-
 #block-container .tumbs li.active span {
 	background: url(/images_v2/border-a.png) no-repeat 0 0;
 }
@@ -1714,17 +1709,6 @@ footer .banner .to-top:hover {
 	margin-right: 4px;
 }
 
-#block-container .tumbs li span,
-#updates .anons .col-1 span {
-	background: url(../images_v2/border.png) no-repeat 0 0;
-	position: absolute;
-	margin-left: -145px;
-}
-
-#block-container .tumbs li span:hover,
-#updates .anons .col-1 span:hover {
-	background: url(../images_v2/border-h.png) no-repeat 0 0;
-}
 
 #block-container .tumbs li.active span {
 	background: url(../images_v2/border-a.png) no-repeat 0 0;
@@ -1978,6 +1962,10 @@ footer .banner .to-top:hover {
 	width: 100%;
 	height: auto;
 	display: block;
+	border: 5px solid white;
+}
+#updates .anons .col-1:hover img{
+	border: 5px solid yellow;
 }
 #updates .anons .col-1 span{
     width: 100%;
