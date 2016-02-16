@@ -14,8 +14,8 @@ var text_h1,text_h,thumbs_h,thumbs_h1;
 			thumbs_h = "";
 			text_h = "";
 		});
-		$(".anons").each(function(){
-			thumbs_h1 = $(this).find(".col-1").height();
+		$(".anons,.profile").each(function(){
+			thumbs_h1 = $(this).find(".col-1").height() - 50;
 			text_h1 = $(this).find(".col-2").height();
 			if(thumbs_h1 > text_h1){
 				$(this).find(".col-2").height(thumbs_h1);
