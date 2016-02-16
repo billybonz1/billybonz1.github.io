@@ -4,7 +4,7 @@ var sliding_tumbs=0;
 var text_h1,text_h,thumbs_h,thumbs_h1;
 	function thumbs_height(){
 		$(".bottom-block").each(function(){
-			thumbs_h = $(this).find(".tumbs").height();
+			thumbs_h = $(this).find(".tumbs").height() - 40;
 			text_h = $(this).find(".text").height();
 			if(thumbs_h > text_h){
 				$(this).find(".text").height(thumbs_h);
@@ -15,7 +15,7 @@ var text_h1,text_h,thumbs_h,thumbs_h1;
 			text_h = "";
 		});
 		$(".anons").each(function(){
-			thumbs_h1 = $(this).find(".col-1").height() - 50;
+			thumbs_h1 = $(this).find(".col-1").height();
 			text_h1 = $(this).find(".col-2").height();
 			if(thumbs_h1 > text_h1){
 				$(this).find(".col-2").height(thumbs_h1);
