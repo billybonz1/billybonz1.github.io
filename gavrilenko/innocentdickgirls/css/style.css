@@ -2072,7 +2072,6 @@ footer .banner .to-top:hover {
 	width: 74%;
 	display: inline-block;
 	box-sizing: border-box;
-	padding-bottom: 55px;
 }
 @media(max-width:956px){
 	#updates .profile .col-1{
