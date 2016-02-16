@@ -4,7 +4,7 @@ var sliding_tumbs=0;
 var text_h1,text_h,thumbs_h,thumbs_h1;
 	function thumbs_height(){
 		$(".bottom-block").each(function(){
-			thumbs_h = $(this).find(".tumbs").height() - 40;
+			thumbs_h = $(this).find(".tumbs").height();
 			text_h = $(this).find(".text").height();
 			if(thumbs_h > text_h){
 				$(this).find(".text").height(thumbs_h);
