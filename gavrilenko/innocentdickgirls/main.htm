@@ -480,6 +480,17 @@
 	</section>
 	<!-- end join -->
 </div>
+<!-- Load CSS -->
+<script>
+	function loadCSS(hf) {
+		var ms=document.createElement("link");ms.rel="stylesheet";
+		ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+	}
+	loadCSS("./css/fancybox/jquery.fancybox.css?v=2.1.5");
+	loadCSS("./css/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5");
+	loadCSS("./js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7");
+	loadCSS("./css/style.css");
+</script>
 <!-- Load Scripts Start -->
 <script>var scr = {"scripts":[
 	{"src" : "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", "async" : false},
