@@ -28,8 +28,8 @@
 		header .logo img{width:100%;}
 		header nav{margin-top:32px;float:left;margin-left:42px;}
 		header .join-buttom{border:2px solid #FAEB0A;float:right;font-size:30px;margin-bottom:20px;margin-top:20px;padding:2px 0;text-align:center;text-decoration:none !important;width:196px;color:#fff;background:#bba90a;margin-right:16px;margin-left:16px;}
-
-		@media(max-width:1187px){#slider{margin-top:-139px;}
+		#slider{position:relative;margin-top:-86px;}
+		@media(max-width:1187px){#slider{margin-top:-152px;}
 			header{height:auto;min-height:87px;}
 			header .join-buttom{float:left;margin-left:50px;margin-right:50px;}
 			.backgraund{padding-top:152px !important;}
@@ -38,6 +38,9 @@
 		}
 		@media(max-width:773px){.backgraund{padding-top:211px !important;}
 		}
+		@media(max-width:980px){#slider{margin-top: 0;}.backgraund{padding-top: 141px !important;}}
+		@media(max-width:980px){.backgraund{padding-top: 152px !important;}}
+		@media(max-width:773px){.backgraund{padding-top: 206px !important;}}
 		header#fix{position:fixed;top:0;z-index:100;}
 		header .logo img{width:90%;max-width:451px;}
 		header nav a{font-weight:normal;color:#ffffff;font-size:19px;text-transform:uppercase;margin-left:7px;margin-right:7px;}
@@ -53,7 +56,7 @@
 			header nav.active{height:auto;opacity:1;visibility:visible;transform:scale(1);margin-bottom:27px;}
 			header nav a{display:block;margin-left:0;text-align:center;padding:10px;margin-right:0;}
 			header .join-buttom{float:none;margin:20px auto;display:block;position:absolute;top:62px;margin:0;font-size:23px;left:25px;}
-			.backgraund{padding-top:152px !important;}
+			.backgraund{padding-top:159px !important;}
 		}
 		@media(max-width:350px){.backgraund{padding-top:130px !important;}
 			header .join-buttom{top:62px;}
@@ -67,13 +70,21 @@
 			#slider .box .pager .s-prev{position:absolute;left:0px;top:136px;}
 			#slider .box .pager .s-next{position:absolute;right:0px;top:136px;}
 		}
+		@media(max-width:523px){
+			#slider .box .pager div.items{
+				margin-top: 0;}
+			#slider .box .pager .s-next{top:auto;bottom:5px;}
+			#slider .box .pager .s-prev{top:auto;bottom:5px;}
+			#slider .box .pager p{font-size:14px;}
+			#slider .shadow-bot{position: relative !important;overflow: visible !important;}
+			#slider .box .pager .pause,#slider .box .pager .play{top: -50%;}
+		}
 		#slider .box .pager .items li{float:left;margin-left:12px;margin-top:15px;}
 		#dialog .box{padding:40px 0;text-align:center;font-size:30px;color:#222222;box-sizing:border-box;}
 		#dialog .box a{color:#951136;}
 		#slider .box .pager .items li{float:left;margin-left:12px;margin-top:15px;}
 		#slider .prev:hover,
 		#slider .next:hover{background-position:0 -66px;}
-		#slider{position:relative;margin-top:-86px;}
 		#slider .slide li img,
 		#simple .cover img{display:block;height:auto;width:100%;}
 		#slider .box .pager .items{overflow:hidden;display:inline-block;vertical-align:middle;}
@@ -82,9 +93,10 @@
 		#simple .top-shadow .title{padding-left:20px;float:left;line-height:86px;display:block;color:#fff;font-size:30px;}
 		#simple .top-shadow .links{line-height:77px;font-size:20px;color:#fff;float:right;margin-right:20px;}
 		#simple .tumbs{margin-top:15px;display:inline-block;width:47%;vertical-align:top;box-sizing:border-box;}
-		@media(max-width:850px){#simple .bottom-block{margin-top:0;}
+		@media(max-width:850px){#simple .bottom-block{margin-top:0 !important;}
 			#simple .tumbs{width:100%;}
 			#simple .text{width:100% !important;box-sizing:border-box;}
+			#simple .top-shadow{position: relative !important;}
 		}
 		#simple .tumbs li{float:left;margin-right:0.5%;transition:.3s all;cursor:pointer;width:24.5%;}
 		#simple .tumbs li img{width:100%;height:auto;}
@@ -93,6 +105,36 @@
 		#simple .text .s-title{font-size:20px;color:#222222;display:block;margin-bottom:12px;}
 		#simple .text p{font-weight:300;color:#808080;}
 		#simple .text a{color:#951136}
+		#simple .text .s-title{font-size:20px;color:#222222;display:block;margin-bottom:12px;}
+		#simple .text p{font-weight:300;color:#808080;}
+		#simple .text a{color:#951136}
+		#block-container h1{font-weight:normal;font-size:30px;color:#fff;margin-bottom:10px;}
+		#block-container .links{font-size:20px;color:#fff;margin-bottom:27px;}
+		#block-container .text{background:#fff;margin-bottom:15px;padding:28px 30px;}
+		#block-container .text p{font-weight:300;font-size:16px;}
+		#block-container .text .title{font-size:20px;color:#222;display:block;margin-bottom:14px;}
+		#block-container .tumbs{overflow:hidden;margin-bottom:7px;}
+		#block-container .tumbs li.last{margin-right:0;}
+		#block-container .dialog{padding:10px 60px 25px;text-align:center;display:block;font-size:30px;color:#fff;}
+		#block-container .dialog.no-padding{padding-bottom:0;}
+		#block-container .join-buttom{background:none repeat scroll 0 0 #BBA90A;border:2px solid #FAEB0A;color:#FFFFFF;display:block;font-size:30px;margin-top:20px;padding:2px 0;text-align:center;text-decoration:none;width:196px;}
+		#block-container .join{margin:0 auto;width:200px;display:block;padding-bottom:10px;}
+		#block-container .join-buttom:hover{border:2px solid #d80015;background:#F78093;}
+		#block-container .tumbs.closed li span.opacity{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity:0.9;opacity:0.9;}
+		#block-container .col-1{float:left;width:455px;}
+		#block-container .col-1 .tumbs li{margin-bottom:2px;margin-right:9px;}
+		#block-container .col-1 .tumbs li.last{margin-right:0;}
+		#block-container .col-1 .text{height:157px;}
+		#block-container, #block-container .cols{overflow:hidden;}
+		#block-container .col-2{float:right;width:451px;}
+		#block-container .tumbs.closed li{margin-bottom:5px;}
+		#block-container-white .content .but{overflow:hidden;}
+		#block-container-white .content .but li.last{margin-right:0;}
+		#block-container-white .content .but li a{color:#c1c1c1;text-decoration:none;padding:4px 15px;background:#f6f6f6;display:block;border:1px solid #f6f6f6;}
+		#block-container-white .content .but li a:hover{background:#c1c1c1;color:#f6f6f6;}
+		#block-container-white .buttom{margin:0 auto 20px;}
+		#block-container-white .content .but li.active a{background:#faf133;color:#a86804;border:1px solid #faeb0a;}
+		#block-container-white .content .but li.active a:hover{border:1px solid #d80015;background:#F78093;color:#fff;}
 	</style>
 </head>
 <body class="backgraund">

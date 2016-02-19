@@ -1,9 +1,7 @@
 #slider .box .pager .items li span{background:url(../images_v2/over.png) repeat 0 0;width:98px;height:56px;position:absolute;z-index:100;margin-left:-98px;}
 #slider .box .pager .items li.active span{background:url(../images_v2/over2.png) repeat 0 0;}
 #slider .box .pager .items li span:hover{background:url(../images_v2/overh.png) repeat 0 0;}
-#simple .text .s-title{font-size:20px;color:#222222;display:block;margin-bottom:12px;}
-#simple .text p{font-weight:300;color:#808080;}
-#simple .text a{color:#951136}
+
 footer .box{padding-top:38px;}
 footer .box li span{color:#666666;}
 footer .box .col-3{color:#ffffff;}
@@ -11,42 +9,16 @@ footer .box .col-3 p{margin-bottom:20px;}
 footer .banner .to-top{background:url(/images_v2/top.png) no-repeat 0 0;width:40px;height:40px;text-indent:-9999px;float:right;}
 footer .banner .to-top:hover{background-position:0 -40px;}
 .backgraund{background:url(/images_v2/bg1.jpg) center top;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
-#block-container h1{font-weight:normal;font-size:30px;color:#fff;margin-bottom:10px;}
-#block-container .links{font-size:20px;color:#fff;margin-bottom:27px;}
-#block-container .text{background:#fff;margin-bottom:15px;padding:28px 30px;}
-#block-container .text p{font-weight:300;font-size:16px;}
-#block-container .text .title{font-size:20px;color:#222;display:block;margin-bottom:14px;}
-#block-container .tumbs{overflow:hidden;margin-bottom:7px;}
 #block-container .tumbs li.active span{background:url(/images_v2/border-a.png) no-repeat 0 0;}
-#block-container .tumbs li.last{margin-right:0;}
-#block-container .dialog{padding:10px 60px 25px;text-align:center;display:block;font-size:30px;color:#fff;}
-#block-container .dialog.no-padding{padding-bottom:0;}
-#block-container .join-buttom{background:none repeat scroll 0 0 #BBA90A;border:2px solid #FAEB0A;color:#FFFFFF;display:block;font-size:30px;margin-top:20px;padding:2px 0;text-align:center;text-decoration:none;width:196px;}
-#block-container .join{margin:0 auto;width:200px;display:block;padding-bottom:10px;}
-#block-container .join-buttom:hover{border:2px solid #d80015;background:#F78093;}
-#block-container .tumbs.closed li span.opacity{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity:0.9;opacity:0.9;}
-#block-container .col-1{float:left;width:455px;}
-#block-container .col-1 .tumbs li{margin-bottom:2px;margin-right:9px;}
-#block-container .col-1 .tumbs li.last{margin-right:0;}
-#block-container .col-1 .text{height:157px;}
-#block-container,
-#block-container .cols{overflow:hidden;}
-#block-container .col-2{float:right;width:451px;}
 #block-container .col-2 span{background:url(/images_v2/over-big.png) no-repeat 0 0;width:455px;height:646px;position:absolute;}
-#block-container .tumbs.closed li{margin-bottom:5px;}
+
 #block-container .back a{background:url(/images_v2/back.png) no-repeat 0 0;font-size:20px;color:#ffffff;width:40px;height:40px;padding-left:60px;line-height:40px;display:block;width:300px;text-decoration:none;margin:15px 0 5px 14px;}
 #block-container .back a:hover{background-position:0 -40px;}
 .backgraund-2{background:url(/images_v2/bg2.png) repeat 0 87px;}
 #block-container-white{background:url("/images_v2/px2.png") repeat scroll 0 0 transparent;margin:30px auto 60px;padding:14px;box-sizing:border-box;}
 #block-container-white .content{background:#fff;padding:25px 30px 5px;}
 .backgraund-2 header{background:url("/images_v2/header2.png") repeat-x scroll 0 0 transparent;}
-#block-container-white .content .but{overflow:hidden;}
-#block-container-white .content .but li.last{margin-right:0;}
-#block-container-white .content .but li a{color:#c1c1c1;text-decoration:none;padding:4px 15px;background:#f6f6f6;display:block;border:1px solid #f6f6f6;}
-#block-container-white .content .but li a:hover{background:#c1c1c1;color:#f6f6f6;}
-#block-container-white .buttom{margin:0 auto 20px;}
-#block-container-white .content .but li.active a{background:#faf133;color:#a86804;border:1px solid #faeb0a;}
-#block-container-white .content .but li.active a:hover{border:1px solid #d80015;background:#F78093;color:#fff;}
+
 #updates .title h1{font-size:30px;color:#fff;font-weight:normal;}
 #updates .title{background:url(/images_v2/header-shadow.png) repeat-x 0 0;padding:0 11px;margin-bottom:2px;height:74px;line-height:74px;}
 #updates .anons{background:url("/images_v2/px2.png") repeat scroll 0 0 transparent;margin-bottom:2px;padding:14px;overflow:hidden;}
