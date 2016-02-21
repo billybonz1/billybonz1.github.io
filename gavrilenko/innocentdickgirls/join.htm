@@ -332,21 +332,23 @@
 	</section>
 	<!-- end join -->
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-<script src="./js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
-<script src="./js/functions.js" type="text/javascript"></script>
-<script type="text/javascript" src="./js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="./js/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-<script type="text/javascript" src="./js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="./js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script type="text/javascript" src="./js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script>
-	$(document).ready(function() {
-		$("head").append("<link rel='stylesheet' type='text/css' href='./css/style.css' />");
-		$("head").append("<link rel='stylesheet' type='text/css' href='./css/fancybox/jquery.fancybox.css?v=2.1.5' />");
-		$("head").append("<link rel='stylesheet' type='text/css' href='./css/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5' />");
-		$("head").append("<link rel='stylesheet' type='text/css' href='./js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7' />");
-	});
+<!-- Load Scripts Start -->
+<script>var scr = {"scripts":[
+	{"src" : "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", "async" : false},
+	{"src" : "./js/jquery-ui-1.10.3.custom.min.js", "async" : false},
+	{"src" : "./js/fancybox/jquery.mousewheel-3.0.6.pack.js", "async" : false},
+	{"src" : "./js/fancybox/jquery.fancybox.js?v=2.1.5", "async" : false},
+	{"src" : "./js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5", "async" : false},
+	{"src" : "./js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7", "async" : false},
+	{"src" : "./js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6", "async" : false},
+	{"src" : "./js/functions.js", "async" : false}
+]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 </script>
+<!-- Load Scripts End -->
 </body>
 </html>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700">
+<link rel="stylesheet" href="./css/fancybox/jquery.fancybox.css?v=2.1.5">
+<link rel="stylesheet" href="./css/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5">
+<link rel="stylesheet" href="./js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7">
+<link rel="stylesheet" href="./css/style.css">
