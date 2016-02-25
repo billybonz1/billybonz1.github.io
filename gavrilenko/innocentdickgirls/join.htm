@@ -42,7 +42,7 @@
 		@media(max-width:773px){.backgraund{padding-top: 206px !important;}}
 		header#fix{position:fixed;top:0;z-index:100;}
 		header .logo img{width:90%;max-width:451px;}
-		header nav a{font-weight:normal;color:#ffffff;font-size:17px;text-transform:uppercase;margin-left:7px;margin-right:7px;}
+		header nav a{font-weight:normal;color:#ffffff;font-size:19px;text-transform:uppercase;margin-left:7px;margin-right:7px;}
 		.nav-switcher{display:none;}
 		.nav-switcher span{display:block;height:6px;margin-top:9px;background:#fff;transition:.3s all;}
 		@media(max-width:523px){.nav-switcher{display:block;width:16%;margin-right:13px;cursor:pointer;margin-top:15px;margin-bottom:15px;position:absolute;right:10px;top:39px;}
@@ -61,6 +61,7 @@
 			header .join-buttom{top:62px;}
 		}
 		header .join-buttom:hover{border:2px solid #d80015;background:#F78093;}
+
 		#slider .box .pager p{color:#fff;font-size:20px;margin-left:12px;display:inline-block;vertical-align:middle;text-align:left;max-width:454px;}
 		@media(max-width:1167px){#slider .box .pager .pause,#slider .box .pager .play{position:absolute;right:0px;}
 			#slider .shadow-bot{position:relative;padding-top:10px;}
@@ -133,9 +134,139 @@
 		#block-container-white .buttom{margin:0 auto 20px;}
 		#block-container-white .content .but li.active a{background:#faf133;color:#a86804;border:1px solid #faeb0a;}
 		#block-container-white .content .but li.active a:hover{border:1px solid #d80015;background:#F78093;color:#fff;}
+		#block-container-white .content{background:#fff;padding:25px 30px 5px;}
+		#block-container-white .content h1{font-weight:normal;color:#222;font-size:30px;display:block;margin-bottom:25px;}
+		#block-container-white .content p{font-weight:300;margin-bottom:23px;}
+		@media(max-width:394px){#block-container-white .content h1{font-size: 24px;}}
+		#updates{margin:30px auto 60px;padding:14px;max-width:922px;}
+		#updates .title h1{font-size:29px;color:#fff;font-weight:normal;}
+		#updates .anons .col-1{width:20%;display:inline-block;vertical-align:top;}
+		#updates .anons .col-1 img{width:100%;height:auto;display:block;border:5px solid white;}
+		#updates .anons .col-1:hover img{border:5px solid yellow;}
+		#updates .anons .col-1 span{width:100%;height:100%;position:absolute;border:5px solid transparent;}
+		#updates .anons .col-2{display:inline-block;background:#fff;margin-left:13px;min-height:156px;padding:25px 30px;width:78%;vertical-align:top;box-sizing:border-box;}
+		@media(max-width:928px){#updates .anons .col-2{width:77%;}
+		}
+		@media(max-width:701px){#updates .anons .col-1{width:40%;}
+			#updates .anons{text-align:center;}
+		}
+		#updates .anons .col-2 .tit{color:#222222;font-size:20px;font-weight:normal;display:block;margin-bottom:9px;}
+		#updates .anons .links{overflow:hidden;margin-bottom:16px;}
+		#updates .anons .links li{float:left;margin-right:4px;}
+		#updates .anons .links li a{color:#951136;}
+		#updates .profile .col-1{width:25%;display:inline-block;vertical-align:top;position:relative;}
+		#updates .profile .col-1 img{width:100%;display:inline-block;max-width:320px;}
+		#updates .profile .col-1 span{position:absolute;display:block;top:0;left:0;background:#FBFBFB;width:100%;height:100%;max-width:320px;}
+		@media(max-width:599px){#updates .profile .col-1{float:none;margin:0 auto;}
+		}
+		#updates .profile .col-2{background:#fff;padding:29px 30px;width:74%;display:inline-block;box-sizing:border-box;}
+		@media(max-width:956px){#updates .profile .col-1{width:100%;}
+			#updates .profile .col-2{width:100%;}
+		}
+		#updates .s-tit{overflow:hidden;float:left;color:#fff;padding-top:18px;font-size:30px;padding-bottom:10px;}
+		#updates .cols{overflow:hidden;}
+		#updates .profile .col-2 .tit-c{color:#222222;font-size:30px;display:block;margin-bottom:20px;position:relative;}
+		#cent #block-container-white,
+		#cent #join{width:100%;}
+		#join .col-2 .acess-one:hover{background:#F78093;color:#fff;border:1px solid #d80015;}
+		#join .tabs li a:hover{text-decoration:underline;}
+		#cent #join{height:364px;margin-top:-182px;}
+		#cent{max-width:922px;margin:0 auto;}
+		#block-container-white .content{background:#fff;padding:25px 30px 5px;}
+		#fakeLoader{
+			background: #774CFF;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 100000;
+		}
+		@-webkit-keyframes rotate-forever {
+			0% {
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			100% {
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+		@-moz-keyframes rotate-forever {
+			0% {
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			100% {
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+		@keyframes rotate-forever {
+			0% {
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			100% {
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+		.loading-spinner {
+			-webkit-animation-duration: 0.75s;
+			-moz-animation-duration: 0.75s;
+			animation-duration: 0.75s;
+			-webkit-animation-iteration-count: infinite;
+			-moz-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			-webkit-animation-name: rotate-forever;
+			-moz-animation-name: rotate-forever;
+			animation-name: rotate-forever;
+			-webkit-animation-timing-function: linear;
+			-moz-animation-timing-function: linear;
+			animation-timing-function: linear;
+			height: 30px;
+			width: 30px;
+			border: 8px solid #ffffff;
+			border-right-color: transparent;
+			border-radius: 50%;
+			display: inline-block;
+		}
+
+
+		.loading-spinner {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			bottom: 0;
+			left: 50%;
+			margin: -15px 0 -15px;
+		}
+
 	</style>
 </head>
 <body class="backgraund">
+<div id="fakeLoader">
+	<div class="loading-spinner"></div>
+</div>
 <!-- warapper -->
 <div class="wrapper">
 	<!-- sticky header -->
@@ -273,7 +404,7 @@
 
 			<div class="cols">
 
-				<div class="col-2"  align="center">
+				<div class="col-2">
 					<center><h1>Get YOUR fantasy girls now. Join us!</h1>
 						<div class="title">All transactions are 100% secure!</div>
 						<script type="text/javascript" src="https://pay.wnu.com/logos.js?mastercode=603919"></script>
@@ -298,6 +429,7 @@
 							<input type=hidden name=clientSubacc value='0003'>
 							<input type=hidden name=formName value='105cc'>
 							<input type=hidden name=allowedTypes value='114'>
+							<? echo $ccbj_id; ?>
 						</FORM>
 						<p><a href="#" lass="acess-one l" class="acess-one" onClick="document.getElementById('ccbill_month').submit();return false;" style="width:542px;">Access for one month reccuring * - CCBill.com</a></p></center>
 					<div class="description" style="padding-top: 0px;"><br>*Your monthly membership will automatically renew every 30 days, until it is canceled.</div>
@@ -332,23 +464,9 @@
 	</section>
 	<!-- end join -->
 </div>
+
 <!-- Load Scripts Start -->
-<script>var scr = {"scripts":[
-	{"src" : "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", "async" : false},
-	{"src" : "./js/jquery-ui-1.10.3.custom.min.js", "async" : false},
-	{"src" : "./js/fancybox/jquery.mousewheel-3.0.6.pack.js", "async" : false},
-	{"src" : "./js/fancybox/jquery.fancybox.js?v=2.1.5", "async" : false},
-	{"src" : "./js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5", "async" : false},
-	{"src" : "./js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7", "async" : false},
-	{"src" : "./js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6", "async" : false},
-	{"src" : "./js/functions.js", "async" : false}
-]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-</script>
+<script src="./js/common.js"></script>
 <!-- Load Scripts End -->
 </body>
 </html>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700">
-<link rel="stylesheet" href="./css/fancybox/jquery.fancybox.css?v=2.1.5">
-<link rel="stylesheet" href="./css/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5">
-<link rel="stylesheet" href="./js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7">
-<link rel="stylesheet" href="./css/style.css">
